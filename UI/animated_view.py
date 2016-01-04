@@ -1,6 +1,10 @@
 # Jan 2, 2016, 10:12 AM
 # Tutorial Doctor
 
+# Add a ui to this file and add a custom view named view2. Add your controls to view2 and run the script. 
+# view 2 should animate in when you press the +, and animate out when you press the greater than sign.
+# Additionaly, some toolbar options should be added to the main view.
+
 import ui,sound
 print ui
 # Action Functions
