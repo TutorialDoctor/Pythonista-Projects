@@ -1,6 +1,6 @@
 # Jan 2, 2016, 10:12 AM
 # Tutorial Doctor
-# Edited cy cclauss Tue Jan  5 17:18:36 EST 2016
+# Edited by cclauss Tue Jan  5 17:18:36 EST 2016
 
 # Add a ui to this file and add a custom view named view2. Add your
 # controls to view2 and run the script.  view 2 should animate in
