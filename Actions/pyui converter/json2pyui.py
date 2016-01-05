@@ -1,4 +1,4 @@
-import editor,os,shutil
+import editor,os
 
 # Converts a .json file into a .pyui file
 def json2pyui():
