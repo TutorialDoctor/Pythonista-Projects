@@ -56,7 +56,7 @@ view.present('fullsceen')
 
 
 # UNUSED CODE
-# This function was ised for testing
+# This function was used for testing
 def fill_table():
 	table = v['side']['tableview1']
 	table_items=['apple','banana','cherry','grape','kiwi']
