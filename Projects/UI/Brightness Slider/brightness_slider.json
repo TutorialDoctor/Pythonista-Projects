@@ -1,0 +1,85 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {480, 320}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "2FA25AFA-6DEC-4F60-8417-570550A97CE8",
+          "frame" : "{{70, 70}, {100, 100}}",
+          "background_color" : "RGBA(0.259434,0.259434,0.259434,1.000000)"
+        },
+        "frame" : "{{0, 0}, {480, 320}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "title" : "Slide to change brightness",
+              "name" : "button1",
+              "class" : "Button",
+              "frame" : "{{80, 104}, {80, 32}}",
+              "background_color" : "RGBA(0.632075,0.210692,0.210692,1.000000)",
+              "uuid" : "B309DB83-7FFD-44B6-8490-DC5B3C572AAD"
+            },
+            "frame" : "{{0, 0}, {480, 32}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Slider",
+            "attributes" : {
+              "tint_color" : "RGBA(1.000000,0.333333,0.333333,1.000000)",
+              "flex" : "W",
+              "name" : "slider1",
+              "continuous" : false,
+              "value" : 0,
+              "class" : "Slider",
+              "frame" : "{{140, 143}, {200, 34}}",
+              "uuid" : "7AA7BDC7-CEFE-4D1A-AD78-BA08D3731B32"
+            },
+            "frame" : "{{60, 280}, {348, 34}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Label",
+            "attributes" : {
+              "font_size" : 18,
+              "text" : "Two finger swipe down to close view",
+              "font_name" : "<System>",
+              "name" : "label1",
+              "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "class" : "Label",
+              "alignment" : "left",
+              "frame" : "{{165, 144}, {150, 32}}",
+              "uuid" : "A5FE570D-95E0-47EC-B233-385F3DE24CDB"
+            },
+            "frame" : "{{6, 40}, {396, 32}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
