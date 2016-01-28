@@ -1,0 +1,167 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {768, 1024}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "main",
+          "uuid" : "4B81462F-A2AF-4A8F-B328-7CF9536D236B",
+          "frame" : "{{334, 462}, {100, 100}}"
+        },
+        "frame" : "{{181, 142}, {587, 876}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "TextView",
+            "attributes" : {
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_size" : 17,
+              "font_name" : "Avenir-Light",
+              "frame" : "{{194, 383}, {200, 200}}",
+              "flex" : "WH",
+              "text" : "Eos laborum sit quod nisi. Dignissimos possimus molestiae necessitatibus a qui repudiandae quibusdam. Impedit voluptates beatae consequuntur et sapiente fugiat vero fuga. Temporibus nobis tempore et iste. Omnis voluptatem sed accusantium. Dolorum veritatis consequatur est officiis assumenda. Vitae doloribus sunt soluta et velit accusamus maxime.\n\nEt perspiciatis ea ipsum delectus. Rerum at et fuga dolores. Reiciendis nostrum aut possimus dolore quod quis quibusdam occaecati. Facere consectetur rerum sed ipsum ex. Sit quia ipsum sint provident autem atque vitae est.\n\nEst sint aut nesciunt autem. Debitis dignissimos iure assumenda sunt impedit. Rerum soluta voluptate esse eum. Incidunt qui eveniet culpa et. Maiores occaecati perferendis voluptas id sunt sapiente qui recusandae. Commodi accusamus exercitationem dolor velit esse occaecati dolorem. Illo nostrum ab non et eveniet sit enim dolorem. Est ducimus perferendis et dignissimos. Est rerum harum ex consequatur et odio est possimus.\n\nEt modi sit animi temporibus. Dolorem dignissimos est sit qui. Porro sed nisi itaque necessitatibus. Molestiae aut in autem libero autem voluptates. Assumenda tempora saepe iste. Vel illo sit vero vitae rem reiciendis placeat. Aut fuga ipsam itaque et provident autem. Veritatis rem incidunt repellat.\n\nEius culpa esse qui qui consequatur reprehenderit. Est consequatur et libero cupiditate vitae pariatur vel. Non harum repudiandae amet at nulla vel facilis. Expedita mollitia corrupti qui corrupti rerum. Totam magni reprehenderit culpa ipsum.\n\nAutem iusto consectetur soluta voluptates. Saepe consequuntur vero quas quasi quisquam numquam. Quibusdam minus in voluptate fuga. Magnam ea consectetur blanditiis sequi ullam ad magnam eum. Sint quod recusandae explicabo repudiandae repellendus.\n\nEos laborum sit quod nisi. Dignissimos possimus molestiae necessitatibus a qui repudiandae quibusdam. Impedit voluptates beatae consequuntur et sapiente fugiat vero fuga. Temporibus nobis tempore et iste. Omnis voluptatem sed accusantium. Dolorum veritatis consequatur est officiis assumenda. Vitae doloribus sunt soluta et velit accusamus maxime.\n\nEt perspiciatis ea ipsum delectus. Rerum at et fuga dolores. Reiciendis nostrum aut possimus dolore quod quis quibusdam occaecati. Facere consectetur rerum sed ipsum ex. Sit quia ipsum sint provident autem atque vitae est.\n\nEst sint aut nesciunt autem. Debitis dignissimos iure assumenda sunt impedit. Rerum soluta voluptate esse eum. Incidunt qui eveniet culpa et. Maiores occaecati perferendis voluptas id sunt sapiente qui recusandae. Commodi accusamus exercitationem dolor velit esse occaecati dolorem. Illo nostrum ab non et eveniet sit enim dolorem. Est ducimus perferendis et dignissimos. Est rerum harum ex consequatur et odio est possimus.\n\nEt modi sit animi temporibus. Dolorem dignissimos est sit qui. Porro sed nisi itaque necessitatibus. Molestiae aut in autem libero autem voluptates. Assumenda tempora saepe iste. Vel illo sit vero vitae rem reiciendis placeat. Aut fuga ipsam itaque et provident autem. Veritatis rem incidunt repellat.\n\nEius culpa esse qui qui consequatur reprehenderit. Est consequatur et libero cupiditate vitae pariatur vel. Non harum repudiandae amet at nulla vel facilis. Expedita mollitia corrupti qui corrupti rerum. Totam magni reprehenderit culpa ipsum.\n\nAutem iusto consectetur soluta voluptates. Saepe consequuntur vero quas quasi quisquam numquam. Quibusdam minus in voluptate fuga. Magnam ea consectetur blanditiis sequi ullam ad magnam eum. Sint quod recusandae explicabo repudiandae repellendus.",
+              "name" : "textview1",
+              "spellchecking_type" : "default",
+              "uuid" : "E73842E6-EAC1-4AF8-9A66-3B2EC87ACC58",
+              "editable" : false,
+              "class" : "TextView"
+            },
+            "frame" : "{{0, 0}, {587, 876}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "header",
+          "uuid" : "FC81189F-CA1F-469C-A092-F6B42960170D",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "alpha" : 0.5
+        },
+        "frame" : "{{181, 0}, {587, 140}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "Label",
+            "attributes" : {
+              "font_size" : 37,
+              "text" : "Header",
+              "font_name" : "AppleColorEmoji",
+              "name" : "label1",
+              "class" : "Label",
+              "alignment" : "center",
+              "frame" : "{{219, 54}, {150, 32}}",
+              "uuid" : "D6D958CF-ABFC-4E46-A2FF-7A0EAC85F16B"
+            },
+            "frame" : "{{219, 54}, {150, 32}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "side_header",
+          "uuid" : "904A46DB-8AF7-4EDE-B414-B819475269D6",
+          "frame" : "{{334, 462}, {100, 100}}"
+        },
+        "frame" : "{{0, 0}, {160, 51}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "TextField",
+            "attributes" : {
+              "font_size" : 17,
+              "font_name" : "<System>",
+              "uuid" : "26914DC0-CE7B-4A99-BB70-3D3283B7CA2E",
+              "autocorrection_type" : "default",
+              "name" : "textfield1",
+              "class" : "TextField",
+              "alignment" : "left",
+              "placeholder" : "Search...",
+              "frame" : "{{-20, 10}, {200, 32}}",
+              "spellchecking_type" : "default"
+            },
+            "frame" : "{{6, 6}, {148, 32}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "side",
+          "uuid" : "FFB1D844-B5C3-4F87-BB8E-E8790653CB65",
+          "frame" : "{{334, 462}, {100, 100}}"
+        },
+        "frame" : "{{0, 59}, {160, 965}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "TableView",
+            "attributes" : {
+              "data_source_font_size" : 18,
+              "data_source_number_of_lines" : 1,
+              "flex" : "WH",
+              "name" : "tableview1",
+              "row_height" : 44,
+              "data_source_delete_enabled" : true,
+              "class" : "TableView",
+              "data_source_items" : "Row 1\nRow 2\nRow 3",
+              "frame" : "{{-20, 383}, {200, 200}}",
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "uuid" : "DE14CF53-F452-48CD-8EC6-1775A713CBF0"
+            },
+            "frame" : "{{0, 0}, {160, 965}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "2C65591F-3B8A-46ED-B0F4-D46B524F8009",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.730542,0.800118,0.834906,1.000000)",
+          "alpha" : 0.7
+        },
+        "frame" : "{{181, 438}, {581, 100}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
