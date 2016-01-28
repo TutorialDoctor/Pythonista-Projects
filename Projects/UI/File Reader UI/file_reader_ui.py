@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import ui,os
-from markdown2 import markdown
+
 
 
 
