@@ -3,4 +3,4 @@ This Pythonista project populates a table view with file names in a directory, a
 
 ![](screenshot.png)
 
-[pyui converter](https://github.com/TutorialDoctor/Pythonista-Projects/tree/master/Actions/pyui%20converter)
+Be sure to download my [jsontopyui converter](https://github.com/TutorialDoctor/Pythonista-Projects/tree/master/Actions/pyui%20converter) to change the .json file back into a pyui file.
