@@ -1,0 +1,116 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {661, 209}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "flex" : "W",
+          "name" : "view1",
+          "alpha" : 0.5,
+          "class" : "View",
+          "frame" : "{{279, 1}, {100, 100}}",
+          "background_color" : "RGBA(0.363208,0.363208,0.363208,1.000000)",
+          "uuid" : "08A5D94C-F30F-4447-A16C-427AA9320AE1"
+        },
+        "frame" : "{{0, 0}, {661, 209}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "DatePicker",
+            "attributes" : {
+              "class" : "DatePicker",
+              "mode" : 1,
+              "frame" : "{{169, -65}, {320, 216}}",
+              "uuid" : "129407F0-71D0-466C-ADC5-5F826D1792CC",
+              "name" : "datepicker1",
+              "flex" : "L"
+            },
+            "frame" : "{{358, 21}, {285, 163}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Slider",
+            "attributes" : {
+              "class" : "Slider",
+              "value" : 0.5,
+              "frame" : "{{229, 26}, {200, 34}}",
+              "uuid" : "DA7B497C-0760-4F58-8D50-E8C6E534318F",
+              "name" : "slider1",
+              "flex" : "R"
+            },
+            "frame" : "{{34, 21}, {200, 34}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Switch",
+            "attributes" : {
+              "class" : "Switch",
+              "value" : true,
+              "frame" : "{{304, 27}, {51, 31}}",
+              "uuid" : "8C5DB312-BBEB-4C28-9250-11590E88270D",
+              "name" : "switch1"
+            },
+            "frame" : "{{276, 28}, {51, 31}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "uuid" : "82BC956B-3C9F-4D5B-9D27-9F804972FB94",
+              "flex" : "R",
+              "name" : "button1",
+              "class" : "Button",
+              "frame" : "{{289, 27}, {80, 32}}",
+              "title" : "Button"
+            },
+            "frame" : "{{80, 130}, {80, 32}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "TextField",
+            "attributes" : {
+              "font_size" : 17,
+              "font_name" : "<System>",
+              "flex" : "R",
+              "autocorrection_type" : "default",
+              "name" : "textfield1",
+              "class" : "TextField",
+              "alignment" : "left",
+              "frame" : "{{229, 27}, {200, 32}}",
+              "spellchecking_type" : "default",
+              "uuid" : "49C508AE-4F23-4227-ABEC-FCB688225B49"
+            },
+            "frame" : "{{34, 77}, {200, 32}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

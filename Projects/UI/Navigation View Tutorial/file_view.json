@@ -1,0 +1,53 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {240, 240}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "view1",
+          "alpha" : 0.6,
+          "class" : "View",
+          "frame" : "{{70, 70}, {100, 100}}",
+          "background_color" : "RGBA(0.750000,0.916667,1.000000,1.000000)",
+          "uuid" : "1E3D6E03-B6EC-4D92-AFE3-15825BBDDF34"
+        },
+        "frame" : "{{0, -6}, {240, 246}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "TableView",
+            "attributes" : {
+              "data_source_font_size" : 18,
+              "data_source_number_of_lines" : 1,
+              "flex" : "WH",
+              "name" : "tableview1",
+              "row_height" : 44,
+              "data_source_delete_enabled" : true,
+              "class" : "TableView",
+              "data_source_items" : "Row 1\nRow 2\nRow 3",
+              "frame" : "{{20, 23}, {200, 200}}",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "uuid" : "0F64CCBB-9783-44F9-B8BF-2BB7E24B97AE"
+            },
+            "frame" : "{{20, 23}, {200, 200}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

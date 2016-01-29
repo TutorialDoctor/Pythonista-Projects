@@ -1,0 +1,104 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {320, 419}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "flex" : "WH",
+          "name" : "view2",
+          "alpha" : 0.6,
+          "class" : "View",
+          "frame" : "{{110, 160}, {100, 100}}",
+          "background_color" : "RGBA(0.566235,0.076061,0.811321,1.000000)",
+          "uuid" : "3F048071-FD4D-4EA0-A5B0-7E8E9995542D"
+        },
+        "frame" : "{{0, 0}, {320, 419}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "TextView",
+            "attributes" : {
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_size" : 17,
+              "font_name" : "Avenir-Light",
+              "frame" : "{{60, 110}, {200, 200}}",
+              "flex" : "WH",
+              "text" : "Illum dolorem amet et vitae non. Dolor ullam nihil eius eligendi velit molestias. Ex ut praesentium fugit facere et. Voluptatem velit molestias nihil inventore non exercitationem hic. Saepe ullam sint et aspernatur. Qui ullam at praesentium eos est fugit qui. Vel ut harum voluptas in commodi. Totam reiciendis autem non unde sunt ut a.\n\nOmnis iusto animi facilis veritatis consequatur totam. Voluptatem aperiam aut sit molestiae asperiores quod. Mollitia fugiat corporis cupiditate repudiandae cumque qui. Amet assumenda doloremque assumenda harum ut. Ut veniam quia quia possimus. Unde omnis libero soluta maiores in aut. Ut et voluptas vel animi non dolores. Nemo adipisci dolorem facere hic error provident.\n\nAut eaque ipsum sequi nobis. Et accusantium rerum quas explicabo. In laboriosam ut libero voluptatibus maiores omnis. Est dolor distinctio cumque modi quod. Enim ea sed eos in quo dolor minima.\n\nEst qui dolorum rerum et. Excepturi sint aliquid dolorem maiores soluta. Inventore odio dolorum et voluptate voluptatibus ut laborum. Et architecto et est ipsa dolores odit reiciendis. Cumque natus eum a quisquam. Eum incidunt odio assumenda. Voluptatem saepe incidunt fugit aspernatur. Aliquam quia hic aut exercitationem temporibus. Aut atque voluptate rem in voluptatem.\n\nVero nisi ipsa vel aut. Harum qui eligendi consequatur omnis reiciendis perspiciatis nihil. Saepe eum excepturi sit aut reprehenderit blanditiis quia. Facere minus omnis qui odio ut. Ut aperiam consequatur voluptatem reiciendis.\n\nDolor necessitatibus dolorum enim culpa aliquam repellat delectus quo. Omnis sit quia id dignissimos suscipit sed reiciendis. Ut dolorem quasi ipsa qui ipsam sint veritatis. Quaerat aut voluptatum quia est culpa. Accusantium rerum temporibus et.\n\nAlias natus sit expedita et. Molestiae impedit aut qui facere a quis. Tempore consequatur dignissimos dolorum dolore aut perferendis facere. Consectetur dolore reiciendis quae inventore porro. Incidunt temporibus in ratione. Totam laboriosam non voluptatum fuga nihil. Rerum adipisci eum delectus aperiam doloribus. Laborum dolores est tenetur quos soluta.\n\nAdipisci aut et sit. Ipsum totam nemo officiis voluptatem cupiditate. Unde vero eum officia quasi blanditiis enim et autem. Aut velit omnis nostrum architecto aut atque. Sit nihil enim illum numquam. Quis ut qui alias deserunt sequi voluptas inventore aut. Quaerat vel qui omnis. Minus ratione placeat omnis.\n\nAspernatur voluptatum voluptatem ratione doloribus facere. Quaerat reiciendis a accusantium sit voluptatem repellendus. Deserunt autem fuga dolores est. Excepturi vitae voluptatum qui et corporis nihil nisi. Similique corporis qui eius officia mollitia et. Quaerat neque incidunt aliquid rem. Nam ratione ut quo totam ab.",
+              "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "name" : "textview1",
+              "spellchecking_type" : "default",
+              "editable" : true,
+              "uuid" : "FF27D088-72DD-48D1-9AAF-033E1459B4B2",
+              "class" : "TextView"
+            },
+            "frame" : "{{0, 0}, {320, 419}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "flex" : "HL",
+          "name" : "view1",
+          "alpha" : 0.9,
+          "class" : "View",
+          "frame" : "{{110, 160}, {100, 100}}",
+          "background_color" : "RGBA(0.910377,0.910377,0.910377,1.000000)",
+          "uuid" : "DD07D664-529C-4CBF-905E-810EC9761968"
+        },
+        "frame" : "{{241, 0}, {79, 446}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "Switch",
+            "attributes" : {
+              "tint_color" : "RGBA(0.739681,0.853478,0.910377,1.000000)",
+              "name" : "switch1",
+              "value" : true,
+              "alpha" : 1,
+              "class" : "Switch",
+              "frame" : "{{14, 208}, {51, 31}}",
+              "uuid" : "1DB3DCC9-24A8-4167-9A04-6B6621A4D4E5"
+            },
+            "frame" : "{{13, 39}, {51, 31}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Switch",
+            "attributes" : {
+              "class" : "Switch",
+              "value" : true,
+              "frame" : "{{14, 208}, {51, 31}}",
+              "uuid" : "F1384ABB-FF82-40C3-B3DD-D9717675F9C4",
+              "name" : "switch2",
+              "tint_color" : "RGBA(0.700177,0.830876,0.896226,1.000000)"
+            },
+            "frame" : "{{13, 126}, {51, 31}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

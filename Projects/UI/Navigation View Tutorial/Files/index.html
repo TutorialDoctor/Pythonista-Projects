@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Title</title>
+	<style type="text/css">
+	/* CSS styles here... */
+	</style>
+	</head>
+	
+	<body>
+	
+	<h1>Welcome to the Navigation View tutorial!</h1>
+
+The only things you need to make a navigation view work are a view object and a navigation view object.
+
+<pre>
+	view = ui.View()
+	view.background_color='white'
+	nav = ui.NavigationView(view)
+	nav.present()
+</pre>
+
+You can push views to the navigation view:
+
+<pre>
+	view2 = ui.View()
+	view2.name='View 2'
+	view2.background_color='blue'
+	nav.push_view(view2)
+
+	view3 = ui.View()
+	view3.name='View 3'
+	view3.background_color='#e5ffaa'
+	nav.push_view(view3)
+
+	view4 = ui.View()
+	view4.name='View 4'
+	view4.background_color='#717171'
+	nav.push_view(view4)
+</pre>
+
+A test script is provided for you in the "Files" directory
+        
+Be sure to change the .json files to .pyui.
+	</body>
+	
+</html>
