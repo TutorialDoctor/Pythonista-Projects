@@ -11,6 +11,7 @@ The layout of the welcome screen was inspired by the Google Hangouts app for IOS
 - How to load and use images and sounds
 - How to load multiple pyui views
 
+More features will be added later. If you have any requests please respond in the [dedicated Pythonista forum](https://forum.omz-software.com/topic/2676/share-code-td-ui-module-tutorials).
 
 ![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/UI/Code%20Fun/Images/screen1.PNG?raw=true)
 ![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/UI/Code%20Fun/Images/screen2.PNG?raw=true)
