@@ -1,0 +1,90 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {768, 1024}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "imageview1",
+          "uuid" : "E66D0761-ACCC-4229-AC3B-E11AFD184629",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "flex" : ""
+        },
+        "frame" : "{{0, 165}, {768, 256}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 41,
+          "text" : "Welcome to Code Fun",
+          "font_name" : "AppleSDGothicNeo-Bold",
+          "flex" : "",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "441A7550-D51D-476F-88BE-85308A89F7C8"
+        },
+        "frame" : "{{132, 462}, {502, 48}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Code, Share, Play",
+          "font_name" : "AmericanTypewriter-Condensed",
+          "flex" : "",
+          "name" : "label2",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "D13B51E2-0AB6-41BE-8BCE-D0B23ED93167"
+        },
+        "frame" : "{{238, 568}, {271, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "flex" : "",
+          "uuid" : "592FBBED-28C0-4080-9AA1-C2E46871871B",
+          "name" : "button1",
+          "corner_radius" : 10,
+          "border_width" : 0,
+          "class" : "Button",
+          "frame" : "{{344, 496}, {80, 32}}",
+          "background_color" : "RGBA(0.258255,0.688679,0.258255,1.000000)",
+          "title" : "Get Started"
+        },
+        "frame" : "{{326, 665}, {117, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

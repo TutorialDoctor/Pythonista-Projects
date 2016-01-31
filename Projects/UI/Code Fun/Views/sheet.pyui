@@ -1,0 +1,56 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "ArialHebrew-Light",
+          "frame" : "{{170, 170}, {200, 200}}",
+          "flex" : "WH",
+          "text" : "Asperiores sit nam suscipit rem voluptates est pariatur dolore. Iure placeat accusamus corrupti provident quo voluptas nostrum. Natus quo neque assumenda. Est architecto recusandae qui rerum ut enim aliquid aliquam.\n\nNeque neque voluptatem sint voluptatem rerum. Delectus enim ex recusandae. Voluptatem ut dignissimos voluptatem animi veritatis iure eos.\n\nSunt perspiciatis eligendi sint soluta fuga. Accusamus error et voluptatem eligendi dolorum ut. Ipsa iusto architecto rerum sit nobis. Ut quasi eum quasi quibusdam dolorem a aut. Quas voluptas nesciunt quaerat.",
+          "name" : "textview1",
+          "spellchecking_type" : "default",
+          "editable" : false,
+          "uuid" : "921A66FE-E6A8-4E0B-AB6D-55441DE4DFED",
+          "class" : "TextView"
+        },
+        "frame" : "{{31, 167}, {496, 282}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 32,
+          "text" : "The Agenda",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "8C51EA6D-3A9F-495C-85B7-D7430ECE8FF0"
+        },
+        "frame" : "{{157, 72}, {251, 41}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

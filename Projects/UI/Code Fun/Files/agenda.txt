@@ -1,0 +1,4 @@
+The agenda of this project is to provide a collaborative and fun way to share code between developers using the Pythonista app.
+
+- Tap the arrow at the top right to continue.
+- Two finger swipe down on the welcome screen to close it

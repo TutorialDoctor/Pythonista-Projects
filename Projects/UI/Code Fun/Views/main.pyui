@@ -1,0 +1,77 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {365, 351}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "88001971-7C2D-4B06-B5BD-A32F4CEB27CA",
+          "frame" : "{{70, 70}, {100, 100}}",
+          "background_color" : "RGBA(0.201061,0.274568,0.311321,1.000000)",
+          "flex" : "WH"
+        },
+        "frame" : "{{0, 6}, {359, 345}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "TableView",
+            "attributes" : {
+              "data_source_font_size" : 18,
+              "data_source_number_of_lines" : 1,
+              "flex" : "HR",
+              "name" : "tableview1",
+              "row_height" : 44,
+              "data_source_delete_enabled" : true,
+              "class" : "TableView",
+              "data_source_items" : "Row 1\nRow 2\nRow 3",
+              "frame" : "{{20, 20}, {200, 200}}",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "uuid" : "BF90F751-D48C-4EB3-AE5D-FB79FC18363A"
+            },
+            "frame" : "{{0, 0}, {200, 351}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "TextView",
+            "attributes" : {
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_size" : 17,
+              "font_name" : "Avenir-Light",
+              "frame" : "{{171, 76}, {200, 200}}",
+              "flex" : "WH",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "text" : "Repellat ea adipisci accusantium placeat autem maiores. Dolor amet fuga omnis sunt. Dignissimos voluptate et sit non. Numquam et tempora quisquam neque quo. Quam inventore exercitationem sit quod voluptatem hic qui. Corrupti voluptatibus ea voluptatibus quod illum minima maiores.\n\nCommodi placeat omnis ut dolores repellat reiciendis ex. Eligendi nostrum voluptates ut sit ut beatae. Laborum maxime rerum dicta non. Incidunt sequi ducimus error autem voluptatem sed cupiditate aliquid. Voluptate odio doloremque occaecati ut facere. Nisi sequi velit qui voluptate saepe cumque est.\n\nEx vel debitis ipsam sunt tempora. Delectus mollitia accusantium autem quisquam est omnis eum. Qui consequatur enim enim ut rerum voluptatem voluptatem. Illo perspiciatis voluptate doloremque deserunt provident minus recusandae enim. Voluptatem sed et ratione labore ab laborum. Maxime qui asperiores laborum delectus. Vero nostrum voluptates eius ea in molestias sed. Mollitia eos exercitationem debitis.\n\nSed non ipsam optio nam. Itaque et inventore sequi et laudantium. Ea ipsum in nihil quis sint qui. Nam voluptatem beatae repellendus doloremque quia deleniti. Explicabo consectetur sint aspernatur est saepe ab. Quam ut rerum a ut. Sit qui omnis facilis cupiditate iste rerum natus voluptatem. Repellat perspiciatis molestias consectetur aliquid explicabo et quas.\n\nCupiditate ut placeat at dignissimos. Non odit repudiandae necessitatibus provident. Sapiente dolores voluptatem neque est doloremque. Ut natus impedit doloribus fugiat voluptatum sed natus. Dolorum quasi ut iure et cupiditate nobis odio. Non in eius occaecati nam. Suscipit qui unde ratione quia. Aut nemo esse dolor accusantium autem dolorem explicabo.\n\nOdit eum nostrum nisi quia hic omnis. Maxime non commodi labore cum laudantium fuga sed. Aliquam laudantium in excepturi incidunt est. Tempore nulla omnis voluptatem dolor corrupti mollitia quod. Deserunt impedit velit atque ut delectus harum.",
+              "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "alpha" : 1,
+              "name" : "textview1",
+              "spellchecking_type" : "default",
+              "editable" : true,
+              "uuid" : "D6BD7404-6246-4D82-9ACC-AE0F1AA23921",
+              "class" : "TextView"
+            },
+            "frame" : "{{208, 6}, {145, 333}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
