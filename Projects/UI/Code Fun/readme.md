@@ -5,6 +5,13 @@ The logo for this project was made with the free 'Inkpad' app for IOS.
 
 The layout of the welcome screen was inspired by the Google Hangouts app for IOS.
 
+# This project demonstrates:
+- How to use navigation views 
+- How to use tableviews. Populate a tableview with files in a directory. 
+- How to load and use images and sounds
+- How to load multiple pyui views
+
+
 ![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/UI/Code%20Fun/Images/screen1.PNG?raw=true)
 ![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/UI/Code%20Fun/Images/screen2.PNG?raw=true)
 
