@@ -5,7 +5,7 @@ The logo for this project was made with the free 'Inkpad' app for IOS.
 
 The layout of the welcome screen was inspired by the Google Hangouts app for IOS.
 
-![](Images/screen1.png)
+![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/UI/Code%20Fun/Images/screen1.PNG?raw=true)
 ![](Images/screen2.png)
 
 [@TutorialDoctor](https://twitter.com/TutorialDoctor)
