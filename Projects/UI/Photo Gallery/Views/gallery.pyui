@@ -1,0 +1,35 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "ScrollView",
+        "attributes" : {
+          "content_height" : 320,
+          "content_width" : 1000,
+          "name" : "scrollview1",
+          "flex" : "W",
+          "class" : "ScrollView",
+          "frame" : "{{352, 224}, {320, 320}}",
+          "background_color" : "RGBA(0.212461,0.213967,0.216981,1.000000)",
+          "uuid" : "A5C27076-65D0-42E9-9ACE-F20836442468"
+        },
+        "frame" : "{{0, 0}, {1024, 768}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
