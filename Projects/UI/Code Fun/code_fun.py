@@ -43,49 +43,21 @@ sheet.right_button_items[0].action = open_main
 
 
 
-
-
-
-
 # Text Reader Code
-# CLASSES
-class MyTableViewDelegate (object):
-	def tableview_did_select(self, tableview, section, row):
-		# Called when a row was selected.
-		cell = tableview.data_source.items[row]
-		set_view_text(str(cell))
-		sound.play_effect('ui:rollover2')
-
-
-	def tableview_did_deselect(self, tableview, section, row):
-		# Called when a row was de-selected (in multiple selection mode).
-		pass
-
-	def tableview_title_for_delete_button(self, tableview, section, row):
-		# Return the title for the 'swipe-to-***' button.
-		return 'Trash it'
-
-
-# FUNCTIONS		
+# This is a shorter/better version of a text reader/editor
 def set_view_text(f):
 	with open('Files/'+f,'r') as infile:
 		text_view = main['view1']['textview1']
 		text_view.text = infile.read()
 		text_view.editable = False
+def action(sender):
+	sound.play_effect('ui:rollover2')
+	set_view_text(table.data_source.items[sender.selected_row])
 
-def fill_tableview():
-	table = main['view1']['tableview1']
-	table.delegate = MyTableViewDelegate()
-	# Get a list of files in the 'Files' directory
-	# You can use any directory relative to the current directory
-	table_items = os.listdir('./Files')
-	
-	# You can use a list or a class as the data source for the tableview
-	list_source = ui.ListDataSource(table_items)
-	#class_source = MyTableViewDataSource()
-	# I will use a list
-	table.data_source = list_source
-
-# IMPLEMENTATION
-fill_tableview()
+table = main['view1']['tableview1']
+table_items = os.listdir('./Files')
+list_source = ui.ListDataSource(table_items)
+table.data_source = list_source
+table.data_source.action = action
+table.delegate=list_source
 # End Text Reader Code
