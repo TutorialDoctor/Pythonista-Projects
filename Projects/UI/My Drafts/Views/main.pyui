@@ -1,0 +1,162 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "custom_class" : "ViewClass",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "uuid" : "82B475CC-E211-4471-B286-EAC1EAAFB59F",
+          "flex" : "HL",
+          "name" : "view1",
+          "class" : "View",
+          "background_color" : "RGBA(0.943396,0.943396,0.943396,1.000000)",
+          "custom_class" : "",
+          "frame" : "{{334, 462}, {100, 100}}"
+        },
+        "frame" : "{{918, 0}, {106, 768}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "Switch",
+            "attributes" : {
+              "class" : "Switch",
+              "value" : true,
+              "frame" : "{{25, 497}, {51, 31}}",
+              "uuid" : "C4EA4C17-DC51-4540-9788-2D1B8F8593C6",
+              "name" : "switch1"
+            },
+            "frame" : "{{22, 30}, {51, 31}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Switch",
+            "attributes" : {
+              "class" : "Switch",
+              "value" : true,
+              "frame" : "{{25, 497}, {51, 31}}",
+              "uuid" : "C4EA4C17-DC51-4540-9788-2D1B8F8593C6",
+              "name" : "switch1"
+            },
+            "frame" : "{{22, 142}, {51, 31}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Switch",
+            "attributes" : {
+              "class" : "Switch",
+              "value" : true,
+              "frame" : "{{25, 497}, {51, 31}}",
+              "uuid" : "C4EA4C17-DC51-4540-9788-2D1B8F8593C6",
+              "name" : "switch1"
+            },
+            "frame" : "{{22, 280}, {51, 31}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view2",
+          "uuid" : "944EA784-9DCD-4CD0-9418-6C7CE3D966D4",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "flex" : "T"
+        },
+        "frame" : "{{265, 615}, {330, 100}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "Button",
+            "attributes" : {
+              "title" : "",
+              "class" : "Button",
+              "frame" : "{{125, 34}, {80, 32}}",
+              "font_size" : 15,
+              "uuid" : "FFD87D30-FE1C-4AD5-B1F1-2BDBDD69E6F6",
+              "name" : "button1"
+            },
+            "frame" : "{{6, 32}, {80, 32}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "title" : "",
+              "class" : "Button",
+              "frame" : "{{125, 34}, {80, 32}}",
+              "font_size" : 15,
+              "uuid" : "FFD87D30-FE1C-4AD5-B1F1-2BDBDD69E6F6",
+              "name" : "button1"
+            },
+            "frame" : "{{128, 32}, {80, 32}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "title" : "",
+              "class" : "Button",
+              "frame" : "{{125, 34}, {80, 32}}",
+              "font_size" : 15,
+              "uuid" : "FFD87D30-FE1C-4AD5-B1F1-2BDBDD69E6F6",
+              "name" : "button1"
+            },
+            "frame" : "{{250, 32}, {80, 32}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "frame" : "{{412, 284}, {200, 200}}",
+          "flex" : "WH",
+          "text" : "Veritatis voluptas nihil voluptate ea. Tempore dolores accusamus eius. Mollitia et pariatur nostrum et necessitatibus velit. Dolorem magnam et dolores ullam nisi est est voluptatum. Ea id aut sit et. Praesentium ut quia quasi doloremque. Commodi earum itaque quia ipsam. Assumenda consectetur et et accusamus sed molestiae. Eum optio optio maiores ex et fugiat ipsa.\n\nEt nobis deserunt et fugiat tenetur. Aut neque mollitia ducimus esse eius qui voluptate cupiditate. Ut autem ea possimus aperiam non maiores. Culpa quas sint ut expedita molestiae. Velit doloremque mollitia et corporis sit voluptatem distinctio. Temporibus cum impedit nihil illo tempora. In fugiat quam repudiandae molestias est. Aut consectetur nihil odit suscipit delectus nisi accusantium voluptatem. Ut ut aliquid veritatis quo sed omnis. Tempora repellat at ut aut neque animi eos animi. Reprehenderit sapiente corrupti sed est temporibus consequatur rerum.\n\nDignissimos provident vero temporibus aut amet recusandae quia. Quidem nisi quas voluptas qui. Vel dolor iure aut. Est modi sequi odio omnis est. Voluptas praesentium porro velit ut consequatur ut. Quos sunt qui provident vel ratione atque. Nam molestiae beatae delectus vitae omnis tenetur. Libero accusantium voluptatem eum voluptates distinctio. Consequatur omnis maiores dolore et quos error. Reprehenderit rerum nisi numquam. Id odit aliquid ipsam inventore et qui assumenda.\n\nPerferendis odit eveniet quia. Deleniti rerum libero omnis eligendi dolorem. Rerum dolores qui sit unde earum. Nemo enim repudiandae illum sunt in quia. Accusamus dolorum rerum impedit corporis nulla dolorem est aut. Sit cum dolores at velit sequi ut deleniti et. Dolor velit velit suscipit expedita dolores autem magnam. Laudantium error et non cum et corrupti nostrum et.\n\nAut possimus molestias et commodi soluta unde iure. Quia aut quisquam non id molestias illum. Alias exercitationem id cumque rerum quis quia. Quae hic praesentium laboriosam nam sunt aut. Corporis repudiandae nam et quia qui et. Sint ex ex officiis magni reiciendis. Vitae ullam dolores soluta quibusdam eius id. Consectetur dolores optio voluptatem aut quod alias voluptatem. Autem vitae et exercitationem praesentium quasi. Repellat est reiciendis architecto alias. Nostrum et aut commodi ipsum. Et sit quo pariatur doloribus.\n\nRepudiandae quis id sint sit et sint autem. Sit ab id quas corrupti saepe. Doloribus repellat neque enim illo sunt. Et dolore totam voluptatem incidunt. Quod fugit omnis ab quo. Qui eaque similique autem voluptatem aut. Quisquam iure beatae quos omnis. Rerum beatae ut quisquam ad id alias consequatur. Autem sed reiciendis expedita quo et.",
+          "name" : "textview1",
+          "spellchecking_type" : "default",
+          "editable" : true,
+          "uuid" : "629A8C25-85CF-4518-BED5-D6C20BEA4D0A",
+          "class" : "TextView"
+        },
+        "frame" : "{{6, 6}, {896, 570}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

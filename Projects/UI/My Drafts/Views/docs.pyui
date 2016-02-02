@@ -1,0 +1,57 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {240, 240}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TableView",
+        "attributes" : {
+          "data_source_font_size" : 18,
+          "data_source_number_of_lines" : 1,
+          "flex" : "WH",
+          "name" : "tableview1",
+          "row_height" : 44,
+          "data_source_delete_enabled" : true,
+          "class" : "TableView",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "frame" : "{{20, 20}, {200, 200}}",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "uuid" : "6244829A-586C-4F6F-85F9-0DB2D63C2F71"
+        },
+        "frame" : "{{0, 40}, {240, 200}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "flex" : "W",
+          "autocorrection_type" : "default",
+          "name" : "textfield1",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{20, 104}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "A2062E8E-5F71-4A7B-A163-5D1CDFD6CA98"
+        },
+        "frame" : "{{6, 6}, {228, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
