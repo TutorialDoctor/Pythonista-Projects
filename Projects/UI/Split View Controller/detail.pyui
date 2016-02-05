@@ -1,0 +1,54 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {240, 240}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "30B8B825-5A81-4B55-8212-F76FE348EFA7",
+          "frame" : "{{70, 70}, {100, 100}}",
+          "background_color" : "RGBA(1.000000,0.533333,0.533333,1.000000)",
+          "flex" : "WH"
+        },
+        "frame" : "{{0, 0}, {240, 240}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "frame" : "{{20, 20}, {200, 200}}",
+          "flex" : "WH",
+          "text" : "Consequatur itaque nulla totam id eum non consequatur. Incidunt aut iure nulla reiciendis repellendus sed ad enim. Nihil quidem doloribus qui sit et laborum nihil. Fugit numquam et facilis fugiat nihil nemo sit. Eveniet quia eum ut doloremque. A saepe dolore harum totam veniam possimus omnis. Ea voluptates aut asperiores non eaque.\n\nUnde fuga facere minus sit id vel. Nulla qui tenetur non labore libero. Quod sint eligendi eius quam vero cupiditate consequatur. Dolorum suscipit et consequatur. Qui sint fuga impedit sed.\n\nNihil ut distinctio quia asperiores quaerat rerum. Est velit non et alias amet corporis. Quas et soluta blanditiis doloribus quia et. Explicabo sunt eaque quisquam quos. Inventore tempore voluptas voluptatem deserunt quo reiciendis. Ratione ratione non magnam tempore ut numquam nam. Repellat natus ad qui voluptate numquam voluptas.\n\nEt blanditiis et sint facere enim. Odit animi in saepe ipsa consequatur ex eius culpa. Ab velit consequatur consequatur necessitatibus quod. Officiis quibusdam sequi laboriosam provident. Consequatur aliquid quo nihil rem et quis accusamus molestiae. Consequatur error sit architecto consectetur numquam consequatur. Omnis est eos minima quis. Voluptatem ut ut et debitis voluptates autem voluptatibus. Numquam consequatur amet cumque sed facilis.\n\nQui aperiam quis perspiciatis eos amet dolores. Consectetur explicabo illum voluptatem tempore laudantium. Dolore perspiciatis qui mollitia saepe. Doloremque temporibus quisquam est est animi. Est voluptas quisquam quas enim placeat. Et est quia quo dicta.\n\nEsse accusamus facilis quis ex. Tempora libero amet cum autem rerum consequatur provident. Qui expedita laudantium reiciendis nisi sit quos. At sunt minima quo non ratione placeat. Mollitia omnis labore tempore itaque delectus debitis reprehenderit.",
+          "name" : "textview1",
+          "spellchecking_type" : "default",
+          "editable" : false,
+          "uuid" : "A7991A5E-8C67-45C8-B4AB-6566E5FE1B8A",
+          "class" : "TextView"
+        },
+        "frame" : "{{20, 20}, {200, 200}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
