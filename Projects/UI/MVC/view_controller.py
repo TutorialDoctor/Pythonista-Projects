@@ -29,6 +29,6 @@ root_view.present()
 
 
 
-# Now the idea of a splitView controller makes since. It just contols two views instead of one and handles how data gets exchanged between them. You would have two root views, one that is a masterview, and another that is a detail view. 
+# Now the idea of a splitView controller makes sense. It just contols two views instead of one and handles how data gets exchanged between them. You would have two root views, one that is a masterview, and another that is a detail view. 
 
 # However, the master and detail are not exactly views only, but viewcontrollers thenselves. In the case of pythonista, they would be python files with attatched views. So, these scripts could be impoorted into the splitViewController script.
