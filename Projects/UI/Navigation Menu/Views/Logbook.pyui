@@ -1,0 +1,35 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {240, 240}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Log stuff",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "353DA09A-9BB0-4F9C-B6F7-479F6FF15B91"
+        },
+        "frame" : "{{45, 104}, {150, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

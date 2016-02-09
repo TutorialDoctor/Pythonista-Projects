@@ -1,0 +1,118 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {287, 573}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "CC0EE586-26BD-4385-B00A-18A309317BD7",
+          "name" : "button1",
+          "corner_radius" : 10,
+          "border_width" : 4,
+          "border_color" : "RGBA(0.061321,0.061321,0.061321,1.000000)",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "background_color" : "RGBA(1.000000,0.468750,0.468750,1.000000)",
+          "title" : "Logbook"
+        },
+        "frame" : "{{67, 55}, {155, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Import",
+          "name" : "button1",
+          "corner_radius" : 10,
+          "border_width" : 4,
+          "border_color" : "RGBA(0.061321,0.061321,0.061321,1.000000)",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "background_color" : "RGBA(0.531250,1.000000,0.531250,1.000000)",
+          "uuid" : "CC0EE586-26BD-4385-B00A-18A309317BD7"
+        },
+        "frame" : "{{67, 158}, {155, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Export",
+          "name" : "button1",
+          "corner_radius" : 10,
+          "border_width" : 4,
+          "border_color" : "RGBA(0.061321,0.061321,0.061321,1.000000)",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "background_color" : "RGBA(0.781250,0.854167,1.000000,1.000000)",
+          "uuid" : "CC0EE586-26BD-4385-B00A-18A309317BD7"
+        },
+        "frame" : "{{67, 245}, {155, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Backup",
+          "name" : "button1",
+          "corner_radius" : 10,
+          "border_width" : 4,
+          "border_color" : "RGBA(0.061321,0.061321,0.061321,1.000000)",
+          "class" : "Button",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "background_color" : "RGBA(0.750000,0.250000,1.000000,1.000000)",
+          "uuid" : "CC0EE586-26BD-4385-B00A-18A309317BD7"
+        },
+        "frame" : "{{67, 330}, {155, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Hope this helps",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{69, 271}, {150, 32}}",
+          "uuid" : "5FA565F1-F01A-4E07-B1FF-25D317B06C9A"
+        },
+        "frame" : "{{67, 479}, {150, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

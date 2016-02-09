@@ -1,0 +1,35 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {240, 240}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Export stuff",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "E783299F-48B1-4E2F-B0F3-A02FC2D8AF9F"
+        },
+        "frame" : "{{45, 104}, {150, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
