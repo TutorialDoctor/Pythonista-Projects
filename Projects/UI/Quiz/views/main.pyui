@@ -1,0 +1,144 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {571, 633}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Nisi in voluptatem possimus accusamus. Distinctio nostrum ut accusantium similique error fugiat reprehenderit. Sed esse et sed ut. Dolorum sapiente mollitia qui ipsam ut officia. Consequatur accusantium aut temporibus aperiam ullam mollitia. Maxime et ut omnis voluptates. Ratione quo maxime iure et velit.",
+          "font_name" : "<System>",
+          "flex" : "W",
+          "name" : "question",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "82F26B8F-7D1B-439B-9E90-0ECB0FB30552"
+        },
+        "frame" : "{{24, 19}, {527, 113}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Soluta autem illum occaecati et vero. Pariatur quia odio sunt velit. Fugiat ratione ab voluptas tempora. Aut minima aut nam ut architecto. Sint sint omnis iusto ut.",
+          "font_name" : "<System>",
+          "flex" : "W",
+          "name" : "info",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "82F26B8F-7D1B-439B-9E90-0ECB0FB30552"
+        },
+        "frame" : "{{14, 497}, {527, 130}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "buttons",
+          "uuid" : "2B11FEDF-4BED-461C-A534-EB9525E7DF39",
+          "frame" : "{{236, 267}, {100, 100}}",
+          "flex" : "W"
+        },
+        "frame" : "{{24, 140}, {527, 335}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "flex" : "W",
+              "uuid" : "EF16C67E-2735-4A48-89D7-E8E7973775C3",
+              "name" : "button1",
+              "class" : "Button",
+              "frame" : "{{224, 152}, {80, 32}}",
+              "background_color" : "RGBA(1.000000,0.458333,0.458333,1.000000)",
+              "title" : "A"
+            },
+            "frame" : "{{0, 17}, {527, 53}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "flex" : "W",
+              "title" : "B",
+              "name" : "button1",
+              "class" : "Button",
+              "frame" : "{{224, 152}, {80, 32}}",
+              "background_color" : "RGBA(1.000000,0.458333,0.458333,1.000000)",
+              "uuid" : "EF16C67E-2735-4A48-89D7-E8E7973775C3"
+            },
+            "frame" : "{{0, 102}, {527, 53}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "flex" : "W",
+              "title" : "C",
+              "name" : "button1",
+              "class" : "Button",
+              "frame" : "{{224, 152}, {80, 32}}",
+              "background_color" : "RGBA(1.000000,0.458333,0.458333,1.000000)",
+              "uuid" : "EF16C67E-2735-4A48-89D7-E8E7973775C3"
+            },
+            "frame" : "{{0, 185}, {527, 53}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "flex" : "W",
+              "title" : "D",
+              "name" : "button1",
+              "class" : "Button",
+              "frame" : "{{224, 152}, {80, 32}}",
+              "background_color" : "RGBA(1.000000,0.458333,0.458333,1.000000)",
+              "uuid" : "EF16C67E-2735-4A48-89D7-E8E7973775C3"
+            },
+            "frame" : "{{0, 264}, {527, 53}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
