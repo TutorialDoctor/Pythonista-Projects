@@ -1,0 +1,145 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {342, 463}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "54F5E449-4FDF-4F6F-AA41-BAD28494DCEE",
+          "frame" : "{{121, 182}, {100, 100}}",
+          "background_color" : "RGBA(0.254717,0.254717,0.254717,1.000000)",
+          "alpha" : 1
+        },
+        "frame" : "{{0, 0}, {342, 463}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "frame" : "{{71, 132}, {200, 200}}",
+          "flex" : "WH",
+          "text" : "This example app demonstrates how to use UI controls to **save and load text files** from and into a text view.\n\nIt also uses **regular expressions** for file name format verification.\n\nType the name \"test.txt\" into the name field and press \"Load\" to load it.\n\nYou can re-load this file with \"intro.md\"\n\nYou can also create files of your own.\n\nAn adaptation of this app would use a webview instead of a text view.\n\nFile names are case-sensitive",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "textview1",
+          "spellchecking_type" : "default",
+          "editable" : true,
+          "uuid" : "F64344F7-48C1-44EC-881A-E76787FD5D9F",
+          "class" : "TextView"
+        },
+        "frame" : "{{18, 46}, {299, 367}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Name:",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "text_color" : "RGBA(1.000000,1.000000,0.208333,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{96, 216}, {150, 32}}",
+          "uuid" : "95EAE1BC-4970-4969-AA37-09C46C7CCB2B"
+        },
+        "frame" : "{{18, 6}, {58, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "uuid" : "1D23731D-8E24-4D0C-9934-35D3163725EC",
+          "autocorrection_type" : "default",
+          "name" : "textfield1",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{71, 216}, {200, 32}}",
+          "placeholder" : "filename.ext",
+          "spellchecking_type" : "default"
+        },
+        "frame" : "{{82, 6}, {226, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,0.239130,0.239130,1.000000)",
+          "title" : "Save",
+          "name" : "save_button",
+          "class" : "Button",
+          "frame" : "{{131, 216}, {80, 32}}",
+          "uuid" : "FF14492B-9AE0-4F11-926A-8D6E940D38DE"
+        },
+        "frame" : "{{221, 421}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,0.239130,0.239130,1.000000)",
+          "uuid" : "FF14492B-9AE0-4F11-926A-8D6E940D38DE",
+          "name" : "load_button",
+          "class" : "Button",
+          "frame" : "{{131, 216}, {80, 32}}",
+          "title" : "Load"
+        },
+        "frame" : "{{42, 421}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,0.239130,0.239130,1.000000)",
+          "title" : "Clear",
+          "name" : "clear_button",
+          "class" : "Button",
+          "frame" : "{{131, 216}, {80, 32}}",
+          "uuid" : "FF14492B-9AE0-4F11-926A-8D6E940D38DE"
+        },
+        "frame" : "{{130, 421}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
