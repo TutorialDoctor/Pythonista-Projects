@@ -1,3 +1,3 @@
-How SQL password database text example.
+SQL password database text example.
 
 ![](screen.png)
