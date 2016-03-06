@@ -1,0 +1,131 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 45,
+          "text" : "Welcome",
+          "font_name" : "TimesNewRomanPSMT",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "CF4F0E99-52ED-4092-9D03-15BAAEBB4CD3"
+        },
+        "frame" : "{{137, 28}, {259, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "Baskerville",
+          "frame" : "{{170, 170}, {200, 200}}",
+          "flex" : "WH",
+          "text" : "Nihil odit quas dolore laboriosam libero facilis expedita reiciendis. Vel autem velit qui non. Quia voluptate et quibusdam qui facere earum. Qui nemo nemo veniam. Exercitationem et ut optio inventore consequatur consequatur optio. Et placeat ipsum voluptatem fuga fugiat. Molestiae accusantium rerum error consequatur. Pariatur omnis voluptates amet voluptatem. Incidunt delectus maxime ullam nesciunt nobis quia. Est veritatis delectus quia et sapiente.",
+          "name" : "textview1",
+          "spellchecking_type" : "default",
+          "editable" : false,
+          "uuid" : "A126C2B6-0060-4D61-AB77-B78DBE9C2E84",
+          "class" : "TextView"
+        },
+        "frame" : "{{56, 97}, {430, 214}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Submit",
+          "name" : "button",
+          "corner_radius" : 16,
+          "border_width" : 0,
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "background_color" : "RGBA(0.413043,0.608696,1.000000,1.000000)",
+          "uuid" : "46AC2FC6-08EA-4E7E-87F2-AE3F6595F592"
+        },
+        "frame" : "{{315, 319}, {148, 44}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "4947C678-51EE-4C66-BEFC-7B585EC88C2D",
+          "frame" : "{{220, 220}, {100, 100}}"
+        },
+        "frame" : "{{56, 97}, {430, 214}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "uuid" : "343E2BCA-9F53-48E5-9EF5-6165CD0FAFCA",
+          "autocorrection_type" : "default",
+          "name" : "name",
+          "class" : "TextField",
+          "alignment" : "left",
+          "placeholder" : "admin",
+          "spellchecking_type" : "default",
+          "frame" : "{{170, 254}, {200, 32}}"
+        },
+        "frame" : "{{93, 319}, {200, 52}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "secure" : true,
+          "autocorrection_type" : "default",
+          "name" : "pass",
+          "uuid" : "343E2BCA-9F53-48E5-9EF5-6165CD0FAFCA",
+          "class" : "TextField",
+          "alignment" : "left",
+          "placeholder" : "*****",
+          "spellchecking_type" : "default",
+          "frame" : "{{170, 254}, {200, 32}}"
+        },
+        "frame" : "{{93, 396}, {200, 52}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
