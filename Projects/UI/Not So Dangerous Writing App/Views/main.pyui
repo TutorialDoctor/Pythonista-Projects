@@ -1,0 +1,57 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "font_size" : 36,
+          "font_name" : "<System>",
+          "flex" : "WH",
+          "autocorrection_type" : "default",
+          "name" : "textview1",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "editable" : true,
+          "alignment" : "left",
+          "frame" : "{{412, 284}, {200, 200}}",
+          "uuid" : "BF79FE11-3C68-4703-9DBE-82D64AA2D3B5"
+        },
+        "frame" : "{{20, 17}, {990, 738}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 28,
+          "text" : "Start Writing...",
+          "font_name" : "AmericanTypewriter",
+          "name" : "label1",
+          "text_color" : "RGBA(0.283019,0.283019,0.283019,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "number_of_lines" : 0,
+          "uuid" : "7BBEC002-43E8-47B6-865F-0DFA2E87F12B"
+        },
+        "frame" : "{{26, 17}, {267, 50}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

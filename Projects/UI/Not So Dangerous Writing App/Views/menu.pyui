@@ -1,0 +1,110 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "40BE8210-46CA-49F2-BB6F-F972685FB08A",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "background_color" : "RGBA(0.264151,0.247641,0.239387,1.000000)"
+        },
+        "frame" : "{{0, 0}, {1024, 768}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "Label",
+            "attributes" : {
+              "alignment" : "center",
+              "border_color" : "RGBA(0.919811,0.919811,0.919811,1.000000)",
+              "font_size" : 30,
+              "font_name" : "AmericanTypewriter",
+              "frame" : "{{437, 368}, {150, 32}}",
+              "text" : "Don't stop typing, or all progress will be lost.",
+              "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "alpha" : 0.7,
+              "name" : "label1",
+              "corner_radius" : 0,
+              "border_width" : 0,
+              "uuid" : "9D0F9C4E-768F-473F-8412-325B2878935E",
+              "number_of_lines" : 0,
+              "class" : "Label"
+            },
+            "frame" : "{{193, 308}, {680, 115}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 35,
+          "text" : "Session Length:",
+          "font_name" : "AmericanTypewriter",
+          "name" : "failed",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "F1A6283C-4D1B-46AB-A805-3BBD2481F075"
+        },
+        "frame" : "{{406, 150}, {280, 42}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 40,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "3EDADD3A-A55B-4DE6-9ED0-D4A89BDE33F9",
+          "name" : "button1",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Start"
+        },
+        "frame" : "{{453, 510}, {196, 65}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "tint_color" : "RGBA(0.457547,0.438483,0.428950,1.000000)",
+          "flex" : "LR",
+          "segments" : "5:00|10:00|15:00|20:00",
+          "name" : "segmentedcontrol1",
+          "class" : "SegmentedControl",
+          "frame" : "{{452, 370}, {120, 29}}",
+          "uuid" : "C00CD19E-1FB2-47C6-8779-0BC055945455"
+        },
+        "frame" : "{{310, 219}, {468, 59}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "40BE8210-46CA-49F2-BB6F-F972685FB08A",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "background_color" : "RGBA(0.858491,0.268278,0.268278,1.000000)"
+        },
+        "frame" : "{{0, 0}, {1024, 768}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "Label",
+            "attributes" : {
+              "alignment" : "center",
+              "border_color" : "RGBA(0.919811,0.919811,0.919811,1.000000)",
+              "font_size" : 30,
+              "font_name" : "AmericanTypewriter",
+              "frame" : "{{437, 368}, {150, 32}}",
+              "text" : "Not as dangerous, but you still loose.",
+              "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "alpha" : 0.7,
+              "name" : "label1",
+              "corner_radius" : 9,
+              "border_width" : 3,
+              "uuid" : "9D0F9C4E-768F-473F-8412-325B2878935E",
+              "number_of_lines" : 0,
+              "class" : "Label"
+            },
+            "frame" : "{{227, 311}, {593, 115}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "ImageView",
+            "attributes" : {
+              "class" : "ImageView",
+              "name" : "imageview1",
+              "uuid" : "DCD0447E-A5AC-4B38-BFB1-F875B311D019",
+              "frame" : "{{462, 334}, {100, 100}}",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+            },
+            "frame" : "{{720, 456}, {100, 100}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 35,
+          "text" : "You failed.",
+          "font_name" : "AmericanTypewriter",
+          "name" : "failed",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "F1A6283C-4D1B-46AB-A805-3BBD2481F075"
+        },
+        "frame" : "{{415, 210}, {219, 42}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 40,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "uuid" : "3EDADD3A-A55B-4DE6-9ED0-D4A89BDE33F9",
+          "name" : "button1",
+          "corner_radius" : 0,
+          "border_width" : 2,
+          "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "title" : "Retry"
+        },
+        "frame" : "{{430, 505}, {196, 65}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
