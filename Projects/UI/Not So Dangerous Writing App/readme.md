@@ -1,4 +1,4 @@
-## Not so Dangerous Writing App
+## Not so Dangerous Writing App (WIP)
 
 A rapid prototype of the "Most Dangerous Writing App" with Pythonista.
 
