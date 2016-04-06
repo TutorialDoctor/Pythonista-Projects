@@ -1,0 +1,355 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {768, 1024}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 3,
+          "border_color" : "RGBA(0.839623,0.839623,0.839623,1.000000)",
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{17, 535}, {745, 319}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{124, 112}, {316, 29}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{17, 209}, {423, 26}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{17, 273}, {423, 29}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{17, 350}, {423, 29}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{17, 418}, {423, 29}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 0,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{0, 0}, {768, 64}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 0,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.709022,0.818102,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{17, 112}, {84, 76}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{460, 400}, {277, 16}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{460, 431}, {277, 16}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{34, 563}, {268, 261}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{321, 620}, {259, 29}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{321, 684}, {259, 29}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Switch",
+        "attributes" : {
+          "class" : "Switch",
+          "value" : true,
+          "frame" : "{{359, 497}, {51, 31}}",
+          "uuid" : "8DDABD95-AC29-4732-8999-58341AC4728B",
+          "name" : "switch1",
+          "tint_color" : "RGBA(0.924528,0.924528,0.924528,1.000000)"
+        },
+        "frame" : "{{633, 563}, {51, 31}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Switch",
+        "attributes" : {
+          "class" : "Switch",
+          "value" : true,
+          "frame" : "{{359, 497}, {51, 31}}",
+          "uuid" : "8DDABD95-AC29-4732-8999-58341AC4728B",
+          "name" : "switch1",
+          "tint_color" : "RGBA(0.924528,0.924528,0.924528,1.000000)"
+        },
+        "frame" : "{{633, 618}, {51, 31}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Switch",
+        "attributes" : {
+          "class" : "Switch",
+          "value" : true,
+          "frame" : "{{359, 497}, {51, 31}}",
+          "uuid" : "8DDABD95-AC29-4732-8999-58341AC4728B",
+          "name" : "switch1",
+          "tint_color" : "RGBA(0.924528,0.924528,0.924528,1.000000)"
+        },
+        "frame" : "{{633, 684}, {51, 31}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Switch",
+        "attributes" : {
+          "class" : "Switch",
+          "value" : true,
+          "frame" : "{{359, 497}, {51, 31}}",
+          "uuid" : "8DDABD95-AC29-4732-8999-58341AC4728B",
+          "name" : "switch1",
+          "tint_color" : "RGBA(0.924528,0.924528,0.924528,1.000000)"
+        },
+        "frame" : "{{633, 742}, {51, 31}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{321, 742}, {259, 31}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "view1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.872642,0.872642,0.872642,1.000000)",
+          "uuid" : "3C7BA09B-50D8-4636-A281-4614BBCB630F"
+        },
+        "frame" : "{{321, 565}, {259, 29}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "tint_color" : "RGBA(0.858491,0.858491,0.858491,1.000000)",
+          "name" : "imageview1",
+          "corner_radius" : 9,
+          "border_width" : 0,
+          "alpha" : 0.3999999999999999,
+          "class" : "ImageView",
+          "custom_attributes" : "{\"image\":person}",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.905660,0.905660,0.905660,1.000000)",
+          "uuid" : "101048BC-7600-40FF-AA54-79FB812D3B02"
+        },
+        "frame" : "{{460, 112}, {277, 267}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

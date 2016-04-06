@@ -1,0 +1,82 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {768, 1024}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "envelope",
+          "corner_radius" : 0,
+          "border_width" : 3,
+          "border_color" : "RGBA(0.849057,0.849057,0.849057,1.000000)",
+          "class" : "View",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.915094,0.915094,0.915094,1.000000)",
+          "uuid" : "B5E241D7-D79B-4736-A019-4DD5016AA9F2"
+        },
+        "frame" : "{{6, 92}, {756, 100}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "ImageView",
+            "attributes" : {
+              "class" : "ImageView",
+              "name" : "imageview1",
+              "uuid" : "E74B3C6D-98BC-4FEC-8EB5-82F75D7D5EF6",
+              "frame" : "{{319, 0}, {100, 100}}",
+              "custom_attributes" : "{\"image\":envelope}",
+              "alpha" : 0.6
+            },
+            "frame" : "{{6, 0}, {100, 100}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Label",
+            "attributes" : {
+              "font_size" : 41,
+              "text" : "$00.00",
+              "font_name" : "ArialHebrew-Light",
+              "name" : "label1",
+              "class" : "Label",
+              "alignment" : "left",
+              "frame" : "{{294, 34}, {150, 32}}",
+              "uuid" : "E763F997-8361-4D60-9C58-6B950AE56440"
+            },
+            "frame" : "{{132, 6}, {186, 88}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view2",
+          "uuid" : "CBA223AC-A418-4E04-BB69-374BC31EA774",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.919811,0.919811,0.919811,1.000000)"
+        },
+        "frame" : "{{0, 0}, {768, 74}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

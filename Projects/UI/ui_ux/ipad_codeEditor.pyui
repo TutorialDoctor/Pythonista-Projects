@@ -1,0 +1,676 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {768, 1024}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view2",
+          "uuid" : "A6B4956D-2D5F-46D0-A680-221DB654244F",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.943396,0.943396,0.943396,1.000000)"
+        },
+        "frame" : "{{0, 43}, {32, 975}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "view2",
+          "uuid" : "A6B4956D-2D5F-46D0-A680-221DB654244F",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.976415,0.976415,0.976415,1.000000)"
+        },
+        "frame" : "{{0, 0}, {768, 72}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(0.641509,0.641509,0.641509,1.000000)",
+              "title" : "Button",
+              "font_bold" : true,
+              "name" : "button1",
+              "action" : "close",
+              "class" : "Button",
+              "custom_attributes" : "{\"image\":x}",
+              "frame" : "{{344, 16}, {80, 32}}",
+              "alpha" : 0.7,
+              "uuid" : "0AD98A77-2F76-4DAD-887B-F8A77222C985"
+            },
+            "frame" : "{{353, 18}, {60, 48}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "ScrollView",
+        "attributes" : {
+          "class" : "ScrollView",
+          "name" : "scrollview1",
+          "frame" : "{{224, 352}, {320, 320}}",
+          "uuid" : "433C71B8-0122-4AA7-BD57-15EBEB0B1359",
+          "content_width" : 710,
+          "content_height" : 988
+        },
+        "frame" : "{{40, 72}, {710, 853}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.915094,0.915094,0.915094,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 55}, {286, 21}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 103}, {150, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view2",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.938679,0.938679,0.938679,1.000000)",
+              "uuid" : "8B5E4116-FE00-4933-B412-6480A0C62A40"
+            },
+            "frame" : "{{6, 13}, {186, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view3",
+              "corner_radius" : 7,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.910377,0.910377,0.910377,1.000000)",
+              "uuid" : "2F33F021-728B-4F85-ADF9-6474E381FC0E"
+            },
+            "frame" : "{{6, 201}, {150, 19}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 228}, {180, 21}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 266}, {254, 15}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view3",
+              "corner_radius" : 7,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.910377,0.910377,0.910377,1.000000)",
+              "uuid" : "2F33F021-728B-4F85-ADF9-6474E381FC0E"
+            },
+            "frame" : "{{6, 341}, {150, 19}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 368}, {367, 21}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 406}, {254, 15}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view3",
+              "corner_radius" : 7,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.910377,0.910377,0.910377,1.000000)",
+              "uuid" : "2F33F021-728B-4F85-ADF9-6474E381FC0E"
+            },
+            "frame" : "{{6, 470}, {150, 19}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 497}, {180, 21}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 535}, {559, 15}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 128}, {115, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 153}, {205, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 590}, {150, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 615}, {205, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 640}, {115, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 696}, {115, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 721}, {150, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 746}, {115, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.915094,0.915094,0.915094,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 782}, {286, 21}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 830}, {150, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view3",
+              "corner_radius" : 7,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.910377,0.910377,0.910377,1.000000)",
+              "uuid" : "2F33F021-728B-4F85-ADF9-6474E381FC0E"
+            },
+            "frame" : "{{6, 928}, {150, 19}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 955}, {180, 21}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 993}, {254, 15}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view3",
+              "corner_radius" : 7,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.910377,0.910377,0.910377,1.000000)",
+              "uuid" : "2F33F021-728B-4F85-ADF9-6474E381FC0E"
+            },
+            "frame" : "{{6, 1068}, {150, 19}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 1095}, {367, 21}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 1133}, {254, 15}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view3",
+              "corner_radius" : 7,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.910377,0.910377,0.910377,1.000000)",
+              "uuid" : "2F33F021-728B-4F85-ADF9-6474E381FC0E"
+            },
+            "frame" : "{{6, 1197}, {150, 19}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 1224}, {180, 21}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view4",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.929245,0.929245,0.929245,1.000000)",
+              "uuid" : "56094815-0470-4B50-B761-BC265A143E6A"
+            },
+            "frame" : "{{67, 1262}, {559, 15}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 880}, {205, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 1317}, {150, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 1342}, {205, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "view1",
+              "corner_radius" : 6,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{305, 416}, {100, 100}}",
+              "background_color" : "RGBA(0.891509,0.891509,0.891509,1.000000)",
+              "uuid" : "35F2E53C-B6DF-4A3B-8A30-998097D973BB"
+            },
+            "frame" : "{{6, 1448}, {150, 17}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
