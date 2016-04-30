@@ -1,6 +1,6 @@
 Easily convert `.pyui` to files to `.json` and vice-versa.
 
-Save these two scripts as actions and run them from whatever python that has an associated ui file.
+Save these two scripts as actions and run them from whatever python file that has an associated ui file.
 
 Running `pyui2json.py` from a python file that has a `.pyui` file will turn the `.pyui` file into a `.json` file. This makes it easy to share user interfaces.
 
