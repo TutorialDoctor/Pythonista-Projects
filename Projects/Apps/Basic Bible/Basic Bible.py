@@ -107,23 +107,4 @@ def all_tables():
 	for row in cursor.execute("SELECT name FROM sqlite_master WHERE type='table';"):
 		print(row)	
 
-def stuff():
-	for row in cursor.execute('select * from sqlite_master'):
-		print(row)
-
-def book(x):
-	for row in cursor.execute("select * from bible where book='?'",x):
-		print(row)
-
-
-
-def get_info():
-	return [row for row in cursor.execute("select book,chapter,verse,content from 'bible' where book = 'Jonah' ")]
-
-#print(get_info())
-# A list of 2-Tuples. (Book,Chapter,Verse,Content)
-
-def get_content():
-		return [row for row in cursor.execute("select content from 'bible' where book = 'Jonah' ")]
-		
 
