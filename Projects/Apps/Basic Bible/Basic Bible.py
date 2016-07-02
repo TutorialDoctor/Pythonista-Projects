@@ -67,35 +67,7 @@ bible.present(orientations=['landscape'])
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # ADDITIONAL HELPER CODE
-# Text Reader Code
-
-
-#all_tables()
-#all_in_table()
-#book(('Gen',))
-
-# Useful
-#for row in cursor.execute("select book,chapter,content,verse from 'bible' where book = 'Rev'"):
-	#print(row)
-
 #cursor.execute("SELECT * FROM sqlite_master")
 
 
