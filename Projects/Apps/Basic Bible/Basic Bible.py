@@ -63,10 +63,6 @@ bible.present(orientations=['landscape'])
 
 
 
-
-
-
-
 # ADDITIONAL HELPER CODE
 #cursor.execute("SELECT * FROM sqlite_master")
 
