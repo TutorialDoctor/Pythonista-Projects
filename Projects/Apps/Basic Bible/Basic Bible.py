@@ -37,7 +37,7 @@ bible = ui.load_view('Basic Bible')
 contents=bible['contents']
 
 chapters = bible['chapters']
-books= bible['books']
+books = bible['books']
 testaments = bible['testaments']
 
 
