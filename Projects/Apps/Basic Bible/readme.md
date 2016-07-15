@@ -6,3 +6,5 @@ This project will demonstrate how to:
 2. Use regular expressions to create a search bar. (I may explore fuzzy search algorithms later)
 3. Load data from a database into a Pythonista's `ui.View()`s
 4. Python file handling
+
+[](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen.png?raw=true)
