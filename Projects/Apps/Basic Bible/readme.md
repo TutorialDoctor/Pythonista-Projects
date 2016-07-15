@@ -7,4 +7,4 @@ This project will demonstrate how to:
 3. Load data from a database into a Pythonista's `ui.View()`s
 4. Python file handling
 
-[](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen.png?raw=true)
+![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen.png?raw=true)
