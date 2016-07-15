@@ -1,78 +1,38 @@
-# coding: utf-8
-import sqlite3,ui,sound
-
-# http://simoncozens.github.io/open-source-bible-data/
-# https://github.com/scrollmapper/bible_databases
-# #http://sebastianraschka.com/Articles/2014_sqlite_in_python_tutorial.html
-# v.action = lambda sender: myfunc("foo", sender, "bar", something=42)
-
-# f-strings? @ccc posted about this on the forums.
-
-database = ['kjv.db','bible-sqlite']
-con = sqlite3.connect(database[0])
-cursor = con.cursor()
+import ui,sqlite3
+#db='bible-sqlite'
+#connection = sqlite3.connect(db+'.db')
+#cursor = connection.cursor()
 
 
-class Query:
-	def get_chapter(sender):
-		sound.play_effect('ui:rollover2')
-		return chapters.data_source.items[sender.selected_row]
+def updates(*args):
+	con = sqlite3.connect('bible-sqlite.db')
+	cursor=con.cursor()
+	selected_book = args[0].items[args[0].selected_row]
+	selected_chap = args[1].items[args[1].selected_row]
+	
+	
+	num_query = "select b from key_english where n='{}'".format(selected_book)
+	bk_num=[x for x in cursor.execute(num_query)][0][0]
+	print(bk_num)
+	
+	c = selected_chap
+	
+	txt_query = "select c,v,t from 't_kjv' where b = '{}' AND c = '{}'".format(bk_num,c)
+	txt = [row for row in cursor.execute(txt_query)]
+	txt_formatted = "\n".join("{} {}: {}\n".format(bk_num,c,t) for b,c,t in txt)
+	contents.text = txt_formatted
+	heading.text=selected_book+' '+str(selected_chap)
+	
 
-	def get_testament(sender):
-		sound.play_effect('ui:rollover2')
-		return testaments.data_source.items[sender.selected_row]
+f = lambda sender: updates(sender,chapters.data_source)
 
-	def get_book(sender):
-		sound.play_effect('ui:rollover2')
-		return books.data_source.items[sender.selected_row]
-
-def activate_table(tbl,src,act):
-	li = ui.ListDataSource(src)
-	tbl.data_source = li
-	tbl.data_source.action = act
-	tbl.delegate = li
-
-
-bible = ui.load_view('Basic Bible')
-contents=bible['contents']
-
-chapters = bible['chapters']
+# Implementation
+bible = ui.load_view()
+heading = bible['book_heading']
 books = bible['books']
-testaments = bible['testaments']
+chapters = bible['chapters']
+contents = bible['contents']
 
-
-chapter_src = [i for i in range(1,21)]
-activate_table(chapters,chapter_src,Query.get_chapter)
-
-testament_src = ['Old Testament','New Testament']
-activate_table(testaments,testament_src,Query.get_testament)
-
-book_src = ['Book','Book','Book','Romans']
-activate_table(books,book_src,Query.get_book)
-
-
-def scripture(book,chapter):
-	sql = "select book,chapter,content from 'bible' where book = '{}' AND chapter = '{}'".format(book,chapter)
-	l = [row for row in cursor.execute(sql)]
-	s = "\n".join("{} {}: {}\n".format(book,chapter,content) for book,chapter,content in l)
-	return s
-
-contents.text = scripture('Rom','2')
+books.data_source.action = f
 
 bible.present(orientations=['landscape'])
-
-
-
-# ADDITIONAL HELPER CODE
-#cursor.execute("SELECT * FROM sqlite_master")
-
-
-def all_in_table():
-	for row in cursor.execute("SELECT * FROM bible"):
-		print(row)
-
-def all_tables():
-	for row in cursor.execute("SELECT name FROM sqlite_master WHERE type='table';"):
-		print(row)	
-
-
