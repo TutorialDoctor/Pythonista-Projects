@@ -2,7 +2,6 @@
   {
     "class" : "View",
     "attributes" : {
-      "name" : "",
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "enabled" : true,
@@ -18,7 +17,7 @@
           "data_source_font_size" : 18,
           "data_source_number_of_lines" : 1,
           "flex" : "",
-          "name" : "tableview1",
+          "name" : "testaments",
           "row_height" : 44,
           "data_source_delete_enabled" : true,
           "class" : "TableView",
@@ -27,7 +26,7 @@
           "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
           "uuid" : "7C1684C9-8946-4B8A-B9E4-0B662B42F7B7"
         },
-        "frame" : "{{6, 22}, {220, 97}}",
+        "frame" : "{{6, 6}, {220, 97}}",
         "selected" : false,
         "nodes" : [
 
@@ -39,17 +38,17 @@
           "data_source_font_size" : 18,
           "data_source_number_of_lines" : 1,
           "flex" : "",
-          "name" : "tableview2",
+          "name" : "books",
           "row_height" : 44,
           "data_source_delete_enabled" : true,
           "class" : "TableView",
-          "data_source_items" : "Book Name\nBook Name\nBook Name\nBook Name\nBook Name\nRomans\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name",
+          "data_source_items" : "Genesis\nExodus\nLeviticus\nBook Name\nRomans\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name",
           "frame" : "{{412, 284}, {200, 200}}",
           "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
           "uuid" : "4CF26E93-E547-49DD-A24C-F8CC2865A418"
         },
-        "frame" : "{{6, 127}, {157, 623}}",
-        "selected" : false,
+        "frame" : "{{6, 111}, {157, 623}}",
+        "selected" : true,
         "nodes" : [
 
         ]
@@ -65,12 +64,12 @@
           "data_source_items" : "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n",
           "data_source_delete_enabled" : true,
           "editing" : false,
-          "name" : "tableview3",
+          "name" : "chapters",
           "uuid" : "FFAB486C-E7B6-453B-97CF-3829D928B34C",
           "data_source_font_size" : 18,
           "class" : "TableView"
         },
-        "frame" : "{{171, 127}, {55, 623}}",
+        "frame" : "{{171, 111}, {55, 623}}",
         "selected" : false,
         "nodes" : [
 
@@ -82,19 +81,19 @@
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "alignment" : "left",
           "autocorrection_type" : "default",
-          "font_size" : 17,
-          "font_name" : "<System>",
+          "font_size" : 19,
+          "font_name" : "TimesNewRomanPSMT",
           "frame" : "{{412, 284}, {200, 200}}",
           "flex" : "",
           "text" : "A Living Sacrifice\n\nRom 12:1  I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.\n\nRom 12:2  And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.\n\nGifts of Grace\n\nRom 12:3  For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.\n\nRom 12:4  For as we have many members in one body, and all members have not the same office:\n\nRom 12:5  So we, being many, are one body in Christ, and every one members one of another.\n\nRom 12:6  Having then gifts differing according to the grace that is given to us, whether prophecy, let us prophesy according to the proportion of faith;\n\nRom 12:7  Or ministry, let us wait on our ministering: or he that teacheth, on teaching;\n\nRom 12:8  Or he that exhorteth, on exhortation: he that giveth, let him do it with simplicity; he that ruleth, with diligence; he that sheweth mercy, with cheerfulness.\n\nMarks of the True Christian\n\nRom 12:9  Let love be without dissimulation. Abhor that which is evil; cleave to that which is good.\n\nRom 12:10  Be kindly affectioned one to another with brotherly love; in honour preferring one another;\n\nRom 12:11  Not slothful in business; fervent in spirit; serving the Lord;\n\nRom 12:12  Rejoicing in hope; patient in tribulation; continuing instant in prayer;\n\nRom 12:13  Distributing to the necessity of saints; given to hospitality.\n\nRom 12:14  Bless them which persecute you: bless, and curse not.\n\nRom 12:15  Rejoice with them that do rejoice, and weep with them that weep.\n\nRom 12:16  Be of the same mind one toward another. Mind not high things, but condescend to men of low estate. Be not wise in your own conceits.\n\nRom 12:17  Recompense to no man evil for evil. Provide things honest in the sight of all men.\n\nRom 12:18  If it be possible, as much as lieth in you, live peaceably with all men.\n\nRom 12:19  Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.\n\nRom 12:20  Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head.\n\nRom 12:21  Be not overcome of evil, but overcome evil with good.",
-          "name" : "content",
+          "name" : "contents",
           "spellchecking_type" : "default",
-          "editable" : true,
+          "editable" : false,
           "uuid" : "31B979B7-C733-4012-8375-3FEA2A52BD1A",
           "class" : "TextView"
         },
-        "frame" : "{{244, 127}, {374, 623}}",
-        "selected" : true,
+        "frame" : "{{244, 111}, {374, 623}}",
+        "selected" : false,
         "nodes" : [
 
         ]
@@ -109,7 +108,7 @@
           "uuid" : "6C11FED1-AB65-47F0-95A4-959694E00827",
           "flex" : "R"
         },
-        "frame" : "{{626, 22}, {383, 737}}",
+        "frame" : "{{626, 6}, {383, 737}}",
         "selected" : false,
         "nodes" : [
           {
@@ -119,7 +118,7 @@
               "flex" : "",
               "segments" : "Search|Journal",
               "name" : "segmentedcontrol1",
-              "corner_radius" : 8,
+              "corner_radius" : 0,
               "border_width" : 0,
               "class" : "SegmentedControl",
               "frame" : "{{102, 360}, {120, 29}}",
@@ -182,19 +181,19 @@
               "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
               "alignment" : "left",
               "autocorrection_type" : "default",
-              "font_size" : 17,
-              "font_name" : "<System>",
+              "font_size" : 20,
+              "font_name" : "TimesNewRomanPSMT",
               "frame" : "{{62, 275}, {200, 200}}",
               "flex" : "WH",
               "text" : "Deu 14:7  Nevertheless these ye shall not eat of them that chew the cud, or of them that divide the cloven hoof; as the camel, and the hare, and the coney: for they chew the cud, but divide not the hoof; therefore they are unclean unto you.\n\nDeu 14:7  Nevertheless these ye shall not eat of them that chew the cud, or of them that divide the cloven hoof; as the camel, and the hare, and the coney: for they chew the cud, but divide not the hoof; therefore they are unclean unto you.",
               "name" : "textview1",
               "spellchecking_type" : "default",
-              "editable" : true,
+              "editable" : false,
               "uuid" : "B59798A1-9FE0-418A-A3F5-40D85B072D0F",
               "class" : "TextView"
             },
             "frame" : "{{14, 313}, {363, 412}}",
-            "selected" : false,
+            "selected" : true,
             "nodes" : [
 
             ]
@@ -207,14 +206,14 @@
           "font_size" : 29,
           "text" : "Romans 12",
           "font_name" : "TimesNewRomanPSMT",
-          "name" : "label",
+          "name" : "book_heading",
           "class" : "Label",
           "alignment" : "center",
           "frame" : "{{437, 368}, {150, 32}}",
           "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "uuid" : "E7CEE06C-55FB-414B-8590-E64409EF3096"
         },
-        "frame" : "{{244, 49}, {374, 38}}",
+        "frame" : "{{244, 33}, {374, 38}}",
         "selected" : false,
         "nodes" : [
 
