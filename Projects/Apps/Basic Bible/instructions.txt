@@ -1,0 +1,10 @@
+Thoughts can be frozen and unfrozen using the Freeze Switch above.
+
+Use the Thoughts(arrow) button to save a scripture selection to this Thought Bubble.
+
+Use the Load Button to load old thoughts from your Thoughts File into this Thought Bubble
+
+Use the View Thoughts button to view your old thoughts.
+
+The Save Thoughts button will save your current thoughts to your Thoughts File.
+
