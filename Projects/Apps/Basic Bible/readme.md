@@ -1,4 +1,4 @@
-Creating a bible app with Pythonista to learn how to use the Sqlite3 module.
+Creating a **Bible App** with **Pythonista** to learn how to use the Sqlite3 module.
 
 This project will demonstrate how to:
 
