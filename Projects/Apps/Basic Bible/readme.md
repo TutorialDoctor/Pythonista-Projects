@@ -13,8 +13,8 @@ This project will demonstrate how to:
 9. Use list **comprehension**
 
 ToDo:
-[] - Use regular expressions to create a search bar. (I may explore fuzzy search algorithms later)
-[] - Themes using json
+[]- Use regular expressions to create a search bar. (I may explore fuzzy search algorithms later)
+[]- Themes using json
 
 
 This projects uses the `bible-sqlite` database. The `kjv` database is there for you to play with if you would like.
