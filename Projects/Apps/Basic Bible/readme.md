@@ -12,9 +12,11 @@ This project will demonstrate how to:
 8. Use the **lambda** function
 9. Use list **comprehension**
 
+ToDo:
+Use regular expressions to create a search bar. (I may explore fuzzy search algorithms later)
+
+
 This projects uses the `bible-sqlite` database. The `kjv` database is there for you to play with if you would like.
 
 ![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen.png?raw=true)
 
-ToDo:
-Use regular expressions to create a search bar. (I may explore fuzzy search algorithms later)
