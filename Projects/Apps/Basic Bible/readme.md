@@ -6,7 +6,7 @@ This project will demonstrate how to:
 2. Load data from a database into Pythonista's **ui.View()**s
 3. Python file handling
 4. Using the **sound** module
-5. Creating allerts using the **console** module
+5. Creating alerts using the **console** module
 6. Work with the **TableView** module and pass data from one to the other.
 7. Use the **datetime** module.
 8. Use the **lambda** function
