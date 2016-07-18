@@ -13,4 +13,6 @@ This project will demonstrate how to:
 9. Use the **lambda** function
 10. Use list **comprehension**
 
+This projects uses the `bible-sqlite` database. The `kjv` database is there for you to play with if you would like.
+
 ![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen.png?raw=true)
