@@ -4,6 +4,7 @@
 Useful Links:
 - [Sockets](http://www.binarytides.com/code-chat-application-server-client-sockets-python/)
 - [Pure Python Client Server Example](https://gist.github.com/jsam/4185756)
+- [Python Chat](https://github.com/JackZProduction/python_chat)
 
 ### Screenshot
 
