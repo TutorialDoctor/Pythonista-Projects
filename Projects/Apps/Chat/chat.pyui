@@ -1,0 +1,298 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TableView",
+        "attributes" : {
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "frame" : "{{284, 412}, {200, 200}}",
+          "data_source_number_of_lines" : 1,
+          "row_height" : 75,
+          "flex" : "WH",
+          "tint_color" : "RGBA(0.843750,1.000000,0.895833,1.000000)",
+          "data_source_items" : "Tutorial Doctor\nOther Person",
+          "data_source_delete_enabled" : true,
+          "alpha" : 1,
+          "name" : "channels",
+          "uuid" : "3973AE0B-39BB-4C77-ACA6-DC3E0AA42B40",
+          "data_source_font_size" : 18,
+          "class" : "TableView"
+        },
+        "frame" : "{{6, 84}, {209, 659}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "message",
+          "uuid" : "C0219BFC-86E5-4321-A326-21DF616F4106",
+          "frame" : "{{334, 462}, {100, 100}}"
+        },
+        "frame" : "{{613, 540}, {380, 100}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "TextView",
+            "attributes" : {
+              "class" : "TextView",
+              "background_color" : "RGBA(0.458333,0.638889,1.000000,1.000000)",
+              "alignment" : "right",
+              "autocorrection_type" : "default",
+              "font_size" : 17,
+              "font_name" : "<System>",
+              "frame" : "{{90, -50}, {200, 200}}",
+              "flex" : "WH",
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "name" : "message_box",
+              "spellchecking_type" : "default",
+              "border_width" : 0,
+              "editable" : true,
+              "uuid" : "74CE3019-CABA-4B93-AC3A-628A62F753E9",
+              "corner_radius" : 23
+            },
+            "frame" : "{{191, 24}, {183, 70}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Label",
+            "attributes" : {
+              "font_size" : 18,
+              "text" : "User Name",
+              "font_name" : "<System>",
+              "name" : "user_name",
+              "text_color" : "RGBA(0.250000,0.250000,0.250000,1.000000)",
+              "class" : "Label",
+              "alignment" : "left",
+              "frame" : "{{115, 34}, {150, 32}}",
+              "uuid" : "567E8851-62A5-4CC5-AF3B-DD5D49F39093"
+            },
+            "frame" : "{{243, 0}, {131, 22}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "message2",
+          "uuid" : "C0219BFC-86E5-4321-A326-21DF616F4106",
+          "frame" : "{{334, 462}, {100, 100}}"
+        },
+        "frame" : "{{223, 378}, {500, 100}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "Label",
+            "attributes" : {
+              "font_size" : 18,
+              "text" : "User Name",
+              "font_name" : "<System>",
+              "name" : "user_name",
+              "text_color" : "RGBA(0.250000,0.250000,0.250000,1.000000)",
+              "class" : "Label",
+              "alignment" : "left",
+              "frame" : "{{115, 34}, {150, 32}}",
+              "uuid" : "567E8851-62A5-4CC5-AF3B-DD5D49F39093"
+            },
+            "frame" : "{{24, 0}, {150, 22}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "View",
+            "attributes" : {
+              "name" : "container",
+              "corner_radius" : 19,
+              "border_width" : 0,
+              "class" : "View",
+              "frame" : "{{200, 0}, {100, 100}}",
+              "background_color" : "RGBA(0.839623,0.839623,0.839623,1.000000)",
+              "uuid" : "FCC9B737-E164-471A-9E80-A1EBD0E8F142"
+            },
+            "frame" : "{{24, 30}, {331, 58}}",
+            "selected" : false,
+            "nodes" : [
+              {
+                "class" : "TextView",
+                "attributes" : {
+                  "editable" : true,
+                  "alignment" : "left",
+                  "autocorrection_type" : "default",
+                  "font_size" : 17,
+                  "font_name" : "<System>",
+                  "frame" : "{{90, -50}, {200, 200}}",
+                  "flex" : "WH",
+                  "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+                  "text_color" : "RGBA(0.212264,0.212264,0.212264,1.000000)",
+                  "corner_radius" : 0,
+                  "name" : "message_box",
+                  "uuid" : "74CE3019-CABA-4B93-AC3A-628A62F753E9",
+                  "spellchecking_type" : "default",
+                  "border_width" : 0,
+                  "class" : "TextView"
+                },
+                "frame" : "{{38, 15}, {255, 28}}",
+                "selected" : false,
+                "nodes" : [
+
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Members:",
+          "font_name" : "<System>",
+          "name" : "name",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "EBCD5257-3B43-4AEA-A293-B268B9735C10"
+        },
+        "frame" : "{{6, 24}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "tint_color" : "RGBA(0.811765,0.717647,1.000000,1.000000)",
+          "title" : "Close",
+          "name" : "btn_close",
+          "corner_radius" : 8,
+          "border_color" : "RGBA(0.811765,0.717647,1.000000,1.000000)",
+          "border_width" : 2,
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "background_color" : "RGBA(0.957547,0.957547,0.957547,1.000000)",
+          "uuid" : "60A1093A-BD3B-48F3-AF08-332F6F894CE1"
+        },
+        "frame" : "{{890, 24}, {111, 51}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "ImageView",
+        "attributes" : {
+          "class" : "ImageView",
+          "name" : "banner",
+          "uuid" : "7BD6B178-2522-4330-9BCD-0871BBA74608",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "alpha" : 0.2999999999999999
+        },
+        "frame" : "{{0, 698}, {1024, 64}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "class" : "View",
+          "name" : "entry",
+          "uuid" : "EE9267F1-05A2-4C8E-AC39-78352765FC36",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "flex" : ""
+        },
+        "frame" : "{{265, 677}, {736, 66}}",
+        "selected" : false,
+        "nodes" : [
+          {
+            "class" : "TextField",
+            "attributes" : {
+              "font_size" : 17,
+              "font_name" : "<System>",
+              "text" : "Sup homey!",
+              "autocorrection_type" : "default",
+              "name" : "message",
+              "frame" : "{{412, 368}, {200, 32}}",
+              "class" : "TextField",
+              "alignment" : "left",
+              "placeholder" : "iMessage",
+              "spellchecking_type" : "default",
+              "uuid" : "DFC7235E-35F5-405C-AECD-AA73969E4FB8"
+            },
+            "frame" : "{{68, 18}, {600, 32}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(0.386792,0.386792,0.386792,1.000000)",
+              "uuid" : "CE0AD28C-4E46-4AB8-86E6-E043B725FC31",
+              "name" : "mic",
+              "class" : "Button",
+              "frame" : "{{472, 368}, {80, 32}}",
+              "image_name" : "iob:ios7_mic_outline_32",
+              "title" : ""
+            },
+            "frame" : "{{676, 12}, {48, 48}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "image_name" : "iob:ios7_arrow_up_32",
+              "title" : "",
+              "name" : "btn_message",
+              "corner_radius" : 7,
+              "border_width" : 0,
+              "class" : "Button",
+              "frame" : "{{472, 368}, {80, 32}}",
+              "background_color" : "RGBA(0.812500,0.718750,1.000000,1.000000)",
+              "uuid" : "CE0AD28C-4E46-4AB8-86E6-E043B725FC31"
+            },
+            "frame" : "{{6, 6}, {48, 48}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
