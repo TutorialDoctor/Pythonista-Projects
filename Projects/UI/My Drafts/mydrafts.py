@@ -1,6 +1,7 @@
 # coding: utf-8
 import ui,os
 
+
 # CLASSES
 # The main.pyui view inherits this custom class
 class ViewClass(ui.View):
@@ -36,7 +37,7 @@ def set_button_images(*x):
 	i=0
 	while i < len(btns):
 		images=x
-		btns[i].image = ui.Image().named(images[i])
+		btns[i].image = ui.Image.named(images[i])
 		i+=1
 
 def set_view_text(f):
