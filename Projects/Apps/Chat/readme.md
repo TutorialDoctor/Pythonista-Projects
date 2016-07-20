@@ -1,4 +1,4 @@
-## Py Chat (WIP)
+## Chat (WIP)
 <hr>
 
 ### Screenshot
