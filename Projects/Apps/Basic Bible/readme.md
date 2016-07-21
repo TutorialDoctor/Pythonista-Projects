@@ -15,6 +15,8 @@ This project will demonstrate how to:
 ToDo:
 - [ ] Use regular expressions to create a search bar. (I may explore fuzzy search algorithms later)
 - [ ] Themes using json
+- [ ] I have to switch chapters and books around so that you can tap "Micah 1" instead of "1 Michah."
+- [ ] Old Testament and New Testament toggle doesn't work right now.
 
 
 This projects uses the `bible-sqlite` database. The `kjv` database is there for you to play with if you would like.
