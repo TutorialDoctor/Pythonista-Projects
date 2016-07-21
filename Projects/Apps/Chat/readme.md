@@ -1,5 +1,4 @@
 ## Chat (WIP)
-<hr>
 
 Research Links:
 - [Sockets](http://www.binarytides.com/code-chat-application-server-client-sockets-python/)
