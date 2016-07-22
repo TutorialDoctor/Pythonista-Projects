@@ -11,6 +11,7 @@ This project will demonstrate how to:
 7. Use the **datetime** module.
 8. Use the **lambda** function
 9. Use list **comprehension**
+10. Using segmented controls
 
 ToDo:
 - [ ] Use regular expressions to create a search bar. (I may explore fuzzy search algorithms later)
