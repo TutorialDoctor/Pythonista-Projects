@@ -7,6 +7,28 @@ save_file = 'notes.txt'
 # File name for our thoughts file.
 thoughts_file = 'thoughts.txt'
 
+def close(sender):
+	sender.superview.close()
+
+def test(sender):
+	con = sqlite3.connect('bible-sqlite.db')
+	cursor=con.cursor()
+	# A query to get all old testament book names in the 'key_english' table 
+	ot_query = 'select n from key_english where b < 40'
+	ot_bks = [x[0] for x in cursor.execute(ot_query)]
+	
+	# A query to get all new testament book names in the 'key_english' table 
+	nt_query = 'select n from key_english where b >= 40'
+	nt_bks = [x[0] for x in cursor.execute(nt_query)]
+	
+	selected_testament = sender.segments[sender.selected_index]
+	
+	if selected_testament=='Old Testament':
+		books.data_source.items=ot_bks
+	
+	elif selected_testament=='New Testament':
+		books.data_source.items= nt_bks
+
 def updates(*args):
 	# Connect to the swlite database and create a cursor to query it with
 	con = sqlite3.connect('bible-sqlite.db')
@@ -14,26 +36,17 @@ def updates(*args):
 	# Three argument parameters (all tanleviews) that were passed in using a lambda function.
 	tbl_books = args[0]
 	tbl_chapters = args[1]
-	tbl_testaments = args[2]
+	control_testaments = args[2]
 	
 	# A query to get all book names in the 'key_english' table
 	all_bks_query = 'select n from key_english'
 	all_bks = [x[0] for x in cursor.execute(all_bks_query)]
 	
-	# A query to get all old testament book names in the 'key_english' table 
-	ot_query = 'select n from key_english where b < 40'
-	ot_bks = [x[0] for x in cursor.execute(ot_query)]
-	
-	# A query to get all new testament book names in the 'key_english' table 
-	nt_query = 'select n from key_english where b > 40'
-	nt_bks = [x[0] for x in cursor.execute(nt_query)]
-	
-	# Set the 'books' table's items to all books of the bible
-	tbl_books.items = all_bks
 	# Store tableview selections
 	selected_book = tbl_books.items[tbl_books.selected_row]
 	selected_chap = tbl_chapters.items[tbl_chapters.selected_row]
-	selected_testament = tbl_testaments.items[tbl_testaments.selected_row]
+	#selected_testament = control_testaments.segments[control_testaments.selected_index]
+
 
 	#if selected_testament=='Old Testament':
 		#tbl_books.items=ot_bks
@@ -144,6 +157,8 @@ books = bible['books']
 chapters = bible['chapters']
 contents = bible['contents']
 testaments = bible['testaments']
+testaments2 = bible['testaments2']
+testaments2.action=test
 thoughts = bible['view1']['thought_bubble']
 thoughts_switch = bible['view1']['switch']
 thoughts_switch.action = freeze
@@ -157,17 +172,19 @@ clear_button = bible['view1']['btn_clear']
 clear_button.action=clear_thoughts
 save_button = bible['view1']['btn_save']
 save_button.action=save_selection
+close_button = bible['btn_close']
+close_button.action=close
 
 # Peloading text into a textview called 'thoughts'
 with open('instructions.txt','r') as infile:
 	thoughts.text = infile.read()
 
 # This lambda function is what allows me to pass arguments to a view's action function. This function is what makes it all work.
-f = lambda sender: updates(sender,chapters.data_source,testaments.data_source)
+f = lambda sender: updates(sender,chapters.data_source,testaments2)
 
 # Quick and dirty query to preload a tableview with an sqlite record.
 books.data_source.items = [x[0] for x in sqlite3.connect('bible-sqlite.db').execute('select n from key_english')]
 books.data_source.action = f
 
 # Display the bible and restrict its orientation to landscape.
-bible.present(orientations=['landscape'])
+bible.present(orientations=['landscape'],hide_title_bar=True)
