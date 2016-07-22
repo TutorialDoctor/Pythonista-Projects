@@ -315,7 +315,7 @@
               "font_size" : 15,
               "tint_color" : "RGBA(0.608491,0.608491,0.608491,1.000000)",
               "uuid" : "5EC2BCCB-5D55-461A-AFCB-19E583535904",
-              "name" : "btn_close",
+              "name" : "button1",
               "action" : "view_thoughts",
               "class" : "Button",
               "frame" : "{{159, 365}, {80, 32}}",
