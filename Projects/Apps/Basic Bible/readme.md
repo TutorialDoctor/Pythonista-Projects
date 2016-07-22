@@ -24,5 +24,5 @@ This projects uses the `bible-sqlite` database. The `kjv` database is there for 
 
 [GNU GENERAL PUBLIC LICENSE](http://choosealicense.com/licenses/gpl-3.0/)
 
-![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen.png?raw=true)
+![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen2.png?raw=true)
 
