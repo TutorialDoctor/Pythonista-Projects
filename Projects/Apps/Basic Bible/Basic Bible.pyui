@@ -372,7 +372,7 @@
           "font_size" : 15,
           "tint_color" : "RGBA(1.000000,0.406250,0.406250,1.000000)",
           "title" : "Close",
-          "name" : "button1",
+          "name" : "btn_close",
           "corner_radius" : 6,
           "border_width" : 2,
           "border_color" : "RGBA(0.750000,0.750000,0.750000,1.000000)",
