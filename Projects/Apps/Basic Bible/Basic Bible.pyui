@@ -2,6 +2,7 @@
   {
     "class" : "View",
     "attributes" : {
+      "name" : "",
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "enabled" : true,
@@ -11,27 +12,6 @@
     "frame" : "{{0, 0}, {1024, 768}}",
     "selected" : false,
     "nodes" : [
-      {
-        "class" : "TableView",
-        "attributes" : {
-          "data_source_font_size" : 18,
-          "data_source_number_of_lines" : 1,
-          "flex" : "",
-          "name" : "testaments",
-          "row_height" : 44,
-          "data_source_delete_enabled" : true,
-          "class" : "TableView",
-          "data_source_items" : "Old Testament\nNew Testament",
-          "frame" : "{{412, 284}, {200, 200}}",
-          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
-          "uuid" : "7C1684C9-8946-4B8A-B9E4-0B662B42F7B7"
-        },
-        "frame" : "{{94, 17}, {159, 51}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
-      },
       {
         "class" : "TableView",
         "attributes" : {
@@ -110,7 +90,7 @@
           "uuid" : "6C11FED1-AB65-47F0-95A4-959694E00827"
         },
         "frame" : "{{626, 0}, {398, 762}}",
-        "selected" : false,
+        "selected" : true,
         "nodes" : [
           {
             "class" : "SegmentedControl",
@@ -166,13 +146,13 @@
               "font_name" : "TimesNewRomanPSMT",
               "frame" : "{{62, 275}, {200, 200}}",
               "flex" : "WB",
-              "text" : "\n",
-              "spellchecking_type" : "default",
-              "corner_radius" : 4,
-              "editable" : true,
-              "uuid" : "B59798A1-9FE0-418A-A3F5-40D85B072D0F",
+              "text" : "\nThoughts can be frozen and unfrozen using the Freeze Switch above.\n\nUse the Thoughts(arrow) button to save a scripture selection to this Thought Bubble.\n\nUses the Load Button to load old thoughts from your Thoughts File into this Thought Bubble\n\nUse the View Thoughts button to view your old thoughts.\n\nThe Save Thoughts button will save your current thoughts to your Thoughts File.\n\nUse the Translate button to set the translation of the bible.\n\nUse the Clip button to save your thoughts to the clipboard.\n\nUse the Share button to share your thoughts via the IOS Share Sheet.",
               "name" : "thought_bubble",
-              "border_width" : 0
+              "spellchecking_type" : "default",
+              "uuid" : "B59798A1-9FE0-418A-A3F5-40D85B072D0F",
+              "corner_radius" : 4,
+              "border_width" : 0,
+              "editable" : true
             },
             "frame" : "{{9, 231}, {378, 474}}",
             "selected" : false,
@@ -192,10 +172,10 @@
               "class" : "Button",
               "frame" : "{{152, 353}, {80, 32}}",
               "background_color" : "RGBA(0.437500,0.812500,1.000000,1.000000)",
-              "title" : "Save Selection"
+              "title" : "Save Scripture"
             },
             "frame" : "{{20, 713}, {168, 34}}",
-            "selected" : false,
+            "selected" : true,
             "nodes" : [
 
             ]
@@ -285,7 +265,7 @@
               "image_name" : "iob:archive_32",
               "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2"
             },
-            "frame" : "{{17, 50}, {80, 43}}",
+            "frame" : "{{12, 50}, {62, 34}}",
             "selected" : false,
             "nodes" : [
 
@@ -303,7 +283,7 @@
               "image_name" : "iob:close_circled_32",
               "title" : ""
             },
-            "frame" : "{{288, 50}, {80, 43}}",
+            "frame" : "{{297, 50}, {60, 34}}",
             "selected" : false,
             "nodes" : [
 
@@ -332,14 +312,53 @@
             "class" : "Button",
             "attributes" : {
               "font_size" : 15,
+              "tint_color" : "RGBA(0.415094,0.415094,0.415094,1.000000)",
               "title" : "",
-              "name" : "button2",
+              "name" : "btn_clip",
               "class" : "Button",
               "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:alert_circled_32",
+              "image_name" : "iob:clipboard_32",
               "uuid" : "ABC4311F-FFFB-4D37-B8C6-3C5D442F877B"
             },
             "frame" : "{{9, 189}, {65, 34}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(0.531250,0.843750,1.000000,1.000000)",
+              "title" : "",
+              "name" : "btn_translate",
+              "class" : "Button",
+              "frame" : "{{159, 365}, {80, 32}}",
+              "image_name" : "iob:chatbubbles_32",
+              "uuid" : "6603563F-BF29-4F6B-83F0-ABC157F5ACD4"
+            },
+            "frame" : "{{148, 188}, {60, 35}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(0.891509,0.891509,0.278597,1.000000)",
+              "title" : "",
+              "name" : "btn_share",
+              "corner_radius" : 0,
+              "border_width" : 0,
+              "class" : "Button",
+              "frame" : "{{159, 365}, {80, 32}}",
+              "image_name" : "iob:ios7_upload_outline_32",
+              "uuid" : "BF9AD864-60C4-400B-AA53-7012EC8F17DC"
+            },
+            "frame" : "{{225, 189}, {51, 35}}",
             "selected" : false,
             "nodes" : [
 
@@ -401,7 +420,7 @@
           "uuid" : "2998413F-F65F-4669-BAB3-ABAD2E9085F8"
         },
         "frame" : "{{6, 91}, {220, 44}}",
-        "selected" : true,
+        "selected" : false,
         "nodes" : [
 
         ]
