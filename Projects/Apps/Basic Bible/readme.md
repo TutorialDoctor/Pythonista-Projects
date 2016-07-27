@@ -1,6 +1,7 @@
 Creating a **Bible App** with **Pythonista** to learn how to use the Sqlite3 module.
 
 Database from [here](https://github.com/scrollmapper/bible_databases)
+
 This project will demonstrate how to:
 
 1. Query an SQlite database with Python
