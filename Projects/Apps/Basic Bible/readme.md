@@ -20,7 +20,7 @@ ToDo:
 - [ ] Themes using json
 - [ ] I have to switch chapters and books around so that you can tap "Micah 1" instead of "1 Michah."
 - [x] Old Testament and New Testament toggle doesn't work right now.
-- [ ] Add cross reference (might have use [this](http://stackoverflow.com/questions/19472922/reading-external-sql-script-in-python) approach)
+- [ ] Add cross reference (might have use [this](http://stackoverflow.com/questions/19472922/reading-external-sql-script-in-python) approach or [this](https://forum.omz-software.com/topic/3334/mysql-in-pythonista))
 - [ ] Add search functionality
 
 
