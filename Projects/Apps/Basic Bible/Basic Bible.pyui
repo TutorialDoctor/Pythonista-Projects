@@ -90,7 +90,7 @@
           "uuid" : "6C11FED1-AB65-47F0-95A4-959694E00827"
         },
         "frame" : "{{626, 0}, {398, 762}}",
-        "selected" : true,
+        "selected" : false,
         "nodes" : [
           {
             "class" : "SegmentedControl",
@@ -122,7 +122,7 @@
               "flex" : "W",
               "placeholder" : "Love never fails",
               "border_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-              "name" : "txt_file",
+              "name" : "search_field",
               "border_width" : 1,
               "spellchecking_type" : "default",
               "uuid" : "6C046B79-03BD-4E8B-8D31-9DF0FBFFAE74",
@@ -138,7 +138,7 @@
           {
             "class" : "TextView",
             "attributes" : {
-              "class" : "TextView",
+              "editable" : true,
               "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
               "alignment" : "left",
               "autocorrection_type" : "default",
@@ -147,12 +147,12 @@
               "frame" : "{{62, 275}, {200, 200}}",
               "flex" : "WB",
               "text" : "\nThoughts can be frozen and unfrozen using the Freeze Switch above.\n\nUse the Thoughts(arrow) button to save a scripture selection to this Thought Bubble.\n\nUses the Load Button to load old thoughts from your Thoughts File into this Thought Bubble\n\nUse the View Thoughts button to view your old thoughts.\n\nThe Save Thoughts button will save your current thoughts to your Thoughts File.\n\nUse the Translate button to set the translation of the bible.\n\nUse the Clip button to save your thoughts to the clipboard.\n\nUse the Share button to share your thoughts via the IOS Share Sheet.",
-              "name" : "thought_bubble",
-              "spellchecking_type" : "default",
-              "uuid" : "B59798A1-9FE0-418A-A3F5-40D85B072D0F",
               "corner_radius" : 4,
+              "name" : "thought_bubble",
+              "uuid" : "B59798A1-9FE0-418A-A3F5-40D85B072D0F",
+              "spellchecking_type" : "default",
               "border_width" : 0,
-              "editable" : true
+              "class" : "TextView"
             },
             "frame" : "{{9, 231}, {378, 474}}",
             "selected" : false,
@@ -165,17 +165,17 @@
             "attributes" : {
               "font_size" : 15,
               "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-              "uuid" : "AB3C2E66-0509-4257-9E07-E871EE5836E1",
+              "title" : "Save Scripture",
               "name" : "btn_save",
               "corner_radius" : 12,
               "border_width" : 0,
               "class" : "Button",
               "frame" : "{{152, 353}, {80, 32}}",
               "background_color" : "RGBA(0.437500,0.812500,1.000000,1.000000)",
-              "title" : "Save Scripture"
+              "uuid" : "AB3C2E66-0509-4257-9E07-E871EE5836E1"
             },
             "frame" : "{{20, 713}, {168, 34}}",
-            "selected" : true,
+            "selected" : false,
             "nodes" : [
 
             ]
@@ -220,12 +220,12 @@
             "attributes" : {
               "font_size" : 15,
               "tint_color" : "RGBA(0.666667,0.500000,1.000000,1.000000)",
-              "title" : "",
+              "uuid" : "233C4722-82D9-427D-A627-0D2106FD5B1C",
               "name" : "btn_thoughts",
               "class" : "Button",
               "frame" : "{{151, 325}, {80, 32}}",
               "image_name" : "iob:arrow_down_b_32",
-              "uuid" : "233C4722-82D9-427D-A627-0D2106FD5B1C"
+              "title" : ""
             },
             "frame" : "{{297, 149}, {60, 32}}",
             "selected" : false,
@@ -238,14 +238,14 @@
             "attributes" : {
               "font_size" : 15,
               "tint_color" : "RGBA(0.212264,0.212264,0.212264,1.000000)",
-              "title" : "Save Thoughts",
+              "uuid" : "C4E62E70-8B54-4009-B4E6-8DDEB2C8FDF7",
               "name" : "btn_save_thoughts",
               "corner_radius" : 11,
               "border_width" : 0,
               "class" : "Button",
               "frame" : "{{151, 325}, {80, 32}}",
               "background_color" : "RGBA(1.000000,1.000000,0.375000,1.000000)",
-              "uuid" : "C4E62E70-8B54-4009-B4E6-8DDEB2C8FDF7"
+              "title" : "Save Thoughts"
             },
             "frame" : "{{208, 713}, {163, 36}}",
             "selected" : false,
@@ -258,12 +258,12 @@
             "attributes" : {
               "font_size" : 18,
               "tint_color" : "RGBA(1.000000,0.281250,0.760417,1.000000)",
-              "title" : "",
+              "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2",
               "name" : "btn_load",
               "class" : "Button",
               "frame" : "{{159, 365}, {80, 32}}",
               "image_name" : "iob:archive_32",
-              "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2"
+              "title" : ""
             },
             "frame" : "{{12, 50}, {62, 34}}",
             "selected" : false,
@@ -276,12 +276,12 @@
             "attributes" : {
               "font_size" : 18,
               "tint_color" : "RGBA(0.952830,0.387087,0.387087,1.000000)",
-              "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2",
+              "title" : "",
               "name" : "btn_clear",
               "class" : "Button",
               "frame" : "{{159, 365}, {80, 32}}",
               "image_name" : "iob:close_circled_32",
-              "title" : ""
+              "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2"
             },
             "frame" : "{{297, 50}, {60, 34}}",
             "selected" : false,
@@ -294,13 +294,13 @@
             "attributes" : {
               "font_size" : 15,
               "tint_color" : "RGBA(0.608491,0.608491,0.608491,1.000000)",
-              "uuid" : "5EC2BCCB-5D55-461A-AFCB-19E583535904",
+              "title" : "",
               "name" : "button1",
               "action" : "view_thoughts",
               "class" : "Button",
               "frame" : "{{159, 365}, {80, 32}}",
               "image_name" : "iob:eye_32",
-              "title" : ""
+              "uuid" : "5EC2BCCB-5D55-461A-AFCB-19E583535904"
             },
             "frame" : "{{148, 149}, {60, 32}}",
             "selected" : false,
@@ -313,12 +313,12 @@
             "attributes" : {
               "font_size" : 15,
               "tint_color" : "RGBA(0.415094,0.415094,0.415094,1.000000)",
-              "title" : "",
+              "uuid" : "ABC4311F-FFFB-4D37-B8C6-3C5D442F877B",
               "name" : "btn_clip",
               "class" : "Button",
               "frame" : "{{159, 365}, {80, 32}}",
               "image_name" : "iob:clipboard_32",
-              "uuid" : "ABC4311F-FFFB-4D37-B8C6-3C5D442F877B"
+              "title" : ""
             },
             "frame" : "{{9, 189}, {65, 34}}",
             "selected" : false,
@@ -331,12 +331,12 @@
             "attributes" : {
               "font_size" : 15,
               "tint_color" : "RGBA(0.531250,0.843750,1.000000,1.000000)",
-              "title" : "",
+              "uuid" : "6603563F-BF29-4F6B-83F0-ABC157F5ACD4",
               "name" : "btn_translate",
               "class" : "Button",
               "frame" : "{{159, 365}, {80, 32}}",
               "image_name" : "iob:chatbubbles_32",
-              "uuid" : "6603563F-BF29-4F6B-83F0-ABC157F5ACD4"
+              "title" : ""
             },
             "frame" : "{{148, 188}, {60, 35}}",
             "selected" : false,
@@ -349,16 +349,36 @@
             "attributes" : {
               "font_size" : 15,
               "tint_color" : "RGBA(0.891509,0.891509,0.278597,1.000000)",
-              "title" : "",
+              "uuid" : "BF9AD864-60C4-400B-AA53-7012EC8F17DC",
               "name" : "btn_share",
               "corner_radius" : 0,
               "border_width" : 0,
               "class" : "Button",
               "frame" : "{{159, 365}, {80, 32}}",
               "image_name" : "iob:ios7_upload_outline_32",
-              "uuid" : "BF9AD864-60C4-400B-AA53-7012EC8F17DC"
+              "title" : ""
             },
             "frame" : "{{225, 189}, {51, 35}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(0.334316,0.334316,0.891509,1.000000)",
+              "title" : "",
+              "name" : "btn_search",
+              "corner_radius" : 0,
+              "border_width" : 0,
+              "class" : "Button",
+              "frame" : "{{159, 365}, {80, 32}}",
+              "image_name" : "iob:ios7_search_strong_32",
+              "uuid" : "BF9AD864-60C4-400B-AA53-7012EC8F17DC"
+            },
+            "frame" : "{{297, 189}, {60, 35}}",
             "selected" : false,
             "nodes" : [
 
@@ -390,7 +410,7 @@
         "attributes" : {
           "font_size" : 15,
           "tint_color" : "RGBA(1.000000,0.406250,0.406250,1.000000)",
-          "title" : "Close",
+          "uuid" : "FFE70B09-6BB4-4C1E-AA04-8EE9735A5CEC",
           "name" : "btn_close",
           "corner_radius" : 6,
           "border_width" : 2,
@@ -398,7 +418,7 @@
           "class" : "Button",
           "frame" : "{{472, 368}, {80, 32}}",
           "background_color" : "RGBA(0.943396,0.943396,0.943396,1.000000)",
-          "uuid" : "FFE70B09-6BB4-4C1E-AA04-8EE9735A5CEC"
+          "title" : "Close"
         },
         "frame" : "{{6, 38}, {80, 45}}",
         "selected" : false,
@@ -423,6 +443,124 @@
         "selected" : false,
         "nodes" : [
 
+        ]
+      },
+      {
+        "class" : "View",
+        "attributes" : {
+          "name" : "search",
+          "corner_radius" : 19,
+          "border_width" : 0,
+          "alpha" : 0.9,
+          "class" : "View",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "background_color" : "RGBA(0.727673,0.839623,0.802306,1.000000)",
+          "uuid" : "9130AD88-DD67-4CED-8844-BC3A131C91FA"
+        },
+        "frame" : "{{217, 155}, {546, 517}}",
+        "selected" : true,
+        "nodes" : [
+          {
+            "class" : "TextField",
+            "attributes" : {
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_size" : 17,
+              "font_name" : "<System>",
+              "placeholder" : "mercies",
+              "frame" : "{{170, 254}, {200, 32}}",
+              "flex" : "W",
+              "text" : "",
+              "name" : "textfield1",
+              "spellchecking_type" : "default",
+              "uuid" : "4883FC8D-6406-484A-B2C0-0ED939EE4169",
+              "class" : "TextField"
+            },
+            "frame" : "{{174, 46}, {232, 32}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Label",
+            "attributes" : {
+              "font_size" : 18,
+              "text" : "Enter a query below:",
+              "font_name" : "AppleSDGothicNeo-Regular",
+              "name" : "label1",
+              "class" : "Label",
+              "alignment" : "center",
+              "frame" : "{{195, 254}, {150, 32}}",
+              "uuid" : "013A8223-5B0A-4477-9778-CB4E74D360E2"
+            },
+            "frame" : "{{151, 6}, {255, 32}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "TableView",
+            "attributes" : {
+              "data_source_font_size" : 18,
+              "data_source_number_of_lines" : 1,
+              "flex" : "WH",
+              "name" : "tableview1",
+              "row_height" : 61,
+              "data_source_delete_enabled" : true,
+              "class" : "TableView",
+              "data_source_items" : "Gifts of Grace\nconformed",
+              "frame" : "{{170, 170}, {200, 200}}",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "uuid" : "8657D611-5F75-4C8B-8537-59BBBC2D9ACF"
+            },
+            "frame" : "{{20, 86}, {244, 374}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "TextView",
+            "attributes" : {
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_size" : 17,
+              "font_name" : "<System>",
+              "frame" : "{{284, 412}, {200, 200}}",
+              "flex" : "",
+              "name" : "textview2",
+              "spellchecking_type" : "default",
+              "editable" : false,
+              "uuid" : "FE580F7E-5099-4B28-9474-F1AE23D64603",
+              "class" : "TextView"
+            },
+            "frame" : "{{295, 86}, {235, 374}}",
+            "selected" : true,
+            "nodes" : [
+
+            ]
+          },
+          {
+            "class" : "Button",
+            "attributes" : {
+              "font_size" : 15,
+              "tint_color" : "RGBA(0.386792,0.386792,0.386792,1.000000)",
+              "title" : "",
+              "name" : "btn_close",
+              "class" : "Button",
+              "frame" : "{{233, 243}, {80, 32}}",
+              "image_name" : "iob:close_circled_32",
+              "uuid" : "C75D479B-17BD-45BC-8381-A62876DC2291"
+            },
+            "frame" : "{{13, 6}, {66, 44}}",
+            "selected" : false,
+            "nodes" : [
+
+            ]
+          }
         ]
       }
     ]
