@@ -1,0 +1,100 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "custom_class" : "",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "placeholder" : "mercies",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "flex" : "W",
+          "text" : "",
+          "name" : "textfield1",
+          "spellchecking_type" : "default",
+          "uuid" : "4883FC8D-6406-484A-B2C0-0ED939EE4169",
+          "class" : "TextField"
+        },
+        "frame" : "{{167, 55}, {232, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter a query below:",
+          "font_name" : "AppleSDGothicNeo-Regular",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "center",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "013A8223-5B0A-4477-9778-CB4E74D360E2"
+        },
+        "frame" : "{{167, 15}, {255, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TableView",
+        "attributes" : {
+          "data_source_font_size" : 18,
+          "data_source_number_of_lines" : 1,
+          "flex" : "WH",
+          "name" : "tableview1",
+          "row_height" : 61,
+          "data_source_delete_enabled" : true,
+          "class" : "TableView",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "frame" : "{{170, 170}, {200, 200}}",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "uuid" : "8657D611-5F75-4C8B-8537-59BBBC2D9ACF"
+        },
+        "frame" : "{{13, 95}, {244, 427}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "background_color" : "RGBA(0.867925,0.867925,0.867925,1.000000)",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "frame" : "{{284, 412}, {200, 200}}",
+          "flex" : "",
+          "name" : "textview2",
+          "spellchecking_type" : "default",
+          "editable" : false,
+          "uuid" : "FE580F7E-5099-4B28-9474-F1AE23D64603",
+          "class" : "TextView"
+        },
+        "frame" : "{{288, 95}, {235, 427}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
