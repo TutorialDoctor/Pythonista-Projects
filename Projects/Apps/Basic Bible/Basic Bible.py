@@ -1,4 +1,86 @@
-import ui,sqlite3,datetime,sound,console,clipboard,dialogs
+import ui,sqlite3,datetime,sound,console,clipboard,dialogs,re,objc_util
+
+# Used this code to get book number to book name conversion. Much easier than doing a query in two tables.
+#con = sqlite3.connect('bible-sqlite.db')
+#cur = con.cursor()
+#a = cur.execute('select b,n from key_english')
+#print(dict([x for x in a]))
+
+pairs={1: 'Genesis', 2: 'Exodus', 3: 'Leviticus', 4: 'Numbers', 5: 'Deuteronomy', 6: 'Joshua', 7: 'Judges', 8: 'Ruth', 9: '1 Samuel', 10: '2 Samuel', 11: '1 Kings', 12: '2 Kings', 13: '1 Chronicles', 14: '2 Chronicles', 15: 'Ezra', 16: 'Nehemiah', 17: 'Esther', 18: 'Job', 19: 'Psalms', 20: 'Proverbs', 21: 'Ecclesiastes', 22: 'Song of Solomon', 23: 'Isaiah', 24: 'Jeremiah', 25: 'Lamentations', 26: 'Ezekiel', 27: 'Daniel', 28: 'Hosea', 29: 'Joel', 30: 'Amos', 31: 'Obadiah', 32: 'Jonah', 33: 'Micah', 34: 'Nahum', 35: 'Habakkuk', 36: 'Zephaniah', 37: 'Haggai', 38: 'Zechariah', 39: 'Malachi', 40: 'Matthew', 41: 'Mark', 42: 'Luke', 43: 'John', 44: 'Acts', 45: 'Romans', 46: '1 Corinthians', 47: '2 Corinthians', 48: 'Galatians', 49: 'Ephesians', 50: 'Philippians', 51: 'Colossians', 52: '1 Thessalonians', 53: '2 Thessalonians', 54: '1 Timothy', 55: '2 Timothy', 56: 'Titus', 57: 'Philemon', 58: 'Hebrews', 59: 'James', 60: '1 Peter', 61: '2 Peter', 62: '1 John', 63: '2 John', 64: '3 John', 65: 'Jude', 66: 'Revelation'}
+			
+# I will leave the results as a list so that I can load them into a tableview data source
+# TEXTFIELD
+class MyTextFieldDelegate (object):
+	def textfield_should_begin_editing(self, textfield):
+		return True
+	def textfield_did_begin_editing(self, textfield):
+		pass
+	def textfield_did_end_editing(self, textfield):
+		pass
+	def textfield_should_return(self, textfield):
+		textfield.end_editing()
+		return True
+	def textfield_should_change(self, textfield, range, replacement):
+		return True
+	def textfield_did_change(self, textfield):
+		try:
+			con = sqlite3.connect('bible-sqlite.db')
+			cur = con.cursor()
+			
+			substring= textfield.text
+			sub_query="select b,c,v,t from t_kjv where t like '%{}%'".format(substring)
+			
+			#tes = "select * from key_english cross join t_kjv where b={}".format(39)
+			#print([x for x in cur.execute(tes)])
+			
+			sub_all=[x for x in cur.execute(sub_query)]
+			"""
+			b=sub_all[0][0]
+			c=sub_all[0][1]
+			v=sub_all[0][2]
+			t=sub_all[0][3]
+			n=[x for x in cur.execute("select n from key_english where b={}".format(b))]
+			n=n[0][0]
+			"""
+			
+			#print(n)
+			#table.data_source = ui.ListDataSource(re.findall('\s'+textfield.text+'.+',contents.text))
+			table.data_source = ui.ListDataSource(sub_all)
+			table.reload()
+			#table.reload_data()
+		except:
+			None
+
+#TEXTVIEW
+class MyTextViewDelegate (object):
+	def textview_should_begin_editing(self, textview):
+		return True
+	def textview_did_begin_editing(self, textview):
+		pass
+	def textview_did_end_editing(self, textview):
+		pass
+	def textview_should_change(self, textview, range, replacement):
+		return True
+	def textview_did_change(self, textview):
+		return True
+	def textview_did_change_selection(self, textview):
+		pass
+
+
+class MyTableViewDelegate (object):
+	def tableview_did_select(self, tableview, section, row):
+		# Called when a row was selected.
+		item = tableview.data_source.items[row]
+		text2.text =  str(pairs[item[0]])+' '+str(item[1])+': '+str(item[2])+'\n'+str(item[3])
+
+	def tableview_did_deselect(self, tableview, section, row):
+		# Called when a row was de-selected (in multiple selection mode).
+		pass
+
+	def tableview_title_for_delete_button(self, tableview, section, row):
+		# Return the title for the 'swipe-to-***' button.
+		return 'Delete'
+
 
 
 # This script uses 2 tables from the database, but there are others for translations
@@ -35,7 +117,7 @@ time_stamp = datetime.datetime.today().strftime('%m_%d_%Y_%H:%M:%S')
 # File name for our notes file (here for easy access)
 save_file = 'notes.txt'
 # File name for our thoughts file.
-thoughts_file = 'thoughts.txt'
+thoughts_file = dialogs.input_alert('Name your thoughts file')+'.txt'
 
 # We will load the following list into a list dialog
 translations=["American Standard - ASV1901 (ASV)",
@@ -46,76 +128,34 @@ translations=["American Standard - ASV1901 (ASV)",
 "World English Bible (WEB)",
 "Young's Literal Translation (YLT)"]
 
-# If you change a .pyui file to .json you can load that JSON as a string from your code.
-# Good way to be unnecessarily cryptic. Also good for simple views.
-welcome_screen="""
-[
-  {
-    "class" : "View",
-    "attributes" : {
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "enabled" : true,
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "flex" : ""
-    },
-    "frame" : "{{0, 0}, {455, 112}}",
-    "selected" : false,
-    "nodes" : [
-      {
-        "class" : "Label",
-        "attributes" : {
-          "font_size" : 44,
-          "text" : "WELCOME",
-          "font_name" : "Avenir-Light",
-          "name" : "label1",
-          "text_color" : "RGBA(0.877358,0.877358,0.356427,1.000000)",
-          "class" : "Label",
-          "alignment" : "center",
-          "frame" : "{{153, 40}, {150, 32}}",
-          "uuid" : "DD90573A-00EF-48E3-9294-6EFD83AFE325"
-        },
-        "frame" : "{{85, 11}, {296, 45}}",
-        "selected" : false,
-        "nodes" : [
 
-        ]
-      },
-      {
-        "class" : "Label",
-        "attributes" : {
-          "font_size" : 18,
-          "text" : "Tutorial Doctor",
-          "font_name" : "<System>",
-          "name" : "label2",
-          "text_color" : "RGBA(0.783019,0.783019,0.220224,1.000000)",
-          "class" : "Label",
-          "alignment" : "center",
-          "frame" : "{{153, 40}, {150, 32}}",
-          "uuid" : "3F07C608-DDFC-4C9D-9B34-790AC7DD4DF6"
-        },
-        "frame" : "{{138, 64}, {202, 32}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
-      }
-    ]
-  }
-]
-"""
-
-# A quick intro view demonstrating animation. Fades-out
-def intro():
-	v=ui.load_view_str(welcome_screen)
-	v.background_color='white'
-	v.present('sheet',hide_title_bar=True)
-	def exit():
-		v.close()
-	def fade():
-		v.alpha=0
-	ui.animate(fade,.5,1,exit)
-
+def next(sender):
+	con = sqlite3.connect(database)
+	cursor=con.cursor()
+	tbl_chapters = chapters.data_source
+	tbl_books = books.data_source
+	selected_chap = tbl_chapters.items[tbl_chapters.selected_row]
+	selected_book = tbl_books.items[tbl_books.selected_row]
+	# Select book from the key_english table where the name = the selected book/cell of a tableview
+	num_query = "select b from key_english where n='{}'".format(selected_book)
+	bk_num=[x for x in cursor.execute(num_query)][0][0]
+	c = selected_chap # unnecessary perhaps but using 'c' is shorter.
+	# Select chapter,verse,text from the t_kjv table where book = book number (tableview) and chapter = selected chapter
+	txt_query = "select c,v,t from 't_kjv' where b = '{}' AND c = '{}'".format(bk_num,c)
+	txt = [row for row in cursor.execute(txt_query)]
+	# Format the text as -- ''+chapter+text -- ('' can be replaced with whatever prefix you want)
+	txt_formatted = "\n".join("{} {}: {}\n".format('',c,t) for b,c,t in txt)
+	
+	# If the formatted text is an empty string, set the contents textview to a string
+	# This is a quick fix if a user selects a chapter in a book that doesn't exist for that book
+	if txt_formatted=='':
+		contents.text = 'Chapter does not exist'
+	
+	# Otherwise, set the contents textview to the formatted text
+	else: contents.text = txt_formatted
+	# Set the heading label to the selected book plus the selected chapter (as a string)
+	heading.text=selected_book+' '+str(selected_chap)
+	
 # closes the superview of the sender
 def close(sender):
 	sender.superview.close()
@@ -255,7 +295,7 @@ def clear_thoughts(sender):
 
 # Creating a quick popup sheet to preview a text file called 'thoughts.txt' (see top)
 def view_thoughts(sender):
-	v=ui.View()
+	v=ui.View(name=thoughts_file)
 	v.width=540
 	v.height=540
 	v.background_color='white'
@@ -269,6 +309,22 @@ def view_thoughts(sender):
 		tv.text=infile.read()
 	v.add_subview(tv)
 	v.present('sheet')
+
+def show_search(sender):
+	def show():
+		search.hidden=False
+		search.alpha=.95
+	ui.animate(show,1)
+	#search.present('sheet')
+
+def hide_search(sender):
+	def hide():
+		search.alpha=0
+	ui.animate(hide,1)
+	#search.present('sheet')
+	#search.hidden=True
+
+
 # I think it is okay to use single-letter variable names for small tasks, but certainly not all throughout your code. Comments help here also.
 
 # IMPLEMENTATION
@@ -302,7 +358,30 @@ translate_button = bible['view1']['btn_translate']
 translate_button.action=translate
 share_button = bible['view1']['btn_share']
 share_button.action=share
+search_field = bible['view1']['search_field']
+search_field.delegate = MyTextFieldDelegate()
+search_button = bible['view1']['btn_search']
+search_button.action=show_search
+search_close_button = bible['search']['btn_close']
+search_close_button.action = hide_search
+#next_button = bible['btn_next']
+#next_button.action=next
 
+# SEARCH ENGINE
+search=bible['search']
+search.alpha=0
+search.hidden=True
+#search.background_color='#fff'
+#objc_util.ObjCInstance(search).layer().setOpacity_(0.5)
+#search.alpha=.1
+field=search['textfield1']
+field.delegate = MyTextFieldDelegate()
+text = search['textview1']
+text2 = search['textview2']
+table= search['tableview1']
+table.delegate = MyTableViewDelegate()
+#print(re.findall('\d+[:]\d+',verses))
+# END SEARCH ENGINE
 
 # Preloading text into a textview called 'thoughts'
 with open('instructions.txt','r') as infile:
@@ -314,7 +393,5 @@ f = lambda sender: updates(sender,chapters.data_source,testaments2)
 # Quick and dirty query to preload a tableview with an sqlite record.
 books.data_source.items = [x[0] for x in sqlite3.connect('bible-sqlite.db').execute('select n from key_english')]
 books.data_source.action = f
-
 # Display the bible and restrict its orientation to landscape.
 bible.present(orientations=['landscape'],hide_title_bar=True)
-intro()
