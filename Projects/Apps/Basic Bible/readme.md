@@ -16,12 +16,11 @@ This project will demonstrate how to:
 10. Using segmented controls
 
 ToDo:
-- [ ] Use regular expressions to create a search bar. (I may explore fuzzy search algorithms later)
+- [x] Use regular expressions to create a search bar. (I may explore fuzzy search algorithms later)
 - [ ] Themes using json
 - [ ] I have to switch chapters and books around so that you can tap "Micah 1" instead of "1 Michah."
 - [x] Old Testament and New Testament toggle doesn't work right now.
 - [ ] Add cross reference (might use [this](http://stackoverflow.com/questions/19472922/reading-external-sql-script-in-python) approach or [this](https://github.com/tommasoturchi/mysql-connector-pythonista) repo discussed [here]([this](https://forum.omz-software.com/topic/3334/mysql-in-pythonista)))
-- [ ] Add search functionality
 
 
 This projects uses the `bible-sqlite` database. The `kjv` database is there for you to play with if you would like.
