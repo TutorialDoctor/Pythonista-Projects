@@ -16,7 +16,7 @@ This project will demonstrate how to:
 10. Using segmented controls
 
 ToDo:
-- [x] Use ~~regular expressions~~ to create a **search bar**. (I may explore fuzzy search algorithms later)
+- [x] Use ~~regular expressions~~ sqlite3 to create a **search bar**. (I may explore fuzzy search algorithms later). Got help from [here](http://stackoverflow.com/questions/3671761/how-to-search-for-a-substring-in-sqlite)
 - [ ] Themes using json
 - [ ] I have to switch chapters and books around so that you can tap "Micah 1" instead of "1 Michah."
 - [x] Old Testament and New Testament toggle doesn't work right now.
