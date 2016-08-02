@@ -31,3 +31,4 @@ This projects uses the `bible-sqlite` database. The `kjv` database is there for 
 
 ![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen3.png?raw=true)
 
+[View it on the Forum](https://forum.omz-software.com/topic/3388/free-bible-app-w-source-code)
