@@ -17,7 +17,7 @@ This project will demonstrate how to:
 
 ToDo:
 - [x] Use ~~regular expressions~~ sqlite3 to create a **search bar**. (I may explore fuzzy search algorithms later). Got help from [here](http://stackoverflow.com/questions/3671761/how-to-search-for-a-substring-in-sqlite)
-- [ ] Themes using json
+- [x] Themes using json. Didn't have to use JSON. Functionality is built into the `editor` module.
 - [ ] I have to switch chapters and books around so that you can tap "Micah 1" instead of "1 Michah."
 - [x] Old Testament and New Testament toggle doesn't work right now.
 - [ ] Add cross reference (might use [this](http://stackoverflow.com/questions/19472922/reading-external-sql-script-in-python) approach or [this](https://github.com/tommasoturchi/mysql-connector-pythonista) repo discussed [here]([this](https://forum.omz-software.com/topic/3334/mysql-in-pythonista)))
