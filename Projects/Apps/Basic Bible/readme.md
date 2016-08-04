@@ -6,11 +6,11 @@ This project will demonstrate how to:
 
 1. Query an SQlite database with Python
 2. Load data from a database into Pythonista's **ui.View()**s
-3. Python file handling
+3. File handling with Python
 4. Using the **sound** module
 5. Creating alerts using the **console** module
-6. Work with the **TableView** module and pass data from one to the other.
-7. Use the **datetime** module.
+6. Work with the **TableView** module and pass data from one to another
+7. Use the **datetime** module to create a timestamp
 8. Use the **lambda** function
 9. Use list **comprehension**
 10. Using segmented controls
