@@ -24,7 +24,8 @@ ToDo:
 - [ ] Add cross reference (might use [this](http://stackoverflow.com/questions/19472922/reading-external-sql-script-in-python) approach or [this](https://github.com/tommasoturchi/mysql-connector-pythonista) repo discussed [here]([this](https://forum.omz-software.com/topic/3334/mysql-in-pythonista)))
 - [ ] **Clean up** code and create better variable names and comments. Polish.
 - [x] Text Translations (implement)
-- [x] File picker/viewer
+- [x] File picker
+- [x] Write introductory markdown instructions.
 
 This projects uses the `bible-sqlite` database. The `kjv` database is there for you to play with if you would like.
 
