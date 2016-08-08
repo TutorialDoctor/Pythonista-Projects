@@ -200,7 +200,7 @@ def updates(*args):
 	# Connect to the sqlite database and create a cursor to query it with
 	con = sqlite3.connect(database)
 	cursor=con.cursor()
-	# Three argument parameters (all tanleviews) that were passed in using a lambda function.
+	# Three argument parameters (all tableviews) that were passed in using a lambda function.
 	tbl_books = args[0]
 	tbl_chapters = args[1]
 	control_testaments = args[2]
