@@ -1,5 +1,5 @@
 # coding: utf-8
-import ui,sqlite3,datetime,sound,console,clipboard,dialogs,re,objc_util,editor,os
+import ui,sqlite3,datetime,sound,console,clipboard,dialogs,re,objc_util,editor,os,webbrowser
 
 # This script uses 2 tables from the database, but there are others for translations
 """
@@ -47,6 +47,41 @@ Use the Clip button to save your thoughts to the clipboard.
 Use the Share button to share your thoughts via the IOS Share Sheet.
 """
 
+web=ui.load_view_str("""
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "WebView",
+        "attributes" : {
+          "class" : "WebView",
+          "name" : "webview",
+          "frame" : "{{170, 170}, {200, 200}}",
+          "uuid" : "C40643E2-3779-4B0D-ADBE-6CB8BC5350B1",
+          "scales_to_fit" : true,
+          "flex" : "WH"
+        },
+        "frame" : "{{0, 0}, {540, 540}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
+""")
+
 #Used this code to get book number to book name conversion. Much easier than doing a query in two tables.
 #con = sqlite3.connect('bible-sqlite.db')
 #cur = con.cursor()
@@ -61,8 +96,9 @@ database = 'bible-sqlite.db'
 # I'd like to add a timestamp to notes, so:
 time_stamp = datetime.datetime.today().strftime('%m_%d_%Y_%H:%M:%S')
 # File name for our notes file (here for easy access)
-save_file = 'notes.txt'
+save_file = 'favorites.txt'
 thoughts_file='thoughts.txt'
+bookmarks_file='bookmarks.txt'
 translation='t_kjv'
 
 
@@ -91,13 +127,6 @@ class MyTextFieldDelegate (object):
 	def textfield_did_begin_editing(self, textfield):
 		pass
 	def textfield_did_end_editing(self, textfield):
-		pass
-	def textfield_should_return(self, textfield):
-		textfield.end_editing()
-		return True
-	def textfield_should_change(self, textfield, range, replacement):
-		return True
-	def textfield_did_change(self, textfield):
 		try:
 			con = sqlite3.connect('bible-sqlite.db')
 			cur = con.cursor()			
@@ -116,9 +145,17 @@ class MyTextFieldDelegate (object):
 			#table.data_source = ui.ListDataSource(re.findall('\s'+textfield.text+'.+',contents.text))
 			table.data_source = ui.ListDataSource(sub_all)
 			table.reload()
+			matches.text=str(len(sub_all))
 			#table.reload_data()
 		except:
 			None
+	def textfield_should_return(self, textfield):
+		textfield.end_editing()
+		return True
+	def textfield_should_change(self, textfield, range, replacement):
+		return True
+	def textfield_did_change(self, textfield):
+		pass
 
 #Textview
 class MyTextViewDelegate (object):
@@ -200,7 +237,7 @@ def updates(*args):
 	# Connect to the sqlite database and create a cursor to query it with
 	con = sqlite3.connect(database)
 	cursor=con.cursor()
-	# Three argument parameters (all tableviews) that were passed in using a lambda function.
+	# Three argument parameters (all tanleviews) that were passed in using a lambda function.
 	tbl_books = args[0]
 	tbl_chapters = args[1]
 	control_testaments = args[2]
@@ -233,7 +270,12 @@ def updates(*args):
 		contents.text = 'Chapter does not exist'
 	
 	# Otherwise, set the contents textview to the formatted text
-	else: contents.text = txt_formatted
+	else:
+		contents.text = txt_formatted
+		#contents2.data_source=ui.ListDataSource(txt)
+		#contents2.data_source.number_of_lines=8
+		#contents2.reload_data()
+		#contents2.reload()
 	# Set the heading label to the selected book plus the selected chapter (as a string)
 	heading.text=selected_book+' '+str(selected_chap)
 
@@ -256,7 +298,7 @@ def save_selection(sender):
 			# write the entire text to the file.
 			outfile.write('\n'+time_stamp+'\n'+heading.text+'\n\n'+txt+'\n')
 	# Play a sound
-	sound.play_effect('ui:switch8')
+	sound.play_effect('digital:ThreeTone2')
 	# Alert the user that fhe file has been saved to the file.
 	console.alert('Saved to {}'.format(save_file))
 
@@ -367,7 +409,59 @@ def view_files(sender):
 	else:
 		thoughts_file= file_select
 
+def search_web(sender):
+	#term='bason'
+	term=web_search_field.text
+	#type='png'
+	#im='http://www.google.com/search?q=%22{}%22&tbm=isch&tbs=ic:color,isz:lt,islt:4mp,itp:{},isg:to'.format(term,type)
+	query = 'http://googl.com/#q={}'.format(term)
+	web['webview'].load_url(query)
+	web.present()
+
+def show_settings(sender):
+	settings_view.present('sheet')
+
+def add_mark(sender):
+	# Store tableview selections
+	# Connect to the sqlite database and create a cursor to query it with
+	con = sqlite3.connect(database)
+	cursor=con.cursor()
+	selected_book = books.data_source.items[books.data_source.selected_row]
+	selected_chap = chapters.data_source.items[chapters.data_source.selected_row]
+	#selected_testament = control_testaments.segments[control_testaments.selected_index]	
+	# Select book from the key_english table where the name = the selected book/cell of a tableview
+	num_query = "select b from key_english where n='{}'".format(selected_book)
+	bk_num=[x for x in cursor.execute(num_query)][0][0]
+	txt_query = "select c,v,t from '{}' where b = '{}' AND c = '{}'".format(translation,bk_num,selected_chap)
+	txt = [row for row in cursor.execute(txt_query)]
+	# Format the text as -- ''+chapter+text -- ('' can be replaced with whatever prefix you want)
+	txt_formatted = "\n".join("{} {}: {}\n".format('',c,t) for b,c,t in txt)
+	try:
+		if selected_chap:
+			book_marks.segments = book_marks.segments+tuple([selected_book+' '+str(selected_chap)+'\n'+txt_formatted])
+	except: None
+
+def load_mark(sender):
+	txt=sender.segments[sender.selected_index]
+	if txt=='':
+		contents.text='empty'
+	else:
+		contents.text=txt
+	heading.text = 'Bookmark'
+	#heading.text=selected_book+' '+str(selected_chap)
+
+def save_bookmarks(sender):
+	txt=book_marks.segments
+	for x in txt:
+		with open('Notes/'+bookmarks_file,'a')	as outfile:
+			outfile.write(time_stamp+'\n'+str(x)+'\n')
+	sound.play_effect('rpg:BookFlip2')
+	console.alert('Saved to {}'.format(bookmarks_file))
+
+def clear_bookmarks(sendr):
+	book_marks.segments=['']
 # END FUNCTIONS
+
 
 # I think it is okay to use single-letter variable names for small tasks, but certainly not all throughout your code. Comments help here also.
 
@@ -379,6 +473,7 @@ heading = bible['book_heading']
 books = bible['books']
 chapters = bible['chapters']
 contents = bible['contents']
+contents2=bible['contents2']
 testaments = bible['testaments']
 testaments2 = bible['testaments2']
 testaments.action=test
@@ -412,6 +507,17 @@ file_button.action=view_files
 theme_button = bible['btn_theme']
 theme_button.action = choose_theme
 translation_label = bible['label_translation']
+webbrowser_button = bible['view1']['btn_web']
+webbrowser_button.action = search_web
+web_search_field = bible['view1']['web_search_field']
+book_marks = bible['book_marks']
+book_mark_button = bible['view1']['btn_book_mark']
+book_mark_button.action = add_mark
+book_marks.action=load_mark
+save_bookmarks_button=bible['view1']['btn_save_bookmarks']
+save_bookmarks_button.action=save_bookmarks
+clear_book_marks_button = bible['view1']['btn_clear_bookmarks']
+clear_book_marks_button.action=clear_bookmarks
 #chapters.data_source = ui.ListDataSource(range(1,100))
 
 
@@ -422,9 +528,9 @@ search.alpha=0
 search.hidden=True
 search.border_color = 'red'
 search.border_width=1
-search_field = bible['search']['search_field']
+search_field = search['search_field']
 search_field.delegate = MyTextFieldDelegate()
-search_clear_button = bible['search']['btn_clear_search']
+search_clear_button = search['btn_clear_search']
 search_clear_button.action = clear_search
 forward_button = search['btn_forward']
 forward_button.action= forward_to_thoughts
@@ -434,11 +540,21 @@ search_selection.text = """Romans 13: 8
 Owe no man any thing, but to love one another: for he that loveth another hath fulfilled the law."""
 table= search['tableview1']
 table.delegate = MyTableViewDelegate()
+matches = search['matches']
 # END SEARCH ENGINE
 
-background_changes=[search_selection,search,books,contents,bible,thoughts,bible['view1'],heading,close_button,theme_button]
+
+#SETTINGS
+settings_view = ui.load_view('settings')
+settings_button = bible['view1']['btn_settings']
+settings_button.action = show_settings
+# END SETTINGS
+
+# THEMES
+background_changes=[search_selection,search,books,contents,bible,thoughts,bible['view1'],heading,close_button,theme_button,book_marks]
 for x in background_changes:
 	x.background_color='#fff'
+# END THEMES
 
 
 thoughts.text = instructions
