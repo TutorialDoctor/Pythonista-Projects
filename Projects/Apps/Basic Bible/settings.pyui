@@ -1,0 +1,153 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {336, 544}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Heart scripture",
+          "font_name" : "<System>",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "name" : "label1",
+          "text_color" : "RGBA(0.396226,0.396226,0.396226,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "703EBC4B-A8C3-4CF5-BFD8-8EBEC7F3CCB2"
+        },
+        "frame" : "{{51, 52}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Switch",
+        "attributes" : {
+          "class" : "Switch",
+          "value" : true,
+          "frame" : "{{245, 255}, {51, 31}}",
+          "uuid" : "F7BDB82C-1EF1-4D6E-B5FC-0F1FE88FE431",
+          "name" : "switch1"
+        },
+        "frame" : "{{242, 53}, {51, 31}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Heart scripture",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "text_color" : "RGBA(0.405660,0.405660,0.405660,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "703EBC4B-A8C3-4CF5-BFD8-8EBEC7F3CCB2"
+        },
+        "frame" : "{{51, 121}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Switch",
+        "attributes" : {
+          "class" : "Switch",
+          "value" : true,
+          "frame" : "{{245, 255}, {51, 31}}",
+          "uuid" : "F7BDB82C-1EF1-4D6E-B5FC-0F1FE88FE431",
+          "name" : "switch1"
+        },
+        "frame" : "{{242, 122}, {51, 31}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Heart scripture",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "text_color" : "RGBA(0.396226,0.396226,0.396226,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "703EBC4B-A8C3-4CF5-BFD8-8EBEC7F3CCB2"
+        },
+        "frame" : "{{51, 191}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Switch",
+        "attributes" : {
+          "class" : "Switch",
+          "value" : true,
+          "frame" : "{{245, 255}, {51, 31}}",
+          "uuid" : "F7BDB82C-1EF1-4D6E-B5FC-0F1FE88FE431",
+          "name" : "switch1"
+        },
+        "frame" : "{{242, 192}, {51, 31}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Heart scripture",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "text_color" : "RGBA(0.405660,0.405660,0.405660,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "703EBC4B-A8C3-4CF5-BFD8-8EBEC7F3CCB2"
+        },
+        "frame" : "{{51, 260}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Switch",
+        "attributes" : {
+          "class" : "Switch",
+          "value" : true,
+          "frame" : "{{245, 255}, {51, 31}}",
+          "uuid" : "F7BDB82C-1EF1-4D6E-B5FC-0F1FE88FE431",
+          "name" : "switch1"
+        },
+        "frame" : "{{242, 261}, {51, 31}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
