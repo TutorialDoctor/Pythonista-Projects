@@ -33,6 +33,6 @@ This projects uses the `bible-sqlite` database. The `kjv` database is there for 
 
 [GNU GENERAL PUBLIC LICENSE](http://choosealicense.com/licenses/gpl-3.0/)
 
-![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen3.png?raw=true)
+![](https://github.com/TutorialDoctor/Pythonista-Projects/blob/master/Projects/Apps/Basic%20Bible/screen4.PNG?raw=true)
 
 [View Forum Post](https://forum.omz-software.com/topic/3388/free-bible-app-w-source-code)
