@@ -1,5 +1,7 @@
 Creating a **Bible App** with **Pythonista** to learn how to use the Sqlite3 module.
 
+[Video Demo](https://drive.google.com/open?id=0B__SxPD_FJB7OG41Wmk0cGZ5dHc)
+
 Database from [here](https://github.com/scrollmapper/bible_databases)
 
 The only files you need currently are `bible.py`, `bible.pyui`, `bible-sqlite.db` and `settings.pyui`. Perhaps `instructions.txt`
