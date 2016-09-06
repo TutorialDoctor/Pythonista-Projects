@@ -1,6 +1,9 @@
 # Pythonista-Projects
 A collection of projects and tests I made with the IOS [Pythonista](http://omz-software.com/pythonista/) app.
 
+A script to download entire repos:
+
+https://github.com/jsbain/GitHubGet
 
 Hopefully eventually I will get into the [UIKit](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKit_Framework/) and [Foundation](https://developer.apple.com/library/mac/documentation/Cocoa/Reference/Foundation/ObjC_classic/) frameworks.
 ## A Few screenshots:
