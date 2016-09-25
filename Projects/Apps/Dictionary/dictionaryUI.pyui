@@ -6,42 +6,85 @@
     "nodes" : [
       {
         "selected" : false,
-        "frame" : "{{94, 6}, {540, 32}}",
+        "frame" : "{{228, 53}, {305, 32}}",
         "class" : "TextField",
         "nodes" : [
 
         ],
         "attributes" : {
-          "font_size" : 17,
+          "flex" : "W",
+          "font_name" : "<System>",
           "frame" : "{{284, 496}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "7CCE5B59-AB5F-47D7-A284-F43DBF380453",
           "alignment" : "left",
           "autocorrection_type" : "default",
-          "name" : "fld_word",
-          "font_name" : "<System>"
+          "font_size" : 17,
+          "name" : "fld_word"
         }
       },
       {
-        "selected" : true,
-        "frame" : "{{94, 53}, {540, 807}}",
+        "selected" : false,
+        "frame" : "{{53, 93}, {332, 807}}",
         "class" : "TextView",
         "nodes" : [
 
         ],
         "attributes" : {
-          "flex" : "WH",
+          "uuid" : "7908D761-AA8E-448E-844E-39B2E13DB22F",
           "font_size" : 17,
-          "editable" : true,
+          "frame" : "{{284, 412}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text_color" : "RGBA(1.000000,0.843750,0.531250,1.000000)",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "txt_definition",
+          "flex" : "H"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{401, 93}, {332, 389}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "H",
+          "font_name" : "<System>",
+          "editable" : false,
           "frame" : "{{284, 412}, {200, 200}}",
           "spellchecking_type" : "default",
           "class" : "TextView",
           "uuid" : "7908D761-AA8E-448E-844E-39B2E13DB22F",
           "alignment" : "left",
           "autocorrection_type" : "default",
-          "name" : "txt_definition",
-          "font_name" : "<System>"
+          "name" : "txt_graph",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{246, 6}, {274, 39}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "W",
+          "name" : "label1",
+          "font_name" : "<System>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "58EF13F3-1EEC-42E0-A63B-29F9232AF3F2",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "The Dictionary",
+          "font_size" : 37,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
         }
       }
     ],
