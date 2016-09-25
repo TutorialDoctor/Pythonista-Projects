@@ -1,0 +1,71 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {768, 1024}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{121, 126}, {533, 370}}",
+        "class" : "ImageView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "1D4B7B5F-AD06-42F8-804C-AFE479D56A47",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "logo",
+          "flex" : "W"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{242, 556}, {295, 69}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 45,
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "4C6B1747-3253-40CB-84D0-D0B4235A69A9",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Mapper",
+          "name" : "title",
+          "font_name" : "AnonymousPro-BoldItalic"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{293, 673}, {196, 44}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 0,
+          "flex" : "WB",
+          "frame" : "{{344, 496}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Enter",
+          "uuid" : "015930A5-0E86-421A-A35B-B6326894342F",
+          "background_color" : "RGBA(1.000000,0.750000,0.250000,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 11,
+          "name" : "button",
+          "font_size" : 32
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]

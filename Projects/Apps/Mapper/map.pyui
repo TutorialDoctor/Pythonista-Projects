@@ -1,0 +1,45 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{0, 0}, {540, 550}}",
+        "class" : "ScrollView",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{0, 0}, {540, 540}}",
+            "class" : "ImageView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "frame" : "{{289, 191}, {100, 100}}",
+              "class" : "ImageView",
+              "name" : "image",
+              "uuid" : "1595F4C8-DE0D-4E97-9CA5-5E7F4AE66387"
+            }
+          }
+        ],
+        "attributes" : {
+          "content_width" : 2000,
+          "frame" : "{{110, 110}, {320, 320}}",
+          "content_height" : 2000,
+          "class" : "ScrollView",
+          "name" : "scrollview",
+          "uuid" : "B01D7C56-233B-4C12-A7E9-B404A2E6CBC5"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
