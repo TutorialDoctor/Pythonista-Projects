@@ -22,7 +22,7 @@ class MyTextFieldDelegate (object):
 
 # A JSON representation of Webster's Unabridged Dictionary
 
-v=ui.load_view()
+v=ui.load_view('dictionaryUI')
 fld_word = v['fld_word']
 fld_word.delegate = MyTextFieldDelegate()
 txt_definition = v['txt_definition']
