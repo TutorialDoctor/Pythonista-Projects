@@ -1,0 +1,177 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{0, 0}, {262, 768}}",
+        "class" : "View",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{6, 701}, {91, 37}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "image_name" : "iob:ios7_plus_32",
+              "frame" : "{{91, 368}, {80, 32}}",
+              "tint_color" : "RGBA(0.535377,0.535377,0.535377,1.000000)",
+              "title" : "Add List",
+              "class" : "Button",
+              "uuid" : "24EF6598-945E-40A4-8807-88ECED5D37DB",
+              "name" : "button1",
+              "font_size" : 15
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{23, 32}, {223, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "43AC61D0-D9D1-457F-BD7D-23F4A05D3D5B",
+              "corner_radius" : 0,
+              "frame" : "{{31, 368}, {200, 32}}",
+              "border_color" : "RGBA(0.827830,0.827830,0.827830,1.000000)",
+              "border_width" : 1,
+              "alignment" : "center",
+              "autocorrection_type" : "default",
+              "placeholder" : "🔍Search",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "name" : "textfield1",
+              "font_size" : 17
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{0, 108}, {263, 574}}",
+            "class" : "TableView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "WH",
+              "data_source_items" : "Reminder Name\nOther Reminder Name",
+              "row_height" : 44,
+              "frame" : "{{31, 284}, {200, 200}}",
+              "uuid" : "2F41482A-C3F7-44B9-A2FB-855939B32364",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "data_source_number_of_lines" : 1,
+              "data_source_font_size" : 18,
+              "class" : "TableView",
+              "data_source_delete_enabled" : true,
+              "name" : "tableview1"
+            }
+          }
+        ],
+        "attributes" : {
+          "border_width" : 0,
+          "flex" : "H",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(0.290094,0.290094,0.290094,1.000000)",
+          "corner_radius" : 0,
+          "class" : "View",
+          "uuid" : "1EED8007-B5C9-4728-BB9C-195B9F58E75E",
+          "name" : "view1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{261, 0}, {763, 768}}",
+        "class" : "View",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{16, 32}, {260, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "name" : "label1",
+              "font_name" : "<System>",
+              "frame" : "{{307, 368}, {150, 32}}",
+              "uuid" : "301253A9-919C-43D2-B9F5-476C62AF5569",
+              "text" : "Reminder Name",
+              "alignment" : "left",
+              "class" : "Label",
+              "font_size" : 34,
+              "text_color" : "RGBA(0.415094,0.830189,0.830189,1.000000)"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{670, 32}, {63, 32}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "border_width" : 1,
+              "font_size" : 15,
+              "frame" : "{{342, 368}, {80, 32}}",
+              "title" : "",
+              "class" : "Button",
+              "uuid" : "8BDBB8D5-08DA-4CEA-B47A-D9E52A511E10",
+              "background_color" : "RGBA(0.981132,0.981132,0.981132,1.000000)",
+              "corner_radius" : 6,
+              "border_color" : "RGBA(0.804245,0.804245,0.804245,1.000000)",
+              "name" : "button1",
+              "image_name" : "iob:ios7_plus_empty_32"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{16, 75}, {717, 687}}",
+            "class" : "TableView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "08B6EB41-27EA-4414-9E6D-B38C1EF509D5",
+              "corner_radius" : 0,
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "frame" : "{{282, 284}, {200, 200}}",
+              "data_source_items" : "Cook dinner\nSchedule hospital appointment\nCall Randy",
+              "data_source_number_of_lines" : 1,
+              "border_width" : 0,
+              "border_color" : "RGBA(0.405660,0.405660,0.405660,1.000000)",
+              "data_source_delete_enabled" : true,
+              "data_source_font_size" : 18,
+              "row_height" : 44,
+              "class" : "TableView",
+              "name" : "tableview1",
+              "flex" : "WH"
+            }
+          }
+        ],
+        "attributes" : {
+          "border_width" : 1,
+          "flex" : "H",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "border_color" : "RGBA(0.290094,0.290094,0.290094,1.000000)",
+          "corner_radius" : 0,
+          "class" : "View",
+          "uuid" : "1EED8007-B5C9-4728-BB9C-195B9F58E75E",
+          "name" : "view1"
+        }
+      }
+    ],
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
