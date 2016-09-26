@@ -11,13 +11,6 @@ class MyTextFieldDelegate (object):
 			try:
 				txt_definition.text=data[textfield.text.upper()]
 			except: None
-		"""
-		with open('graph2.json',encoding='utf-8') as infile2:
-			data2 = json.load(infile2)
-			try:
-				txt_graph.text=str(data2[textfield.text.upper()])
-			except: None
-		"""
 	def textfield_should_return(self, textfield):
 		#textfield.end_editing()
 		return True
