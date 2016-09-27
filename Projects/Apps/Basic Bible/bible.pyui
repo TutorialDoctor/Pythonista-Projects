@@ -1,778 +1,864 @@
 [
   {
-    "class" : "View",
-    "attributes" : {
-      "name" : "",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "enabled" : true,
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "flex" : ""
-    },
-    "frame" : "{{0, 0}, {1024, 768}}",
     "selected" : false,
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "class" : "View",
     "nodes" : [
       {
-        "class" : "TableView",
-        "attributes" : {
-          "data_source_font_size" : 18,
-          "data_source_number_of_lines" : 1,
-          "flex" : "",
-          "name" : "books",
-          "row_height" : 44,
-          "data_source_delete_enabled" : true,
-          "class" : "TableView",
-          "data_source_items" : "Genesis\nExodus\nLeviticus\nBook Name\nRomans\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name",
-          "frame" : "{{412, 284}, {200, 200}}",
-          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
-          "uuid" : "4CF26E93-E547-49DD-A24C-F8CC2865A418"
-        },
-        "frame" : "{{74, 143}, {157, 577}}",
         "selected" : false,
+        "frame" : "{{6, 735}, {1012, 31}}",
+        "class" : "SegmentedControl",
         "nodes" : [
 
-        ]
-      },
-      {
-        "class" : "TableView",
+        ],
         "attributes" : {
-          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
-          "frame" : "{{412, 284}, {200, 200}}",
-          "data_source_number_of_lines" : 1,
-          "row_height" : 44,
-          "flex" : "",
-          "data_source_items" : "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88\n89\n90\n91\n92\n93\n94\n95\n96\n97\n98\n99\n100\n101\n102\n103\n104\n105\n106\n107\n108\n109\n110\n111\n112\n113\n114\n115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\n127\n128\n129\n130\n131\n132\n133\n134\n135\n136\n137\n138\n139\n140\n141\n142\n143\n144\n145\n146\n147\n148\n149\n150\n",
-          "data_source_delete_enabled" : true,
-          "editing" : false,
-          "name" : "chapters",
-          "uuid" : "FFAB486C-E7B6-453B-97CF-3829D928B34C",
-          "data_source_font_size" : 18,
-          "class" : "TableView"
-        },
-        "frame" : "{{6, 143}, {62, 577}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
-      },
-      {
-        "class" : "TextView",
-        "attributes" : {
-          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "flex" : "WLRT",
+          "font_name" : "<System>",
+          "segments" : "Book|Mark",
+          "tint_color" : "RGBA(0.613208,0.613208,0.613208,1.000000)",
+          "frame" : "{{452, 370}, {120, 29}}",
+          "class" : "SegmentedControl",
+          "text" : "Heart scripture",
           "alignment" : "left",
-          "autocorrection_type" : "default",
-          "font_size" : 19,
-          "font_name" : "TimesNewRomanPSMT",
-          "frame" : "{{412, 284}, {200, 200}}",
-          "flex" : "",
-          "text" : "A Living Sacrifice\n\nRom 12:1  I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.\n\nRom 12:2  And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.\n\nGifts of Grace\n\nRom 12:3  For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.\n\nRom 12:4  For as we have many members in one body, and all members have not the same office:\n\nRom 12:5  So we, being many, are one body in Christ, and every one members one of another.\n\nRom 12:6  Having then gifts differing according to the grace that is given to us, whether prophecy, let us prophesy according to the proportion of faith;\n\nRom 12:7  Or ministry, let us wait on our ministering: or he that teacheth, on teaching;\n\nRom 12:8  Or he that exhorteth, on exhortation: he that giveth, let him do it with simplicity; he that ruleth, with diligence; he that sheweth mercy, with cheerfulness.\n\nMarks of the True Christian\n\nRom 12:9  Let love be without dissimulation. Abhor that which is evil; cleave to that which is good.\n\nRom 12:10  Be kindly affectioned one to another with brotherly love; in honour preferring one another;\n\nRom 12:11  Not slothful in business; fervent in spirit; serving the Lord;\n\nRom 12:12  Rejoicing in hope; patient in tribulation; continuing instant in prayer;\n\nRom 12:13  Distributing to the necessity of saints; given to hospitality.\n\nRom 12:14  Bless them which persecute you: bless, and curse not.\n\nRom 12:15  Rejoice with them that do rejoice, and weep with them that weep.\n\nRom 12:16  Be of the same mind one toward another. Mind not high things, but condescend to men of low estate. Be not wise in your own conceits.\n\nRom 12:17  Recompense to no man evil for evil. Provide things honest in the sight of all men.\n\nRom 12:18  If it be possible, as much as lieth in you, live peaceably with all men.\n\nRom 12:19  Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.\n\nRom 12:20  Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head.\n\nRom 12:21  Be not overcome of evil, but overcome evil with good.",
-          "name" : "contents",
-          "spellchecking_type" : "default",
-          "editable" : false,
-          "uuid" : "31B979B7-C733-4012-8375-3FEA2A52BD1A",
-          "class" : "TextView"
-        },
-        "frame" : "{{234, 143}, {374, 577}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
+          "uuid" : "B1817E30-08D7-46CF-AD70-2DCC5C2314F7",
+          "font_size" : 18,
+          "name" : "book_marks"
+        }
       },
       {
-        "class" : "View",
-        "attributes" : {
-          "flex" : "RB",
-          "name" : "view1",
-          "class" : "View",
-          "custom_attributes" : "",
-          "frame" : "{{462, 334}, {100, 100}}",
-          "background_color" : "RGBA(0.952941,0.952941,0.952941,1.000000)",
-          "uuid" : "6C11FED1-AB65-47F0-95A4-959694E00827"
-        },
-        "frame" : "{{626, 0}, {398, 735}}",
         "selected" : true,
+        "frame" : "{{626, 0}, {398, 735}}",
+        "class" : "View",
         "nodes" : [
           {
-            "class" : "TextField",
-            "attributes" : {
-              "alignment" : "left",
-              "autocorrection_type" : "default",
-              "font_size" : 17,
-              "font_name" : "<System>",
-              "frame" : "{{62, 359}, {200, 32}}",
-              "flex" : "W",
-              "placeholder" : "Google image search",
-              "border_color" : "RGBA(0.599057,0.599057,0.599057,1.000000)",
-              "name" : "web_search_field",
-              "border_width" : 1,
-              "spellchecking_type" : "default",
-              "uuid" : "6C046B79-03BD-4E8B-8D31-9DF0FBFFAE74",
-              "corner_radius" : 6,
-              "class" : "TextField"
-            },
-            "frame" : "{{9, 101}, {208, 40}}",
             "selected" : false,
+            "frame" : "{{6, 61}, {195, 47}}",
+            "class" : "TextField",
             "nodes" : [
 
-            ]
+            ],
+            "attributes" : {
+              "uuid" : "6C046B79-03BD-4E8B-8D31-9DF0FBFFAE74",
+              "flex" : "WR",
+              "corner_radius" : 6,
+              "frame" : "{{62, 359}, {200, 32}}",
+              "border_color" : "RGBA(0.599057,0.599057,0.599057,1.000000)",
+              "border_width" : 1,
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "placeholder" : "Search",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "name" : "web_search_field",
+              "font_size" : 17
+            }
           },
           {
+            "selected" : false,
+            "frame" : "{{9, 114}, {314, 547}}",
             "class" : "TextView",
+            "nodes" : [
+
+            ],
             "attributes" : {
               "uuid" : "B59798A1-9FE0-418A-A3F5-40D85B072D0F",
+              "flex" : "WHB",
+              "corner_radius" : 4,
               "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "frame" : "{{62, 275}, {200, 200}}",
+              "border_width" : 0,
+              "editable" : true,
               "alignment" : "left",
               "autocorrection_type" : "default",
-              "font_size" : 20,
-              "font_name" : "TimesNewRomanPSMT",
-              "frame" : "{{62, 275}, {200, 200}}",
-              "flex" : "WB",
               "text" : "\nThoughts can be frozen and unfrozen using the Freeze Switch above.\n\nUse the Thoughts(arrow) button to save a scripture selection to this Thought Bubble.\n\nUses the Load Button to load old thoughts from your Thoughts File into this Thought Bubble\n\nUse the View Thoughts button to view your old thoughts.\n\nThe Save Thoughts button will save your current thoughts to your Thoughts File.\n\nUse the Translate button to set the translation of the bible.\n\nUse the Clip button to save your thoughts to the clipboard.\n\nUse the Share button to share your thoughts via the IOS Share Sheet.",
-              "name" : "thought_bubble",
-              "spellchecking_type" : "default",
-              "border_width" : 0,
-              "corner_radius" : 4,
-              "editable" : true,
-              "class" : "TextView"
-            },
-            "frame" : "{{9, 231}, {378, 430}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Label",
-            "attributes" : {
-              "font_size" : 27,
-              "text" : "Thoughts:",
               "font_name" : "TimesNewRomanPSMT",
+              "spellchecking_type" : "default",
+              "class" : "TextView",
+              "name" : "thought_bubble",
+              "font_size" : 20
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{9, 6}, {137, 47}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "WR",
               "name" : "label1",
-              "text_color" : "RGBA(0.259434,0.259434,0.259434,1.000000)",
-              "class" : "Label",
-              "alignment" : "left",
+              "text_color" : "RGBA(1.000000,0.541176,0.313726,1.000000)",
               "frame" : "{{117, 353}, {150, 32}}",
-              "uuid" : "1E07A187-5E5A-4C9B-B19A-615CEB92E262"
-            },
-            "frame" : "{{9, 149}, {120, 32}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
+              "class" : "Label",
+              "text" : "Thoughts:",
+              "alignment" : "left",
+              "uuid" : "1E07A187-5E5A-4C9B-B19A-615CEB92E262",
+              "font_size" : 27,
+              "font_name" : "TimesNewRomanPSMT"
+            }
           },
           {
-            "class" : "Switch",
-            "attributes" : {
-              "class" : "Switch",
-              "value" : true,
-              "frame" : "{{166, 349}, {51, 31}}",
-              "uuid" : "F2C88D36-9A05-426B-ABC6-4D1B2582F67A",
-              "name" : "switch",
-              "tint_color" : "RGBA(0.396226,0.905660,0.566038,1.000000)"
-            },
-            "frame" : "{{225, 150}, {51, 31}}",
             "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
+            "frame" : "{{269, 675}, {118, 42}}",
             "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.666667,0.500000,1.000000,1.000000)",
-              "uuid" : "233C4722-82D9-427D-A627-0D2106FD5B1C",
-              "name" : "btn_thoughts",
-              "class" : "Button",
-              "frame" : "{{151, 325}, {80, 32}}",
-              "image_name" : "iob:ios7_fastforward_32",
-              "title" : ""
-            },
-            "frame" : "{{297, 149}, {60, 32}}",
-            "selected" : false,
             "nodes" : [
 
-            ]
-          },
-          {
-            "class" : "Button",
+            ],
             "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.212264,0.212264,0.212264,1.000000)",
               "uuid" : "C4E62E70-8B54-4009-B4E6-8DDEB2C8FDF7",
-              "name" : "btn_save_thoughts",
+              "image_name" : "iob:ios7_cloud_32",
+              "font_size" : 15,
               "corner_radius" : 12,
-              "border_width" : 0,
-              "class" : "Button",
+              "background_color" : "RGBA(1.000000,0.541667,0.312500,1.000000)",
               "frame" : "{{151, 325}, {80, 32}}",
-              "background_color" : "RGBA(1.000000,1.000000,0.375000,1.000000)",
-              "title" : "Save Thoughts"
-            },
-            "frame" : "{{216, 681}, {163, 36}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 18,
-              "tint_color" : "RGBA(1.000000,0.281250,0.760417,1.000000)",
-              "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2",
-              "name" : "btn_load",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:archive_32",
-              "title" : ""
-            },
-            "frame" : "{{225, 50}, {51, 34}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 18,
-              "tint_color" : "RGBA(0.952830,0.387087,0.387087,1.000000)",
-              "title" : "",
-              "name" : "btn_clear",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:close_circled_32",
-              "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2"
-            },
-            "frame" : "{{297, 50}, {60, 34}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.608491,0.608491,0.608491,1.000000)",
-              "title" : "",
-              "name" : "button1",
-              "action" : "view_thoughts",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:eye_32",
-              "uuid" : "5EC2BCCB-5D55-461A-AFCB-19E583535904"
-            },
-            "frame" : "{{148, 149}, {60, 32}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.415094,0.415094,0.415094,1.000000)",
-              "uuid" : "ABC4311F-FFFB-4D37-B8C6-3C5D442F877B",
-              "name" : "btn_clip",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:clipboard_32",
-              "title" : ""
-            },
-            "frame" : "{{9, 189}, {65, 34}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.531250,0.843750,1.000000,1.000000)",
-              "uuid" : "6603563F-BF29-4F6B-83F0-ABC157F5ACD4",
-              "name" : "btn_translate",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:ios7_world_32",
-              "title" : ""
-            },
-            "frame" : "{{148, 188}, {60, 35}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.891509,0.891509,0.278597,1.000000)",
-              "uuid" : "BF9AD864-60C4-400B-AA53-7012EC8F17DC",
-              "name" : "btn_share",
-              "corner_radius" : 0,
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
               "border_width" : 0,
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:ios7_upload_outline_32",
-              "title" : ""
-            },
-            "frame" : "{{225, 189}, {51, 35}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.334316,0.334316,0.891509,1.000000)",
               "title" : "",
-              "name" : "btn_search",
-              "corner_radius" : 0,
-              "border_width" : 0,
               "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:ios7_search_strong_32",
-              "uuid" : "BF9AD864-60C4-400B-AA53-7012EC8F17DC"
-            },
-            "frame" : "{{297, 189}, {60, 35}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
+              "name" : "btn_save_thoughts",
+              "flex" : "LT"
+            }
           },
           {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(1.000000,0.770833,0.312500,1.000000)",
-              "title" : "",
-              "name" : "btn_file",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:ios7_box_32",
-              "uuid" : "B803F43A-4BB1-4D32-8749-FCCA1EBD45B7"
-            },
-            "frame" : "{{82, 189}, {47, 35}}",
             "selected" : false,
+            "frame" : "{{11, 675}, {118, 42}}",
+            "class" : "Button",
             "nodes" : [
 
-            ]
-          },
-          {
-            "class" : "Button",
+            ],
             "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.387972,0.886792,0.387972,1.000000)",
-              "title" : "",
-              "name" : "btn_web",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:earth_32",
-              "uuid" : "CEBD826E-0D91-404F-8868-77B5E9964F16"
-            },
-            "frame" : "{{225, 101}, {51, 40}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(1.000000,0.312500,0.541667,1.000000)",
-              "uuid" : "5A0845B3-620C-4DA9-A968-9D2C47C68669",
-              "name" : "btn_save",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:heart_32",
-              "title" : ""
-            },
-            "frame" : "{{9, 50}, {65, 32}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.155660,0.622642,0.622642,1.000000)",
-              "title" : "",
-              "name" : "btn_settings",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:gear_b_32",
-              "uuid" : "CFC2DC1D-1416-4CA8-B355-45E3BA0E54B4"
-            },
-            "frame" : "{{148, 50}, {60, 34}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.712854,0.712854,0.877358,1.000000)",
-              "uuid" : "E8EDD47C-A625-497F-AC86-8746D7DDF49F",
-              "name" : "btn_book_mark",
-              "class" : "Button",
-              "frame" : "{{159, 365}, {80, 32}}",
-              "image_name" : "iob:ios7_bookmarks_32",
-              "title" : ""
-            },
-            "frame" : "{{76, 50}, {64, 34}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.136792,0.136792,0.136792,1.000000)",
               "uuid" : "2E8445A8-6385-4F3F-B6D1-6DFC0D73D15C",
-              "name" : "btn_save_bookmarks",
+              "image_name" : "iob:checkmark_round_32",
+              "font_size" : 15,
               "corner_radius" : 12,
-              "border_width" : 0,
-              "class" : "Button",
+              "background_color" : "RGBA(0.547170,0.547170,0.905660,1.000000)",
               "frame" : "{{159, 352}, {80, 32}}",
-              "background_color" : "RGBA(0.660377,0.905660,0.537736,1.000000)",
-              "title" : "Save Bookmarks"
-            },
-            "frame" : "{{9, 681}, {152, 36}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
+              "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "border_width" : 0,
+              "title" : "",
+              "class" : "Button",
+              "name" : "btn_save_bookmarks",
+              "flex" : "RT"
+            }
           },
           {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.778302,0.778302,0.778302,1.000000)",
-              "uuid" : "ABB3F1F3-25F5-4CB7-9DC7-55B460EDEE9C",
-              "name" : "btn_clear_bookmarks",
-              "class" : "Button",
-              "frame" : "{{159, 352}, {80, 32}}",
-              "image_name" : "iob:close_circled_32",
-              "title" : ""
-            },
-            "frame" : "{{169, 681}, {39, 36}}",
             "selected" : false,
+            "frame" : "{{177, 675}, {41, 42}}",
+            "class" : "Button",
             "nodes" : [
 
-            ]
+            ],
+            "attributes" : {
+              "flex" : "WLRT",
+              "image_name" : "iob:close_circled_32",
+              "tint_color" : "RGBA(0.778302,0.778302,0.778302,1.000000)",
+              "frame" : "{{159, 352}, {80, 32}}",
+              "title" : "",
+              "uuid" : "ABB3F1F3-25F5-4CB7-9DC7-55B460EDEE9C",
+              "class" : "Button",
+              "font_size" : 15,
+              "name" : "btn_clear_bookmarks"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{235, 61}, {71, 48}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "LB",
+              "name" : "btn_search",
+              "frame" : "{{159, 352}, {80, 32}}",
+              "title" : "",
+              "class" : "Button",
+              "uuid" : "916BC61E-3D64-40B0-B344-0F3C3038D6EA",
+              "font_size" : 15,
+              "image_name" : "iob:ios7_search_strong_32"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{326, 9}, {68, 659}}",
+            "class" : "ScrollView",
+            "nodes" : [
+              {
+                "selected" : false,
+                "frame" : "{{15, 7}, {53, 34}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 18,
+                  "tint_color" : "RGBA(0.952830,0.387087,0.387087,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "class" : "Button",
+                  "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2",
+                  "name" : "btn_clear",
+                  "image_name" : "iob:close_circled_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{11, 208}, {51, 31}}",
+                "class" : "Switch",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "frame" : "{{166, 349}, {51, 31}}",
+                  "tint_color" : "RGBA(0.396226,0.905660,0.566038,1.000000)",
+                  "class" : "Switch",
+                  "uuid" : "F2C88D36-9A05-426B-ABC6-4D1B2582F67A",
+                  "value" : true,
+                  "name" : "switch"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{11, 438}, {51, 32}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "tint_color" : "RGBA(0.666667,0.500000,1.000000,1.000000)",
+                  "frame" : "{{151, 325}, {80, 32}}",
+                  "title" : "",
+                  "uuid" : "233C4722-82D9-427D-A627-0D2106FD5B1C",
+                  "class" : "Button",
+                  "name" : "btn_thoughts",
+                  "image_name" : "iob:ios7_fastforward_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{15, 108}, {53, 34}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 18,
+                  "tint_color" : "RGBA(1.000000,0.281250,0.760417,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2",
+                  "class" : "Button",
+                  "name" : "btn_load",
+                  "image_name" : "iob:archive_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{13, 398}, {50, 32}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "action" : "view_thoughts",
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "tint_color" : "RGBA(0.608491,0.608491,0.608491,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "class" : "Button",
+                  "uuid" : "5EC2BCCB-5D55-461A-AFCB-19E583535904",
+                  "name" : "button1",
+                  "image_name" : "iob:eye_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{7, 303}, {51, 34}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "tint_color" : "RGBA(0.415094,0.415094,0.415094,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "uuid" : "ABC4311F-FFFB-4D37-B8C6-3C5D442F877B",
+                  "class" : "Button",
+                  "name" : "btn_clip",
+                  "image_name" : "iob:clipboard_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{7, 247}, {54, 35}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "tint_color" : "RGBA(0.531250,0.843750,1.000000,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "uuid" : "6603563F-BF29-4F6B-83F0-ABC157F5ACD4",
+                  "class" : "Button",
+                  "name" : "btn_translate",
+                  "image_name" : "iob:ios7_world_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{12, 481}, {48, 35}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "border_width" : 0,
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "tint_color" : "RGBA(0.417895,0.891509,0.733638,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "uuid" : "BF9AD864-60C4-400B-AA53-7012EC8F17DC",
+                  "corner_radius" : 0,
+                  "class" : "Button",
+                  "name" : "btn_share",
+                  "image_name" : "iob:share_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{11, 535}, {54, 35}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "tint_color" : "RGBA(1.000000,0.770833,0.312500,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "class" : "Button",
+                  "uuid" : "B803F43A-4BB1-4D32-8749-FCCA1EBD45B7",
+                  "name" : "btn_file",
+                  "image_name" : "iob:ios7_box_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{14, 52}, {56, 40}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "tint_color" : "RGBA(0.387972,0.886792,0.387972,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "class" : "Button",
+                  "uuid" : "CEBD826E-0D91-404F-8868-77B5E9964F16",
+                  "name" : "btn_map",
+                  "image_name" : "iob:earth_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{11, 620}, {49, 34}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "tint_color" : "RGBA(0.155660,0.622642,0.622642,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "class" : "Button",
+                  "uuid" : "CFC2DC1D-1416-4CA8-B355-45E3BA0E54B4",
+                  "name" : "btn_settings",
+                  "image_name" : "iob:gear_b_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{11, 578}, {49, 34}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "tint_color" : "RGBA(0.712854,0.712854,0.877358,1.000000)",
+                  "frame" : "{{159, 365}, {80, 32}}",
+                  "title" : "",
+                  "uuid" : "E8EDD47C-A625-497F-AC86-8746D7DDF49F",
+                  "class" : "Button",
+                  "name" : "btn_book_mark",
+                  "image_name" : "iob:ios7_bookmarks_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{11, 345}, {54, 32}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "font_size" : 15,
+                  "frame" : "{{159, 352}, {80, 32}}",
+                  "title" : "",
+                  "class" : "Button",
+                  "uuid" : "5D30ECC6-CF8C-42DB-BD03-E5D01FD673CD",
+                  "name" : "btn_info",
+                  "image_name" : "iob:help_32"
+                }
+              },
+              {
+                "selected" : false,
+                "frame" : "{{11, 150}, {52, 36}}",
+                "class" : "Button",
+                "nodes" : [
+
+                ],
+                "attributes" : {
+                  "flex" : "LB",
+                  "name" : "btn_speak",
+                  "frame" : "{{159, 352}, {80, 32}}",
+                  "tint_color" : "RGBA(0.705189,0.572966,0.661114,1.000000)",
+                  "title" : "",
+                  "class" : "Button",
+                  "uuid" : "A061B71B-1C18-4758-A872-0EA09927C705",
+                  "font_size" : 15,
+                  "image_name" : "iob:chatbubble_32"
+                }
+              }
+            ],
+            "attributes" : {
+              "uuid" : "3286B110-0E1E-442C-9844-B801024E16AC",
+              "frame" : "{{39, 208}, {320, 320}}",
+              "content_height" : 660,
+              "class" : "ScrollView",
+              "name" : "panel",
+              "content_width" : 60
+            }
           }
-        ]
-      },
-      {
-        "class" : "Label",
+        ],
         "attributes" : {
-          "font_size" : 29,
-          "text" : "Romans 12",
-          "font_name" : "TimesNewRomanPSMT",
-          "name" : "book_heading",
-          "class" : "Label",
-          "alignment" : "center",
-          "frame" : "{{437, 368}, {150, 32}}",
-          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-          "uuid" : "E7CEE06C-55FB-414B-8590-E64409EF3096"
-        },
-        "frame" : "{{234, 65}, {374, 38}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
-      },
-      {
-        "class" : "Button",
-        "attributes" : {
-          "font_size" : 15,
-          "tint_color" : "RGBA(1.000000,0.406250,0.406250,1.000000)",
-          "uuid" : "FFE70B09-6BB4-4C1E-AA04-8EE9735A5CEC",
-          "name" : "btn_close",
-          "corner_radius" : 6,
-          "border_width" : 2,
-          "border_color" : "RGBA(0.750000,0.750000,0.750000,1.000000)",
-          "class" : "Button",
-          "frame" : "{{472, 368}, {80, 32}}",
-          "background_color" : "RGBA(0.943396,0.943396,0.943396,1.000000)",
-          "title" : "Close"
-        },
-        "frame" : "{{6, 38}, {80, 45}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
-      },
-      {
-        "class" : "SegmentedControl",
-        "attributes" : {
-          "tint_color" : "RGBA(0.490566,0.490566,0.490566,1.000000)",
-          "flex" : "LR",
-          "segments" : "Old Testament|New Testament",
-          "name" : "testaments",
-          "class" : "SegmentedControl",
+          "flex" : "WHLB",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "View",
           "custom_attributes" : "",
-          "frame" : "{{452, 370}, {120, 29}}",
-          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-          "uuid" : "2998413F-F65F-4669-BAB3-ABAD2E9085F8"
-        },
-        "frame" : "{{6, 91}, {220, 44}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
+          "background_color" : "RGBA(0.952941,0.952941,0.952941,1.000000)",
+          "uuid" : "6C11FED1-AB65-47F0-95A4-959694E00827",
+          "name" : "view1"
+        }
       },
       {
+        "selected" : false,
+        "frame" : "{{6, 16}, {622, 702}}",
         "class" : "View",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{72, 111}, {157, 577}}",
+            "class" : "TableView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "4CF26E93-E547-49DD-A24C-F8CC2865A418",
+              "flex" : "H",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "frame" : "{{412, 284}, {200, 200}}",
+              "data_source_items" : "Genesis\nExodus\nLeviticus\nBook Name\nRomans\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name\nBook Name",
+              "data_source_number_of_lines" : 1,
+              "data_source_delete_enabled" : false,
+              "data_source_font_size" : 18,
+              "row_height" : 44,
+              "class" : "TableView",
+              "name" : "books",
+              "editing" : false
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{4, 111}, {62, 577}}",
+            "class" : "TableView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "FFAB486C-E7B6-453B-97CF-3829D928B34C",
+              "flex" : "H",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "frame" : "{{412, 284}, {200, 200}}",
+              "data_source_items" : "1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\n29\n30\n31\n32\n33\n34\n35\n36\n37\n38\n39\n40\n41\n42\n43\n44\n45\n46\n47\n48\n49\n50\n51\n52\n53\n54\n55\n56\n57\n58\n59\n60\n61\n62\n63\n64\n65\n66\n67\n68\n69\n70\n71\n72\n73\n74\n75\n76\n77\n78\n79\n80\n81\n82\n83\n84\n85\n86\n87\n88\n89\n90\n91\n92\n93\n94\n95\n96\n97\n98\n99\n100\n101\n102\n103\n104\n105\n106\n107\n108\n109\n110\n111\n112\n113\n114\n115\n116\n117\n118\n119\n120\n121\n122\n123\n124\n125\n126\n127\n128\n129\n130\n131\n132\n133\n134\n135\n136\n137\n138\n139\n140\n141\n142\n143\n144\n145\n146\n147\n148\n149\n150\n",
+              "data_source_number_of_lines" : 1,
+              "data_source_delete_enabled" : false,
+              "data_source_font_size" : 18,
+              "row_height" : 44,
+              "class" : "TableView",
+              "name" : "chapters",
+              "editing" : false
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{232, 111}, {374, 577}}",
+            "class" : "TextView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "31B979B7-C733-4012-8375-3FEA2A52BD1A",
+              "font_size" : 19,
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "frame" : "{{412, 284}, {200, 200}}",
+              "editable" : false,
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "text" : "A Living Sacrifice\n\nRom 12:1  I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service.\n\nRom 12:2  And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.\n\nGifts of Grace\n\nRom 12:3  For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith.\n\nRom 12:4  For as we have many members in one body, and all members have not the same office:\n\nRom 12:5  So we, being many, are one body in Christ, and every one members one of another.\n\nRom 12:6  Having then gifts differing according to the grace that is given to us, whether prophecy, let us prophesy according to the proportion of faith;\n\nRom 12:7  Or ministry, let us wait on our ministering: or he that teacheth, on teaching;\n\nRom 12:8  Or he that exhorteth, on exhortation: he that giveth, let him do it with simplicity; he that ruleth, with diligence; he that sheweth mercy, with cheerfulness.\n\nMarks of the True Christian\n\nRom 12:9  Let love be without dissimulation. Abhor that which is evil; cleave to that which is good.\n\nRom 12:10  Be kindly affectioned one to another with brotherly love; in honour preferring one another;\n\nRom 12:11  Not slothful in business; fervent in spirit; serving the Lord;\n\nRom 12:12  Rejoicing in hope; patient in tribulation; continuing instant in prayer;\n\nRom 12:13  Distributing to the necessity of saints; given to hospitality.\n\nRom 12:14  Bless them which persecute you: bless, and curse not.\n\nRom 12:15  Rejoice with them that do rejoice, and weep with them that weep.\n\nRom 12:16  Be of the same mind one toward another. Mind not high things, but condescend to men of low estate. Be not wise in your own conceits.\n\nRom 12:17  Recompense to no man evil for evil. Provide things honest in the sight of all men.\n\nRom 12:18  If it be possible, as much as lieth in you, live peaceably with all men.\n\nRom 12:19  Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.\n\nRom 12:20  Therefore if thine enemy hunger, feed him; if he thirst, give him drink: for in so doing thou shalt heap coals of fire on his head.\n\nRom 12:21  Be not overcome of evil, but overcome evil with good.",
+              "font_name" : "TimesNewRomanPSMT",
+              "spellchecking_type" : "default",
+              "class" : "TextView",
+              "name" : "contents",
+              "flex" : "H"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{232, 33}, {374, 38}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "font_name" : "TimesNewRomanPSMT",
+              "frame" : "{{437, 368}, {150, 32}}",
+              "class" : "Label",
+              "text" : "Romans 12",
+              "alignment" : "center",
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "uuid" : "E7CEE06C-55FB-414B-8590-E64409EF3096",
+              "font_size" : 29,
+              "name" : "book_heading"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{4, 6}, {80, 45}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "border_width" : 2,
+              "tint_color" : "RGBA(1.000000,0.406250,0.406250,1.000000)",
+              "frame" : "{{472, 368}, {80, 32}}",
+              "title" : "Close",
+              "uuid" : "FFE70B09-6BB4-4C1E-AA04-8EE9735A5CEC",
+              "corner_radius" : 6,
+              "border_color" : "RGBA(0.750000,0.750000,0.750000,1.000000)",
+              "class" : "Button",
+              "background_color" : "RGBA(0.943396,0.943396,0.943396,1.000000)",
+              "font_size" : 15,
+              "name" : "btn_close"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{4, 59}, {220, 44}}",
+            "class" : "SegmentedControl",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "LR",
+              "segments" : "Old Testament|New Testament",
+              "tint_color" : "RGBA(0.490566,0.490566,0.490566,1.000000)",
+              "frame" : "{{452, 370}, {120, 29}}",
+              "class" : "SegmentedControl",
+              "custom_attributes" : "",
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "uuid" : "2998413F-F65F-4669-BAB3-ABAD2E9085F8",
+              "name" : "testaments"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{119, 6}, {80, 45}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "border_width" : 2,
+              "tint_color" : "RGBA(0.466667,0.822222,1.000000,1.000000)",
+              "frame" : "{{472, 368}, {80, 32}}",
+              "title" : "Theme",
+              "border_color" : "RGBA(0.750000,0.750000,0.750000,1.000000)",
+              "corner_radius" : 6,
+              "class" : "Button",
+              "background_color" : "RGBA(0.943396,0.943396,0.943396,1.000000)",
+              "uuid" : "FFE70B09-6BB4-4C1E-AA04-8EE9735A5CEC",
+              "font_size" : 15,
+              "name" : "btn_theme"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{232, 74}, {374, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "W",
+              "font_name" : "<System>",
+              "frame" : "{{437, 368}, {150, 32}}",
+              "class" : "Label",
+              "text" : "King James",
+              "alignment" : "center",
+              "number_of_lines" : 0,
+              "uuid" : "8A1CF27C-DA0E-4F71-828D-142B93C07537",
+              "font_size" : 13,
+              "name" : "label_translation"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{549, 33}, {56, 38}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "L",
+              "image_name" : "iob:heart_32",
+              "frame" : "{{472, 368}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,0.266667,0.511111,1.000000)",
+              "title" : "",
+              "class" : "Button",
+              "uuid" : "E0A63646-A37F-44FC-A919-BA82D674242A",
+              "name" : "btn_fav",
+              "font_size" : 15
+            }
+          }
+        ],
         "attributes" : {
-          "name" : "search",
-          "corner_radius" : 19,
+          "flex" : "WHR",
+          "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "View",
+          "name" : "view2",
+          "uuid" : "343CABC7-0965-4DC4-880E-7BA92F443A0D"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{231, 130}, {546, 588}}",
+        "class" : "View",
+        "nodes" : [
+          {
+            "selected" : false,
+            "frame" : "{{174, 46}, {232, 32}}",
+            "class" : "TextField",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "4883FC8D-6406-484A-B2C0-0ED939EE4169",
+              "flex" : "W",
+              "corner_radius" : 5,
+              "frame" : "{{170, 254}, {200, 32}}",
+              "border_color" : "RGBA(0.452830,0.452830,0.452830,1.000000)",
+              "border_width" : 1,
+              "alignment" : "center",
+              "autocorrection_type" : "default",
+              "text" : "",
+              "placeholder" : "🔍 Search",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextField",
+              "name" : "search_field",
+              "font_size" : 17
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{151, 6}, {255, 32}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "name" : "label1",
+              "frame" : "{{195, 254}, {150, 32}}",
+              "class" : "Label",
+              "text" : "Enter a query below:",
+              "alignment" : "center",
+              "uuid" : "013A8223-5B0A-4477-9778-CB4E74D360E2",
+              "font_size" : 18,
+              "font_name" : "AppleSDGothicNeo-Regular"
+            }
+          },
+          {
+            "selected" : true,
+            "frame" : "{{20, 86}, {244, 466}}",
+            "class" : "TableView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "flex" : "WH",
+              "data_source_items" : "",
+              "name" : "tableview1",
+              "frame" : "{{170, 170}, {200, 200}}",
+              "uuid" : "8657D611-5F75-4C8B-8537-59BBBC2D9ACF",
+              "data_source_number_of_lines" : 1,
+              "class" : "TableView",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+              "data_source_font_size" : 18,
+              "row_height" : 61,
+              "data_source_delete_enabled" : false
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{295, 86}, {235, 466}}",
+            "class" : "TextView",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "uuid" : "FE580F7E-5099-4B28-9474-F1AE23D64603",
+              "flex" : "",
+              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+              "frame" : "{{284, 412}, {200, 200}}",
+              "editable" : false,
+              "alignment" : "left",
+              "autocorrection_type" : "default",
+              "font_name" : "<System>",
+              "spellchecking_type" : "default",
+              "class" : "TextView",
+              "name" : "textview2",
+              "font_size" : 17
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{13, 6}, {66, 44}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "image_name" : "iob:close_circled_32",
+              "tint_color" : "RGBA(0.386792,0.386792,0.386792,1.000000)",
+              "frame" : "{{233, 243}, {80, 32}}",
+              "title" : "",
+              "class" : "Button",
+              "uuid" : "C75D479B-17BD-45BC-8381-A62876DC2291",
+              "font_size" : 15,
+              "name" : "btn_close"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{380, 53}, {16, 16}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "image_name" : "iob:close_circled_32",
+              "tint_color" : "RGBA(0.490566,0.490566,0.490566,1.000000)",
+              "frame" : "{{233, 278}, {80, 32}}",
+              "title" : "",
+              "class" : "Button",
+              "uuid" : "387E7F6A-AF7E-4CD8-B8D2-FD858209EE2C",
+              "font_size" : 15,
+              "name" : "btn_clear_search"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{437, 47}, {51, 31}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "border_width" : 1,
+              "image_name" : "iob:forward_32",
+              "tint_color" : "RGBA(0.462264,0.462264,0.462264,1.000000)",
+              "frame" : "{{233, 278}, {80, 32}}",
+              "title" : "",
+              "border_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+              "corner_radius" : 7,
+              "class" : "Button",
+              "uuid" : "D8400D7F-1439-4729-87A6-D8DCF3CE0EC0",
+              "font_size" : 15,
+              "name" : "btn_forward"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{87, 39}, {63, 37}}",
+            "class" : "Label",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "name" : "matches",
+              "frame" : "{{198, 278}, {150, 32}}",
+              "class" : "Label",
+              "text" : "0",
+              "alignment" : "center",
+              "uuid" : "F5A7DED2-3529-4FF4-9478-51DC3C47BA3C",
+              "font_size" : 18,
+              "font_name" : "<System>"
+            }
+          }
+        ],
+        "attributes" : {
           "border_width" : 0,
           "alpha" : 0.95,
-          "class" : "View",
           "frame" : "{{462, 334}, {100, 100}}",
+          "class" : "View",
+          "corner_radius" : 19,
           "background_color" : "RGBA(0.876327,0.906545,0.966981,1.000000)",
-          "uuid" : "9130AD88-DD67-4CED-8844-BC3A131C91FA"
-        },
-        "frame" : "{{234, 164}, {546, 588}}",
-        "selected" : false,
-        "nodes" : [
-          {
-            "class" : "TextField",
-            "attributes" : {
-              "alignment" : "center",
-              "autocorrection_type" : "default",
-              "font_size" : 17,
-              "font_name" : "<System>",
-              "placeholder" : "🔍 Search",
-              "frame" : "{{170, 254}, {200, 32}}",
-              "flex" : "W",
-              "border_color" : "RGBA(0.452830,0.452830,0.452830,1.000000)",
-              "text" : "",
-              "name" : "search_field",
-              "spellchecking_type" : "default",
-              "uuid" : "4883FC8D-6406-484A-B2C0-0ED939EE4169",
-              "border_width" : 1,
-              "corner_radius" : 5,
-              "class" : "TextField"
-            },
-            "frame" : "{{174, 46}, {232, 32}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Label",
-            "attributes" : {
-              "font_size" : 18,
-              "text" : "Enter a query below:",
-              "font_name" : "AppleSDGothicNeo-Regular",
-              "name" : "label1",
-              "class" : "Label",
-              "alignment" : "center",
-              "frame" : "{{195, 254}, {150, 32}}",
-              "uuid" : "013A8223-5B0A-4477-9778-CB4E74D360E2"
-            },
-            "frame" : "{{151, 6}, {255, 32}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "TableView",
-            "attributes" : {
-              "data_source_font_size" : 18,
-              "data_source_number_of_lines" : 1,
-              "flex" : "WH",
-              "name" : "tableview1",
-              "row_height" : 61,
-              "data_source_delete_enabled" : true,
-              "class" : "TableView",
-              "data_source_items" : "",
-              "frame" : "{{170, 170}, {200, 200}}",
-              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
-              "uuid" : "8657D611-5F75-4C8B-8537-59BBBC2D9ACF"
-            },
-            "frame" : "{{20, 86}, {244, 466}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "TextView",
-            "attributes" : {
-              "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-              "alignment" : "left",
-              "autocorrection_type" : "default",
-              "font_size" : 17,
-              "font_name" : "<System>",
-              "frame" : "{{284, 412}, {200, 200}}",
-              "flex" : "",
-              "name" : "textview2",
-              "spellchecking_type" : "default",
-              "editable" : false,
-              "uuid" : "FE580F7E-5099-4B28-9474-F1AE23D64603",
-              "class" : "TextView"
-            },
-            "frame" : "{{295, 86}, {235, 466}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.386792,0.386792,0.386792,1.000000)",
-              "title" : "",
-              "name" : "btn_close",
-              "class" : "Button",
-              "frame" : "{{233, 243}, {80, 32}}",
-              "image_name" : "iob:close_circled_32",
-              "uuid" : "C75D479B-17BD-45BC-8381-A62876DC2291"
-            },
-            "frame" : "{{13, 6}, {66, 44}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.490566,0.490566,0.490566,1.000000)",
-              "title" : "",
-              "name" : "btn_clear_search",
-              "class" : "Button",
-              "frame" : "{{233, 278}, {80, 32}}",
-              "image_name" : "iob:close_circled_32",
-              "uuid" : "387E7F6A-AF7E-4CD8-B8D2-FD858209EE2C"
-            },
-            "frame" : "{{380, 53}, {16, 16}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Button",
-            "attributes" : {
-              "font_size" : 15,
-              "tint_color" : "RGBA(0.462264,0.462264,0.462264,1.000000)",
-              "title" : "",
-              "name" : "btn_forward",
-              "corner_radius" : 7,
-              "border_width" : 1,
-              "border_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
-              "class" : "Button",
-              "frame" : "{{233, 278}, {80, 32}}",
-              "image_name" : "iob:forward_32",
-              "uuid" : "D8400D7F-1439-4729-87A6-D8DCF3CE0EC0"
-            },
-            "frame" : "{{437, 47}, {51, 31}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          },
-          {
-            "class" : "Label",
-            "attributes" : {
-              "font_size" : 18,
-              "text" : "0",
-              "font_name" : "<System>",
-              "name" : "matches",
-              "class" : "Label",
-              "alignment" : "center",
-              "frame" : "{{198, 278}, {150, 32}}",
-              "uuid" : "F5A7DED2-3529-4FF4-9478-51DC3C47BA3C"
-            },
-            "frame" : "{{87, 39}, {63, 37}}",
-            "selected" : false,
-            "nodes" : [
-
-            ]
-          }
-        ]
-      },
-      {
-        "class" : "Button",
-        "attributes" : {
-          "font_size" : 15,
-          "tint_color" : "RGBA(0.466667,0.822222,1.000000,1.000000)",
-          "title" : "Theme",
-          "name" : "btn_theme",
-          "corner_radius" : 6,
-          "border_width" : 2,
-          "border_color" : "RGBA(0.750000,0.750000,0.750000,1.000000)",
-          "class" : "Button",
-          "frame" : "{{472, 368}, {80, 32}}",
-          "background_color" : "RGBA(0.943396,0.943396,0.943396,1.000000)",
-          "uuid" : "FFE70B09-6BB4-4C1E-AA04-8EE9735A5CEC"
-        },
-        "frame" : "{{121, 38}, {80, 45}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
-      },
-      {
-        "class" : "Label",
-        "attributes" : {
-          "font_size" : 13,
-          "text" : "King James",
-          "font_name" : "<System>",
-          "name" : "label_translation",
-          "class" : "Label",
-          "alignment" : "center",
-          "frame" : "{{437, 368}, {150, 32}}",
-          "number_of_lines" : 0,
-          "uuid" : "8A1CF27C-DA0E-4F71-828D-142B93C07537"
-        },
-        "frame" : "{{234, 106}, {374, 32}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
-      },
-      {
-        "class" : "SegmentedControl",
-        "attributes" : {
-          "font_size" : 18,
-          "text" : "Heart scripture",
-          "flex" : "LR",
-          "segments" : "Book|Mark",
-          "name" : "book_marks",
-          "font_name" : "<System>",
-          "tint_color" : "RGBA(0.613208,0.613208,0.613208,1.000000)",
-          "class" : "SegmentedControl",
-          "alignment" : "left",
-          "frame" : "{{452, 370}, {120, 29}}",
-          "uuid" : "B1817E30-08D7-46CF-AD70-2DCC5C2314F7"
-        },
-        "frame" : "{{6, 735}, {1012, 31}}",
-        "selected" : false,
-        "nodes" : [
-
-        ]
+          "uuid" : "9130AD88-DD67-4CED-8844-BC3A131C91FA",
+          "name" : "search"
+        }
       }
-    ]
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)"
+    }
   }
 ]
