@@ -1,0 +1,258 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {768, 1024}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{400, 0}, {368, 1024}}",
+        "class" : "View",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "HL",
+          "frame" : "{{334, 462}, {100, 100}}",
+          "background_color" : "RGBA(0.304245,0.304245,0.304245,1.000000)",
+          "class" : "View",
+          "name" : "view1",
+          "uuid" : "1F7AF7D4-3FA3-4579-BA51-70454ED35801"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{418, 131}, {322, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "EC0B90C9-6BEF-4AE4-AD2C-F6A64FA2AEB0",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "font_size" : 17,
+          "name" : "field"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{38, 40}, {283, 846}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "8F7BD85B-5133-431B-A31A-70E5C910E27A",
+          "flex" : "WH",
+          "corner_radius" : 0,
+          "frame" : "{{412, 284}, {200, 200}}",
+          "editable" : false,
+          "border_width" : 0,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "Q: Dolore sequi ullam possimus dolor velit.\n\nA: Illo ut similique incidunt deleniti voluptas.\n\nLaudantium aliquid nostrum nemo et ad.\n\nEveniet alias odio hic aut nobis maxime. Eligendi aut quaerat quasi iure eveniet voluptas nam nisi.",
+          "alpha" : 1,
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "text",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{501, 74}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_size" : 24,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "466CA870-32A8-4A12-8F0F-5ABBB0B203F0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Question",
+          "name" : "label1",
+          "font_name" : "<System-Bold>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{457, 182}, {252, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_size" : 18,
+          "font_name" : "<System>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "4C11CD71-263A-46C4-81C3-669CD30AC6C7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Type a question above",
+          "name" : "label2",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{418, 360.5}, {322, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "uuid" : "EC0B90C9-6BEF-4AE4-AD2C-F6A64FA2AEB0",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "name" : "field2",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{501, 303.5}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_size" : 24,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "466CA870-32A8-4A12-8F0F-5ABBB0B203F0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Answer",
+          "name" : "label3",
+          "font_name" : "<System-Bold>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{457, 411.5}, {252, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_size" : 18,
+          "font_name" : "<System>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "4C11CD71-263A-46C4-81C3-669CD30AC6C7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Type an answer above",
+          "name" : "label4",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{418, 590.5}, {322, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_name" : "<System>",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "no",
+          "class" : "TextField",
+          "uuid" : "EC0B90C9-6BEF-4AE4-AD2C-F6A64FA2AEB0",
+          "alignment" : "left",
+          "autocorrection_type" : "no",
+          "font_size" : 17,
+          "name" : "field3"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{501, 533.5}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_size" : 24,
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "466CA870-32A8-4A12-8F0F-5ABBB0B203F0",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Comment",
+          "name" : "label5",
+          "font_name" : "<System-Bold>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{457, 641.5}, {252, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "LB",
+          "font_size" : 18,
+          "font_name" : "<System>",
+          "frame" : "{{309, 496}, {150, 32}}",
+          "uuid" : "4C11CD71-263A-46C4-81C3-669CD30AC6C7",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Type a comment above",
+          "name" : "label6",
+          "text_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{527, 24}, {113, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 0,
+          "flex" : "LB",
+          "frame" : "{{344, 496}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Clear",
+          "uuid" : "AA64EEB6-98EF-4557-A716-7FEE822F5DAF",
+          "background_color" : "RGBA(0.889151,0.361218,0.361218,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 6,
+          "name" : "button1",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
