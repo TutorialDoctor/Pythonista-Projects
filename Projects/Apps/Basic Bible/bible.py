@@ -949,6 +949,14 @@ def speak_scripture(sender):
 def toggle_fullscreen(sender):
 	global fullscreen_preview
 	fullscreen_preview=settings_view['switch1'].value
+
+def search_to_file(sender):
+	tbl=table
+	all = tbl.data_source.items
+	string = ''.join(pairs[x[0]]+str(x)+'\n\n' for x in all)
+	with open('Notes/'+'search: '+search_field.text+web_search_field.text+'.txt','a') as outfile:
+		outfile.write(matches.text+'\n\n'+string)
+	dialogs.alert('It is written')
 # END FUNCTIONS
 
 
@@ -1041,6 +1049,8 @@ Owe no man any thing, but to love one another: for he that loveth another hath f
 table= search['tableview1']
 table.delegate = MyTableViewDelegate()
 matches = search['matches']
+save_all_button = search['btn_save_all']
+save_all_button.action = search_to_file
 # END SEARCH ENGINE
 
 
