@@ -21,8 +21,8 @@
           "text" : "Heart scripture",
           "alignment" : "left",
           "uuid" : "B1817E30-08D7-46CF-AD70-2DCC5C2314F7",
-          "font_size" : 18,
-          "name" : "book_marks"
+          "name" : "book_marks",
+          "font_size" : 18
         }
       },
       {
@@ -31,7 +31,7 @@
         "class" : "View",
         "nodes" : [
           {
-            "selected" : false,
+            "selected" : true,
             "frame" : "{{6, 61}, {195, 47}}",
             "class" : "TextField",
             "nodes" : [
@@ -158,8 +158,8 @@
               "title" : "",
               "uuid" : "ABB3F1F3-25F5-4CB7-9DC7-55B460EDEE9C",
               "class" : "Button",
-              "font_size" : 15,
-              "name" : "btn_clear_bookmarks"
+              "name" : "btn_clear_bookmarks",
+              "font_size" : 15
             }
           },
           {
@@ -171,18 +171,18 @@
             ],
             "attributes" : {
               "flex" : "LB",
-              "name" : "btn_search",
+              "font_size" : 15,
               "frame" : "{{159, 352}, {80, 32}}",
               "title" : "",
               "class" : "Button",
               "uuid" : "916BC61E-3D64-40B0-B344-0F3C3038D6EA",
-              "font_size" : 15,
+              "name" : "btn_search",
               "image_name" : "iob:ios7_search_strong_32"
             }
           },
           {
             "selected" : false,
-            "frame" : "{{326, 9}, {68, 659}}",
+            "frame" : "{{324, 8}, {68, 659}}",
             "class" : "ScrollView",
             "nodes" : [
               {
@@ -194,13 +194,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 18,
+                  "name" : "btn_clear",
                   "tint_color" : "RGBA(0.952830,0.387087,0.387087,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "class" : "Button",
                   "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2",
-                  "name" : "btn_clear",
+                  "font_size" : 18,
                   "image_name" : "iob:close_circled_32"
                 }
               },
@@ -230,13 +230,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "btn_thoughts",
                   "tint_color" : "RGBA(0.666667,0.500000,1.000000,1.000000)",
                   "frame" : "{{151, 325}, {80, 32}}",
                   "title" : "",
                   "uuid" : "233C4722-82D9-427D-A627-0D2106FD5B1C",
                   "class" : "Button",
-                  "name" : "btn_thoughts",
+                  "font_size" : 15,
                   "image_name" : "iob:ios7_fastforward_32"
                 }
               },
@@ -249,13 +249,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 18,
+                  "name" : "btn_load",
                   "tint_color" : "RGBA(1.000000,0.281250,0.760417,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "uuid" : "A74CCEEF-8891-4D30-B499-95306D2315F2",
                   "class" : "Button",
-                  "name" : "btn_load",
+                  "font_size" : 18,
                   "image_name" : "iob:archive_32"
                 }
               },
@@ -269,13 +269,13 @@
                 "attributes" : {
                   "action" : "view_thoughts",
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "button1",
                   "tint_color" : "RGBA(0.608491,0.608491,0.608491,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "class" : "Button",
                   "uuid" : "5EC2BCCB-5D55-461A-AFCB-19E583535904",
-                  "name" : "button1",
+                  "font_size" : 15,
                   "image_name" : "iob:eye_32"
                 }
               },
@@ -288,13 +288,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "btn_clip",
                   "tint_color" : "RGBA(0.415094,0.415094,0.415094,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "uuid" : "ABC4311F-FFFB-4D37-B8C6-3C5D442F877B",
                   "class" : "Button",
-                  "name" : "btn_clip",
+                  "font_size" : 15,
                   "image_name" : "iob:clipboard_32"
                 }
               },
@@ -307,13 +307,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "btn_translate",
                   "tint_color" : "RGBA(0.531250,0.843750,1.000000,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "uuid" : "6603563F-BF29-4F6B-83F0-ABC157F5ACD4",
                   "class" : "Button",
-                  "name" : "btn_translate",
+                  "font_size" : 15,
                   "image_name" : "iob:ios7_world_32"
                 }
               },
@@ -327,14 +327,14 @@
                 "attributes" : {
                   "border_width" : 0,
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "btn_share",
                   "tint_color" : "RGBA(0.417895,0.891509,0.733638,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "uuid" : "BF9AD864-60C4-400B-AA53-7012EC8F17DC",
                   "corner_radius" : 0,
                   "class" : "Button",
-                  "name" : "btn_share",
+                  "font_size" : 15,
                   "image_name" : "iob:share_32"
                 }
               },
@@ -347,13 +347,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "btn_file",
                   "tint_color" : "RGBA(1.000000,0.770833,0.312500,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "class" : "Button",
                   "uuid" : "B803F43A-4BB1-4D32-8749-FCCA1EBD45B7",
-                  "name" : "btn_file",
+                  "font_size" : 15,
                   "image_name" : "iob:ios7_box_32"
                 }
               },
@@ -366,13 +366,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "btn_map",
                   "tint_color" : "RGBA(0.387972,0.886792,0.387972,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "class" : "Button",
                   "uuid" : "CEBD826E-0D91-404F-8868-77B5E9964F16",
-                  "name" : "btn_map",
+                  "font_size" : 15,
                   "image_name" : "iob:earth_32"
                 }
               },
@@ -385,13 +385,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "btn_settings",
                   "tint_color" : "RGBA(0.155660,0.622642,0.622642,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "class" : "Button",
                   "uuid" : "CFC2DC1D-1416-4CA8-B355-45E3BA0E54B4",
-                  "name" : "btn_settings",
+                  "font_size" : 15,
                   "image_name" : "iob:gear_b_32"
                 }
               },
@@ -404,13 +404,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "btn_book_mark",
                   "tint_color" : "RGBA(0.712854,0.712854,0.877358,1.000000)",
                   "frame" : "{{159, 365}, {80, 32}}",
                   "title" : "",
                   "uuid" : "E8EDD47C-A625-497F-AC86-8746D7DDF49F",
                   "class" : "Button",
-                  "name" : "btn_book_mark",
+                  "font_size" : 15,
                   "image_name" : "iob:ios7_bookmarks_32"
                 }
               },
@@ -423,12 +423,12 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "font_size" : 15,
+                  "name" : "btn_info",
                   "frame" : "{{159, 352}, {80, 32}}",
                   "title" : "",
                   "class" : "Button",
                   "uuid" : "5D30ECC6-CF8C-42DB-BD03-E5D01FD673CD",
-                  "name" : "btn_info",
+                  "font_size" : 15,
                   "image_name" : "iob:help_32"
                 }
               },
@@ -441,13 +441,13 @@
                 ],
                 "attributes" : {
                   "flex" : "LB",
-                  "name" : "btn_speak",
+                  "font_size" : 15,
                   "frame" : "{{159, 352}, {80, 32}}",
                   "tint_color" : "RGBA(0.705189,0.572966,0.661114,1.000000)",
                   "title" : "",
                   "class" : "Button",
                   "uuid" : "A061B71B-1C18-4758-A872-0EA09927C705",
-                  "font_size" : 15,
+                  "name" : "btn_speak",
                   "image_name" : "iob:chatbubble_32"
                 }
               }
@@ -560,8 +560,8 @@
               "alignment" : "center",
               "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
               "uuid" : "E7CEE06C-55FB-414B-8590-E64409EF3096",
-              "font_size" : 29,
-              "name" : "book_heading"
+              "name" : "book_heading",
+              "font_size" : 29
             }
           },
           {
@@ -641,8 +641,8 @@
               "alignment" : "center",
               "number_of_lines" : 0,
               "uuid" : "8A1CF27C-DA0E-4F71-828D-142B93C07537",
-              "font_size" : 13,
-              "name" : "label_translation"
+              "name" : "label_translation",
+              "font_size" : 13
             }
           },
           {
@@ -660,8 +660,8 @@
               "title" : "",
               "class" : "Button",
               "uuid" : "E0A63646-A37F-44FC-A919-BA82D674242A",
-              "name" : "btn_fav",
-              "font_size" : 15
+              "font_size" : 15,
+              "name" : "btn_fav"
             }
           }
         ],
@@ -711,18 +711,18 @@
 
             ],
             "attributes" : {
-              "name" : "label1",
+              "font_size" : 18,
               "frame" : "{{195, 254}, {150, 32}}",
               "class" : "Label",
               "text" : "Enter a query below:",
               "alignment" : "center",
               "uuid" : "013A8223-5B0A-4477-9778-CB4E74D360E2",
-              "font_size" : 18,
+              "name" : "label1",
               "font_name" : "AppleSDGothicNeo-Regular"
             }
           },
           {
-            "selected" : true,
+            "selected" : false,
             "frame" : "{{20, 86}, {244, 466}}",
             "class" : "TableView",
             "nodes" : [
@@ -731,20 +731,20 @@
             "attributes" : {
               "flex" : "WH",
               "data_source_items" : "",
-              "name" : "tableview1",
+              "data_source_delete_enabled" : false,
               "frame" : "{{170, 170}, {200, 200}}",
               "uuid" : "8657D611-5F75-4C8B-8537-59BBBC2D9ACF",
+              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
               "data_source_number_of_lines" : 1,
               "class" : "TableView",
-              "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
               "data_source_font_size" : 18,
-              "row_height" : 61,
-              "data_source_delete_enabled" : false
+              "name" : "tableview1",
+              "row_height" : 61
             }
           },
           {
             "selected" : false,
-            "frame" : "{{295, 86}, {235, 466}}",
+            "frame" : "{{295, 86}, {235, 372}}",
             "class" : "TextView",
             "nodes" : [
 
@@ -778,8 +778,8 @@
               "title" : "",
               "class" : "Button",
               "uuid" : "C75D479B-17BD-45BC-8381-A62876DC2291",
-              "font_size" : 15,
-              "name" : "btn_close"
+              "name" : "btn_close",
+              "font_size" : 15
             }
           },
           {
@@ -796,8 +796,8 @@
               "title" : "",
               "class" : "Button",
               "uuid" : "387E7F6A-AF7E-4CD8-B8D2-FD858209EE2C",
-              "font_size" : 15,
-              "name" : "btn_clear_search"
+              "name" : "btn_clear_search",
+              "font_size" : 15
             }
           },
           {
@@ -817,26 +817,46 @@
               "corner_radius" : 7,
               "class" : "Button",
               "uuid" : "D8400D7F-1439-4729-87A6-D8DCF3CE0EC0",
-              "font_size" : 15,
-              "name" : "btn_forward"
+              "name" : "btn_forward",
+              "font_size" : 15
             }
           },
           {
-            "selected" : false,
-            "frame" : "{{87, 39}, {63, 37}}",
+            "selected" : true,
+            "frame" : "{{94, 8}, {63, 37}}",
             "class" : "Label",
             "nodes" : [
 
             ],
             "attributes" : {
-              "name" : "matches",
+              "font_size" : 18,
               "frame" : "{{198, 278}, {150, 32}}",
               "class" : "Label",
               "text" : "0",
               "alignment" : "center",
               "uuid" : "F5A7DED2-3529-4FF4-9478-51DC3C47BA3C",
-              "font_size" : 18,
+              "name" : "matches",
               "font_name" : "<System>"
+            }
+          },
+          {
+            "selected" : false,
+            "frame" : "{{365, 489}, {101, 39}}",
+            "class" : "Button",
+            "nodes" : [
+
+            ],
+            "attributes" : {
+              "border_width" : 1,
+              "frame" : "{{233, 278}, {80, 32}}",
+              "tint_color" : "RGBA(1.000000,0.312500,0.312500,1.000000)",
+              "title" : "Save All",
+              "uuid" : "E1E1AB71-3837-4F37-AC11-DB75E4F4097D",
+              "class" : "Button",
+              "corner_radius" : 6,
+              "border_color" : "RGBA(1.000000,0.416667,0.416667,1.000000)",
+              "name" : "btn_save_all",
+              "font_size" : 15
             }
           }
         ],
@@ -856,8 +876,8 @@
       "flex" : "",
       "enabled" : true,
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "name" : "",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)"
     }
   }
