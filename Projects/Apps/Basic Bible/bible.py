@@ -28,14 +28,6 @@ translations={"t_asv":"American Standard - ASV1901 (ASV)",
 "t_ylt":"Young's Literal Translation (YLT)"}
 # END VARIABLES
 
-churches=['Union City (CA)','Vallejo (CA)','Moreno Valley (CA)','Baton Rouge (LA)','Tyler (TX)','Clarksville (NC)','Morrow (GA)','Xenia (OH)']
-
-def create_assembly_folders():
-	try:
-		for folder in churches:
-			document_directory=os.mkdir(folder)
-	except:None
-
 
 # Try to make a directory named 'Notes.' Do nothing if there is an exception error.
 try:
@@ -1095,7 +1087,6 @@ books.data_source.action = f
 splash = ui.load_view_str(splash_view)
 splash.multitouch_enabled=True
 splash.present(hide_title_bar=True)
-#assembly=dialogs.list_dialog('Choose your Assembly',churches)
 #dialogs.alert('Welcome {}'.format(assembly))
 #choose_file()
 # Display the bible witha hidden title bar and restrict its orientation to landscape.
