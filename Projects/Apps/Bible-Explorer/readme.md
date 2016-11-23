@@ -2,6 +2,8 @@ Using the [MetaV](https://github.com/robertrouse/KJV-bible-database-with-metadat
 
 The CSV folder should be in the same directory as the `explorer.py` and `explorer.pyui` files.
 
+View the [MetaV Website](http://viz.bible/downloads/)
+
 ## What is MetaV?
 MetaV is the name given to the underlying database used to build the visual Bible explorer and several other infographics. It links together details on people, places, periods of time, and passages in the Bible at word-level detail. This database is specially structured to simplify complex big picture analysis or visualizing biblical information.
 
