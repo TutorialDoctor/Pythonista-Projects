@@ -1,0 +1,119 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{186, 32}, {120, 29}}",
+        "class" : "SegmentedControl",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "segments" : "Hello|World",
+          "frame" : "{{100, 226}, {120, 29}}",
+          "uuid" : "B915A2E2-E752-4C66-911C-62681500654B",
+          "name" : "segmentedcontrol1",
+          "class" : "SegmentedControl",
+          "flex" : "LR"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{47, 32}, {51, 31}}",
+        "class" : "Switch",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "frame" : "{{135, 225}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch1",
+          "uuid" : "C20B5E2A-1EDB-4D73-A0C4-B757DECC3A5A"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{23, 86}, {143, 129}}",
+        "class" : "TableView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "data_source_font_size" : 18,
+          "frame" : "{{60, 140}, {200, 200}}",
+          "uuid" : "B7CF63F2-ECC2-43D6-8045-405B4FA495AE",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : true,
+          "name" : "tableview1",
+          "row_height" : 44
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{45, 265}, {221, 164}}",
+        "class" : "DatePicker",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "class" : "DatePicker",
+          "frame" : "{{0, 132}, {320, 216}}",
+          "name" : "datepicker1",
+          "mode" : 1,
+          "uuid" : "84BBCE4F-2224-4E75-B5F7-4E1463478692"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{186, 95}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "border_width" : 0,
+          "frame" : "{{120, 224}, {80, 32}}",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Button",
+          "uuid" : "9C99AC09-B9EB-4975-AD74-1D24145297D2",
+          "background_color" : "RGBA(0.708333,0.708333,1.000000,1.000000)",
+          "class" : "Button",
+          "corner_radius" : 8,
+          "name" : "button1",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{31, 223}, {241, 34}}",
+        "class" : "Slider",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "6009D075-46EA-403F-A26E-FB66F3CCF6D8",
+          "frame" : "{{60, 223}, {200, 34}}",
+          "value" : 0.5,
+          "class" : "Slider",
+          "name" : "slider1",
+          "flex" : "W"
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]

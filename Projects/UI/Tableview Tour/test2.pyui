@@ -1,0 +1,56 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{79, 19}, {150, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "8AA01437-651A-473A-ACD5-3429DFA81E7C",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Title",
+          "font_size" : 18,
+          "name" : "label1"
+        }
+      },
+      {
+        "selected" : true,
+        "frame" : "{{60, 140}, {200, 200}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "723C6D99-BB46-429C-A854-9FB64D7F9220",
+          "flex" : "WH",
+          "frame" : "{{60, 140}, {200, 200}}",
+          "editable" : false,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "Sint aut quisquam sequi ut nihil ratione. Numquam est quia provident animi qui quis dolores. Voluptatem id magni voluptas deleniti suscipit enim. Ea sapiente voluptatem labore in optio porro consequatur.\n\nAut in optio nulla tempore ipsa ut modi. Atque placeat et odit tenetur. Consequatur voluptas quis amet quo ut quisquam. Et ut quidem facilis est. Esse maxime dolores sequi est quod rerum. Rerum quo aut sed dolor. Sed omnis dolorem accusamus sit quia.\n\nAccusantium optio aut occaecati. Libero pariatur aut quia dolor. Odio quia odit voluptates harum quos in alias. Quaerat sapiente dolores ipsum ut consectetur quia. Temporibus odit cumque iure a tenetur.\n\nRecusandae autem est et doloremque odio temporibus ipsum aut. Nam et cupiditate suscipit molestiae in. Nemo cupiditate assumenda officiis deleniti dignissimos facilis sint ab. Dolore illum non itaque veniam maiores. Quos cumque et est et quas.\n\nOptio perspiciatis provident aut dolorem animi explicabo. Ut harum doloribus autem nihil ab. Iusto consequatur et voluptatem aut exercitationem veritatis. Voluptatum itaque vel voluptas nostrum qui est. At fugit ut qui ratione ducimus rerum. Perspiciatis in nam nostrum consectetur magni.\n\nImpedit totam non iusto rerum. Deleniti placeat nemo sequi voluptate reprehenderit dolorem. Magnam quia distinctio ad temporibus. Hic et aut sit culpa quia. Consequatur repellendus labore consectetur aut laborum molestiae voluptas. Perferendis quis assumenda est consequatur. Ea non labore quia nesciunt quod. Voluptates explicabo rem earum sunt quis. Deleniti voluptates error rerum.",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "text",
+          "font_size" : 17
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
